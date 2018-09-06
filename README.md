@@ -5,7 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo
-    Harrison Sanches: harrison.sanches@gmail.com
+    <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
     João Augusto: joao.augusto1809@gmail.com
     Luciano Barboza: luciano.ananias.50@gmail.com
     Matheus Comério: matheuscomerior@gmail.com
