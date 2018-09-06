@@ -6,9 +6,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo
     <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
-    João Augusto: joao.augusto1809@gmail.com
-    Luciano Barboza: luciano.ananias.50@gmail.com
-    Matheus Comério: matheuscomerior@gmail.com
+    <ol>João Augusto: joao.augusto1809@gmail.com</ol>
+    <ol>Luciano Barboza: luciano.ananias.50@gmail.com</ol>
+    <ol>Matheus Comério: matheuscomerior@gmail.com</ol>
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
 O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas . 
