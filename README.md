@@ -41,12 +41,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
-    
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+(https://github.com/carroBD/trab01/blob/master/Planilha/Planilha%20BD.xlsx "Tabela - SmartCar")
     
 >## Marco de Entrega 01 em: (30/08/2018)<br>
 
