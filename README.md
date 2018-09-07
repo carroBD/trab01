@@ -31,12 +31,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-   <ol>- Relatório geral sobre a situação do carro do cliente<ol>
-   <ol>- Relatório de quais componentes do carro quebram com mais frequência<ol>
-   <ol>- Relatório acerca da quais mecânicos estão mais disponíveis<ol>
-   <ol>- Relatório de quais modelos de carro apresentam mais falhas<ol>
-   <ol>- Relatório de Peça quebrada/Km rodado do modelo de carro.<ol>
-   <ol>- Perfil dos motoristas.<ol>
+   - Relatório geral sobre a situação do carro do cliente<ol>
+   - Relatório de quais componentes do carro quebram com mais frequência
+   - Relatório acerca da quais mecânicos estão mais disponíveis
+   - Relatório de quais modelos de carro apresentam mais falhas
+   - Relatório de Peça quebrada/Km rodado do modelo de carro.
+   - Perfil dos motoristas.
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
