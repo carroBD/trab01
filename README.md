@@ -25,25 +25,25 @@ Acerca da imprudência, estão diversos fatores, principalmente a não revisão 
 <p align="justify"><b>Tela 1: Tela de login do aplicativo. </b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20LOGIN.PNG/> <br>
 Essa é a tela inicial, onde mecânicos e motoristas farão o login para iniciar suas ações no app. <br>
-<b>Tela 2: Tela após login de um usuário tipo Cliente. </b><br>
+<br><b>Tela 2: Tela após login de um usuário tipo Cliente. </b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20O%20LOGIN.PNG/><br>
 Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carros cadastrados pelos clientes, foto do carro, nome do usuário logado e um botão para inicio da análise e acesso as informações provenientes dos sensores instalados em cada carro.<br>
-    <b>Tela 3: Tela após seleção do carro e inicio da análise veicular</b><br>
+    <br><b>Tela 3: Tela após seleção do carro e inicio da análise veicular</b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20SELECIONAR%20O%20CARRO%20E%20VER%20SITUA%C3%87%C3%83O.PNG/><br>
     Essa é a tela onde serão mostradas as informações acerca de cada componente do carro, baseado nas análises geradas pelos sensores. O app fará uma identificação visual simples, através de 3 indicadores de cor: Verde para sem previsãod e falha do componente; Amarelho para previsão de falha em um mês; Vermelho para componente com defeito. O cliente poderá Clicar sobre cada componente e ter um acesso mais detalhado da situação, como será mostrado a seguir.<br>
-    <b>Tela 4: Tela para detalhamento da peça do carro</b><br>
+    <br><b>Tela 4: Tela para detalhamento da peça do carro</b><br>
      <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20DETALHAMENTO%20DA%20PE%C3%87A%20DO%20MOTORISTA.PNG/><br>
     Nessa tela o motorista poderá conferir detalhes sopre uma peça especifica de sua escolha. A partir dessa tela também será pssível acionar o mecânico.<br>
-    <b>Tela 5: Tela para acionar mecânico</b><br>
+    <br><b>Tela 5: Tela para acionar mecânico</b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20CHAMADA%20DO%20MECANICO.PNG/><br>
     Nessa tela o cliente poderá ver os dados do mecânico escolhido e poderá enviar os dados sobre o componente de uma determinada peça para possível análise do mecânico ou agendamento de uma revisão.<br>
-    <b>Tela 6: Tela pós-login de um usuário tipo mecânico</b><br>
+    <br><b>Tela 6: Tela pós-login de um usuário tipo mecânico</b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20LOGIN%20DO%20MECANICO.PNG/><br>
     Nessa tela, após a diferenciação do login do tipo de cliente (mecânico), ele terá acesso a botões que mostrarão os clientes da sua base de dados, chamadas em espera de clientes e alteração no seu perfil.<br>
-    <b>Tela 7: Tela de visualização de chamadas em aberto do usuário tipo mecânico</b><br>
+    <br><b>Tela 7: Tela de visualização de chamadas em aberto do usuário tipo mecânico</b><br>
     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20CHAMADAS%20PRO%20MECANICO.PNG/><br>
     Essa tela contém dados sobre as chamadas feitas por usuários do tipo motoristas para um determinado usuário do tipo mecânico, solicitado algum tipo de serviço.<br>
-    <b>Tela 8: Tela de visualização da base de dados de clientes do usuário tipo mecânico</b><br>
+    <br><b>Tela 8: Tela de visualização da base de dados de clientes do usuário tipo mecânico</b><br>
     <img src= https://github.com/carroBD/trab01/blob/master/Imagens/tela%20de%20informacao%20dos%20clientes%20-%20mecanico.PNG/><br>
     Nessa tela o usuário do tipo mecânico poderá consultar os dados sobre seus clientes existentes em sua base de dados.<br></div>
     
