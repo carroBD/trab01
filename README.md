@@ -1,5 +1,5 @@
-# TRABALHO 01:  Smart Car
-Trabalho desenvolvido durante a disciplina de BD1
+# TRABALHO 01:  Smart Car - Carro inteligente.
+Trabalho desenvolvido durante a disciplina de BD1.
 
 # Sumário
 
