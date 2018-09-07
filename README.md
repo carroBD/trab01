@@ -24,8 +24,7 @@ Acerca da imprudência, estão diversos fatores, principalmente a não revisão 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+   
    - Relatório geral sobre a situação do carro do cliente
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
