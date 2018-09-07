@@ -59,7 +59,8 @@ Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carro
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-(https://github.com/carroBD/trab01/blob/master/Planilha/Planilha%20BD.xlsx "Tabela - SmartCar")
+<img src=https://github.com/carroBD/trab01/blob/master/Planilha/Planilha%20BD.xlsx/>
+<br><b>"Tabela - SmartCar"</b>
     
 >## Marco de Entrega 01 em: (30/08/2018)<br>
 
