@@ -2,7 +2,7 @@
 Trabalho desenvolvido durante a disciplina de BD1.
 
 # Sumário
-A editar
+A fazer.
 ### 1. COMPONENTES<br>
 Integrantes do grupo
     <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
