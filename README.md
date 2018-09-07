@@ -22,9 +22,13 @@ Acerca da imprudência, estão diversos fatores, principalmente a não revisão 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20LOGIN.PNG <br>
+<p align="justify"><b>Tela 1: Tela de login do aplicativo. </b>
+Essa é a tela inicial, onde mecânicos e motoristas farão o login para iniciar suas ações no app.</div> 
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-   
+    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
    - Relatório geral sobre a situação do carro do cliente
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
