@@ -2,7 +2,7 @@
 Trabalho desenvolvido durante a disciplina de BD1.
 
 # Sumário
-
+A editar
 ### 1. COMPONENTES<br>
 Integrantes do grupo
     <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
@@ -61,6 +61,7 @@ Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carro
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 <img src=https://github.com/carroBD/trab01/blob/master/Planilha/Planilha%20BD.xlsx/>
 <br><b>"Tabela - SmartCar"</b>
+Tabela relacionando entidades e componentes existente no sistema e banco de dados.
     
 >## Marco de Entrega 01 em: (30/08/2018)<br>
 
