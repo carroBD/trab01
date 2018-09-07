@@ -25,7 +25,7 @@ Acerca da imprudência, estão diversos fatores, principalmente a não revisão 
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20LOGIN.PNG/> <br>
 <p align="justify"><b>Tela 1: Tela de login do aplicativo. </b><br>
 Essa é a tela inicial, onde mecânicos e motoristas farão o login para iniciar suas ações no app. <br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20O%20LOGIN.PNG</><br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20O%20LOGIN.PNG/><br>
 <b>Tela 2: Tela após login de um usuário tipo Cliente. </b><br>
 Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carros cadastrados pelos clientes, foto do carro, nome do usuário logado e um botão para inicio da análise e acesso as informações provenientes dos sensores instalados em cada carro.<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20SELECIONAR%20O%20CARRO%20E%20VER%20SITUA%C3%87%C3%83O.PNG/><br>
