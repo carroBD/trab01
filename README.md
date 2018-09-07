@@ -2,7 +2,7 @@
 Trabalho desenvolvido durante a disciplina de BD1.
 
 # Sumário
-A fazer.
+A editar
 ### 1. COMPONENTES<br>
 Integrantes do grupo
     <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
@@ -50,6 +50,7 @@ Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carro
     
     
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+    O sistema proposto servirá para adquirir informações para consultas futuras e para gerar relatórios, como os citados abaixo:
    - Relatório geral sobre a situação do carro do cliente
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
