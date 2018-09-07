@@ -50,7 +50,7 @@ Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carro
     
     
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    O sistema proposto servirá para adquirir informações para consultas futuras e para gerar relatórios, como os citados abaixo:
+   O sistema poderá contar com uma série de dados acerca de gerarem metadados para novas avaliações, seja sobre o modelo do carro, perfil do motorista ou disponibilidade do mecânico. Assim, sistema proposto servirá para adiquirir e gerar relatórios, como por exemplo os citados abaixo:
    - Relatório geral sobre a situação do carro do cliente
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
