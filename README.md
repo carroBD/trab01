@@ -1,4 +1,4 @@
-# TRABALHO 01:  Smart Car
+# TRABALHO 01:Smart Car
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
