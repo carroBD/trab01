@@ -1,0 +1,50 @@
+CREATE TABLE PROJETO(
+	numero_projeto INT NOT NULL,
+	nome_cliente VARCHAR(50) NOT NULL,
+	localizacao VARCHAR (100) NOT NULL  
+);
+
+CREATE TABLE Empregado (
+	RG INT NOT NULL,
+	nome VARCHAR(100) NOT NULL,
+	CPF INT NOT NULL,
+	depto INT NOT NULL,
+	rg_supervisor INT NOT NULL, 
+	salario MONEY NOT NULL,
+	dat_init_sal DATE NOT NULL
+);
+
+CREATE TABLE departamento(
+	numero INT NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+	rg_gerente INT NOT NULL
+);
+
+CREATE TABLE dependente(
+	codigo int not null,
+	rg_responsavel int not null,
+	nome_dependente varchar(50) not null,
+	nascimento date not null,
+	relacao varchar(10) not null,
+	sexo char(1) not null
+);
+ 
+create table empregado_projeto(
+	codigo int not null,
+	rg_empregado int not null,
+	numero_projeto int not null,
+	horas time not null
+);
+
+create table departamento_projeto(
+	codigo int not null,
+	numero_depto int not null,
+	numero_projeto int not null
+);
+
+create table historico_salario(
+	rg int not null,
+	dat_ini_sal date not null,
+	dat_fim_sal date not null,
+	salario money not null
+);
