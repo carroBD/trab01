@@ -91,6 +91,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 #### 5.2 DECISÕES DE PROJETO
 
+    ATRIBUTOS
     Nome: Campo é simples. pois servirá apenas para armazenar o nome do cliente e não para identificá-lo.  
     Nome oficina: Campo simples. Este campo armazenará o nome da oficina pertencente ao mecânico, e não servirá para identificá-la.
     CPF: Campo simples e determinante. Servirá para identificar o cliente na lista de clientes.
