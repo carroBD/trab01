@@ -75,11 +75,11 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         
     
 #### 5.1 Validação do Modelo Conceitual
-    Transporte de Carnes: Rafael dos Anjos
+    [Transporte de Carnes]: Rafael dos Anjos
                           Daniel Comerio
                           Nicolas Sampaio
                           Andreas Hermes
-    Controle de Rotas: Ana Paula,Italo Vaz,Luma Gonçalvez,Rafael Sampogna.
+    [Controle de Rotas]: Ana Paula,Italo Vaz,Luma Gonçalvez,Rafael Sampogna.
 
 #### 5.2 DECISÕES DE PROJETO
 
