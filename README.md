@@ -84,7 +84,8 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 #### 5.2 DECISÕES DE PROJETO
 
     ATRIBUTOS
-    Nome: O campo é simples. Servirá apenas para armazenar o nome do cliente e não para identificá-lo.  
+    
+    Nome: O campo é simples. Servirá apenas para armazenar o nome do cliente e não para identificá-lo.
     Nome oficina: Campo simples. Este campo armazenará o nome da oficina pertencente ao mecânico, e não servirá para identificá-la.
     CPF: Campo simples e determinante. Servirá para identificar o cliente na lista de clientes.
     CNPJ: Simples e determinante. Com esse dado é possível identificar uma única oficina.
@@ -93,7 +94,8 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     Telefone cliente: Campo simples e multivalorado. É possível um cliente possuir vários telefones de contato.
     Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.
     Modelo veiculo: Campo simples.
-    Endereço cliente: Campo simples e multivalorado, pois é possível um cliente pode possuir endereços diferentes de casa e trabalho,por exemplo.
+    Endereço cliente: Campo simples e multivalorado, pois é possível um cliente pode possuir endereços diferentes, 
+    de casa e trabalho por exemplo.
     Endereço mecânico: Campo simples e multivalorado. É possível uma oficina possuir filiais.
 
 
