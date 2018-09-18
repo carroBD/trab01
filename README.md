@@ -68,7 +68,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Conceitual_final.png/>
     
    
     
