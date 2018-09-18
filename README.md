@@ -79,7 +79,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
                           Daniel Comerio
                           Nicolas Sampaio
                           Andreas Hermes
-    Controle de Rotas: Ana Paula,
+    Controle de Rotas: Ana Paula,Italo Vaz,
 
 #### 5.2 DECISÕES DE PROJETO
 
