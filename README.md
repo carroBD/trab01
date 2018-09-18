@@ -79,7 +79,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
                           Daniel Comerio
                           Nicolas Sampaio
                           Andreas Hermes
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    Controle de Rotas: Ana Paula,
 
 #### 5.2 DECISÕES DE PROJETO
 
