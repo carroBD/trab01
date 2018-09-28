@@ -198,8 +198,35 @@ create table historico(
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
-        b) formato .SQL
+      
+insert into cliente (nome,cpf,carro_cliente,email_cliente,telefone_cliente)
+values('luciano','1111','bmw','luciano@gmail.com','27998664312'),('matheus','2222','renault','matheus@gmail.com','27998632145'),
+('joao','3333','bugre','joao@gmail.com','27985476321'),('harrison','4444','citroen','harrison@gmail.com','986533214'),
+('nicolas','5555','toyota','nicolas@gmail.com','2799853213'),('daniel','6666','volvo','daniel@gmail.com','27996553212'),
+('andreas','7777','volkswagen','andreas@gmail.com','27987554213'),('rafael','8888','kia','rafael@gmail.com','27998654213'),
+('wallace','9999','hyundai','wallace@gmail.com','27985512342'),('gabriela','1333','fiat','gabriela@gmail.com','27889654513');
+
+
+insert into historico(sensor_peca,data_quebra,placa_peca,id_sensor_historico)
+values('carburador','19-02-20','MTE8981',1),('motor','18-09-13',
+'MRM7739',3),('correiadentada','19-04-14','MSN3214',22),('suspensao','18-11-15','MTC0872',9),('pastilhadefreio','19-10-10','MRD6416',5),('filtrodear','19-10-04','MQG1140',10),
+('rolamento','19-01-13','MPD8181',8),('bateria','19-12-12','MSR5954',4);
+
+insert into veiculo(placa,id_veiculo,cpf_dono)
+values('MTE8981',1,'1111'),('MTJ7306',2,'2222'),('MRM7739',3,'3333'),('MSN3214',4,'4444'),('MTC0872',5,'5555'),('MTK7829',6,'6666'),('MRD6416',7,'7777'),('MQG1140',8,'8888'),('MPD8181',9,'9999'),('MSR5954',10,'1133');
+
+insert into sensor(id_sensor,analise_peca,peca_sensor)
+values(1,'quebrado' ,'carburador'),(3, 'quebrado','motor'),(4, 'quebrado','motor'),(22,'quebrado','correiadentada'),(9,'quebrado','suspensao'),(5,'quebrado','pastilhadefreio'),(10,'quebrado','filtrodear'),(8,'quebrado','rolamento'),(70,'quebrado','bateria');
+
+insert into categoria_veiculo(modelo_veiculo,placa_veiculo,historico_defeito)
+values('x5','mte8981','2018-09-27'),('clio','mtj7306','2018-09-27'),('buggy','mrm7739','2018-09-27'),('ds3','msn3214','2018-09-27'),('hilux','mtc0872','2018-09-27'),('s80','mtk7829','2018-09-27'),('amarok','mrd6416','2018-09-27'),('soul','mqg1140','2018-09-27'),('h1','mpd8181','2018-09-27'),('uno','msr5954','2018-09-27');
+
+insert into mecanico(nome,nome_oficina,cnpj,cpf_cliente)
+values('marcos','pedrao',1010,1111),('claudio','claudao','2020','2222'),('jose','ze','3030','3333'),('pedro','pedrao','4040','4444'),('luis','luisao','5050','5555'),('fabio','cruz','6060','6666'),('tiago','fabao','7070','7777'),('andre','dinao','8080','8888'),('onofre','jacinto','9090','9999'),('harrison','sanchez','1133','1333');
+
+insert into dados(situacao_peca,tempo_defeito,tipo_defeito,previsao_falha,id_dados)
+values('ruim',30,'carburador','19-02-20',1),('ruim',20,'motor','18-12-11',2),('pessima',10,'motor','18-09-13',3),('ruim',30,'correiadentada','19-04-14',22),('ruim',30,'suspensao','18-11-15',9),('pessima',10,'suspensao','19-01-04',4),('ruim',20,'pastilhadefreio','19-10-10',5),('ruim',40,'filtrodear','19-10-04',10),('pessimo',5,'rolamento','19-01-13',8),('ruim',15,'bateria','19-12-12',12)
+
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
