@@ -306,7 +306,7 @@ insert into dados(situacao_peca,tempo_defeito,tipo_defeito,previsao_falha,id_dad
 values('ruim',30,'carburador','19-02-20',1),('ruim',20,'motor','18-12-11',2),('pessima',10,'motor','18-09-13',3),('ruim',30,'correiadentada','19-04-14',22),('ruim',30,'suspensao','18-11-15',9),('pessima',10,'suspensao','19-01-04',4),('ruim',20,'pastilhadefreio','19-10-10',5),('ruim',40,'filtrodear','19-10-04',10),('pessimo',5,'rolamento','19-01-13',8),('ruim',15,'bateria','19-12-12',12)
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-       create table cliente (
+create table cliente (
 	nome varchar(100) not null,
 	cpf varchar(11) not null,
 	carro_cliente char(50) not null,
