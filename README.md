@@ -138,7 +138,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     
     
 ### 6	MODELO LÓGICO<br>
-        <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
