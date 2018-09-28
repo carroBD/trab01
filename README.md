@@ -133,7 +133,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - Historico_defeito: Campo que armazena o historico de defeitos de uma determinada peça.
         - Tipo defeito: Campo que armazena o tipo de defeito detectado por um sensor em uma determinada peça.
         - Previsão_falha: Campo que armazena um valor sobre a precisão de falha de uma determinada peça.
-        - Quilometragem: Campo que armazena a quilometragem rodada por um deterinado veículo.
+        
     
     
     
