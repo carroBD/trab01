@@ -104,36 +104,43 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - CPF: Campo que armazena o número do CPF do usuário do tipo cliente.
         - Email: Campo que armazena o EMAIL do usuário tipo cliente.
         - Telefone: Campo que armazena o TELEFONE do usuário do tipo cliente.
+        - carro_cliente: Campo que armazena a marca do carro do cliente.
     
     MECÂNICO: TABELA QUE ARMAZENA OS DADOS DO USUÁRIO TIPO MECÂNICO.
         - CPNJ: Campo que armazena o CNPJ da oficina do usuário do tipo mecânico.
         - NOME_OFICINA: Campo que armazerna o NOME da oficina do usuário tipo mecânico.
-        - CPF: Campo que armazerna o CPF do usuário tipo mecânico.
+        - CPF_cliente: Campo que armazerna o CPF do cliente.
         - NOME: Campo que armazena o nome do usuário do tipo mecânico.
         
     VEÍCULO: TABELA QUE ARMAZENA OS DADOS DO VEÍCULO CADASTRADO POR UM USUÁRIO DO TIPO CLIENTE.
         - Placa_Carro: Campo que armazena a placa de um veículo cadastrado por um usuário do tipo cliente.
         - Id_veiculo: Campo que armazena a ID do veículo.
+        - cpf_dono: Campo que armazena o CPF do dono do veiculo.
         
     CATEGORIA_VEÍCULO: TABELA QUE ARMAZENA DADOS SOBRE A CATEGORIA DE TODOS OS CARROS CADASTRADOS NO SISTEMA POR UM USUÁRIO DO TIPO CLIENTE.
-        - ID_Categoria: Campo que armazena o ID da categoria do carro.
+        - placa_veiculo: Campo que armazena a placa do carro.
         - Historico defeito: Campo que armazena o historico de defeito do carro.
         - Modelo_vepiculo: Tabela que armazena o modelo do veículo.
         
     SENSOR: Tabela que armazena os dados sobre os sensores instalados no veículo.
-        - Nome_Sensor: Campo que armazena os nome do sensor do veículo.
+   
         - ID_Sensor: Campo que armazena o ID de um sensor.
         - Analise_Peça: Campo que armazena um valor sobre a análise da peça.
-        - Pela_sensor: Campo que armazena uma peça de responsabilidade de algum sensor.
+        - Peça_sensor: Campo que armazena uma peça de responsabilidade de algum sensor.
         
     DADOS: Tabela que armazena os dados gerados sobre os sensores instalados no veículo.
         - ID Dados: Campo que armazena um id para um tipo de dado:
         - Situação_peça: Campo que armazena um valor sobre a situação da peça.
-        - Data_defeito: Campo que armazena um valor que marca a data de um defeito de uma determinada peça.
-        - Historico_defeito: Campo que armazena o historico de defeitos de uma determinada peça.
+        - tempo_defeito: Campo que armazena um valor que marca a data de um defeito de uma determinada peça
         - Tipo defeito: Campo que armazena o tipo de defeito detectado por um sensor em uma determinada peça.
         - Previsão_falha: Campo que armazena um valor sobre a precisão de falha de uma determinada peça.
-        
+    
+    HISTORICO: Tabela que armazena os dados que geram um historico sobre o veiculo.
+        -Nome_peça: Campo que armazena o nome referente a peça do veiculo.
+        -Sensor_peça: Campo que armazena o tipo do sensor da peça.
+        -data_quebra: Campo que armazena um valor que marca a data de previsão de um defento.
+        -placa_peça: Campo que armazena a placa do veiculo, para se obter o historico de defeitos.
+        -id_sensor: Campo com o ID do sensor utilizado para verificar possiveis defeitos.
     
     
     
