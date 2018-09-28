@@ -148,8 +148,53 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        create table cliente (
+	nome varchar(100) not null,
+	cpf varchar(11) not null,
+	carro_cliente char(50) not null,
+	email_cliente varchar(50) not null,
+	telefone_cliente varchar(50) not null
+);
+
+create table mecanico(
+	cnpj int not null,
+	nome_oficina varchar(50) not null,
+	cpf_cliente varchar(11) not null,
+	nome varchar(100) not null
+);
+
+create table categoria_veiculo(
+	modelo_veiculo varchar(50),
+	placa_veiculo varchar(7),
+	historico_defeito date
+);
+
+create table veiculo(
+	placa char(7) not null,
+	id_veiculo serial not null,
+	cpf_dono varchar(11)
+);
+
+create table dados(
+	situacao_peca varchar(100),
+	tempo_defeito varchar(50),
+	tipo_defeito varchar(50),
+	previsao_falha date,
+	id_dados serial
+);
+
+create table sensor(
+	id_sensor serial not null,
+	analise_peca varchar(50) not null,
+	peca_sensor varchar(50) not null
+);
+
+create table historico(
+	sensor_peca varchar(50),
+	data_quebra date,
+	placa_peca varchar(50),
+	id_sensor_historico serial
+);       
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
