@@ -179,21 +179,24 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 select * from categoria_veiculo<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/categoria_veiculo.png/>
-	<br>
+	<br><br>
 select * from cliente<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/cliente.png/>
-	<br>
+	<br><br>
 select * from dados<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/dados.png/>
-	<br>
+	<br><br>
 select * from historico<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/historico.png/>
+	<br>
 	<br>
 select * from mecanico<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/mecanico.png/>
 	<br>
+	<br>
 select * from sensor<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/sensor.png/>
+	<br>
 	<br>
 select * from veiculo<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/veiculo.png/>
