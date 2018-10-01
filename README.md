@@ -152,6 +152,8 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     	(criação de tabelas, alterações, etc..)          
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
+Link para arquivo contendo o SQL: https://goo.gl/rVzE8E<br><br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
       
  	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
