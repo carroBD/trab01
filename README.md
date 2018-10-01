@@ -177,6 +177,27 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+	select * from categoria_veiculo
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/categoria_veiculo.png/>
+	<br>
+	select * from cliente
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/cliente.png/>
+	<br>
+	select * from dados
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/dados.png/>
+	<br>
+	select * from historico
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/historico.png/>
+	<br>
+	select * from mecanico
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/mecanico.png/>
+	<br>
+	select * from sensor
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/sensor.png/>
+	<br>
+	select * from veiculo
+	<img src=https://github.com/carroBD/trab01/blob/master/Imagens/veiculo.png/>
+	<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
