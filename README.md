@@ -148,244 +148,29 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
-        create table cliente (
-	nome varchar(100) not null,
-	cpf varchar(11) not null,
-	carro_cliente char(50) not null,
-	email_cliente varchar(50) not null,
-	telefone_cliente varchar(50) not null
-);
-
-create table mecanico(
-	cnpj int not null,
-	nome_oficina varchar(50) not null,
-	cpf_cliente varchar(11) not null,
-	nome varchar(100) not null
-);
-
-create table categoria_veiculo(
-	modelo_veiculo varchar(50),
-	placa_veiculo varchar(7),
-	historico_defeito date
-);
-
-create table veiculo(
-	placa char(7) not null,
-	id_veiculo serial not null,
-	cpf_dono varchar(11)
-);
-
-create table dados(
-	situacao_peca varchar(100),
-	tempo_defeito varchar(50),
-	tipo_defeito varchar(50),
-	previsao_falha date,
-	id_dados serial
-);
-
-create table sensor(
-	id_sensor serial not null,
-	analise_peca varchar(50) not null,
-	peca_sensor varchar(50) not null
-);
-
-create table historico(
-	sensor_peca varchar(50),
-	data_quebra date,
-	placa_peca varchar(50),
-	id_sensor_historico serial
-);       
+        a) inclusão das instruções de criacão das estruturas DDL 
+    	(criação de tabelas, alterações, etc..)          
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
       
-insert into cliente (nome,cpf,carro_cliente,email_cliente,telefone_cliente)
-values('luciano','1111','bmw','luciano@gmail.com','27998664312'),('matheus','2222','renault','matheus@gmail.com','27998632145'),
-('joao','3333','bugre','joao@gmail.com','27985476321'),('harrison','4444','citroen','harrison@gmail.com','986533214'),
-('nicolas','5555','toyota','nicolas@gmail.com','2799853213'),('daniel','6666','volvo','daniel@gmail.com','27996553212'),
-('andreas','7777','volkswagen','andreas@gmail.com','27987554213'),('rafael','8888','kia','rafael@gmail.com','27998654213'),
-('wallace','9999','hyundai','wallace@gmail.com','27985512342'),('gabriela','1333','fiat','gabriela@gmail.com','27889654513');
-
-
-insert into historico(sensor_peca,data_quebra,placa_peca,id_sensor_historico)
-values('carburador','19-02-20','MTE8981',1),('motor','18-09-13',
-'MRM7739',3),('correiadentada','19-04-14','MSN3214',22),('suspensao','18-11-15','MTC0872',9),('pastilhadefreio','19-10-10','MRD6416',5),('filtrodear','19-10-04','MQG1140',10),
-('rolamento','19-01-13','MPD8181',8),('bateria','19-12-12','MSR5954',4);
-
-insert into veiculo(placa,id_veiculo,cpf_dono)
-values('MTE8981',1,'1111'),('MTJ7306',2,'2222'),('MRM7739',3,'3333'),('MSN3214',4,'4444'),('MTC0872',5,'5555'),('MTK7829',6,'6666'),('MRD6416',7,'7777'),('MQG1140',8,'8888'),('MPD8181',9,'9999'),('MSR5954',10,'1133');
-
-insert into sensor(id_sensor,analise_peca,peca_sensor)
-values(1,'quebrado' ,'carburador'),(3, 'quebrado','motor'),(4, 'quebrado','motor'),(22,'quebrado','correiadentada'),(9,'quebrado','suspensao'),(5,'quebrado','pastilhadefreio'),(10,'quebrado','filtrodear'),(8,'quebrado','rolamento'),(70,'quebrado','bateria');
-
-insert into categoria_veiculo(modelo_veiculo,placa_veiculo,historico_defeito)
-values('x5','mte8981','2018-09-27'),('clio','mtj7306','2018-09-27'),('buggy','mrm7739','2018-09-27'),('ds3','msn3214','2018-09-27'),('hilux','mtc0872','2018-09-27'),('s80','mtk7829','2018-09-27'),('amarok','mrd6416','2018-09-27'),('soul','mqg1140','2018-09-27'),('h1','mpd8181','2018-09-27'),('uno','msr5954','2018-09-27');
-
-insert into mecanico(nome,nome_oficina,cnpj,cpf_cliente)
-values('marcos','pedrao',1010,1111),('claudio','claudao','2020','2222'),('jose','ze','3030','3333'),('pedro','pedrao','4040','4444'),('luis','luisao','5050','5555'),('fabio','cruz','6060','6666'),('tiago','fabao','7070','7777'),('andre','dinao','8080','8888'),('onofre','jacinto','9090','9999'),('harrison','sanchez','1133','1333');
-
-insert into dados(situacao_peca,tempo_defeito,tipo_defeito,previsao_falha,id_dados)
-values('ruim',30,'carburador','19-02-20',1),('ruim',20,'motor','18-12-11',2),('pessima',10,'motor','18-09-13',3),('ruim',30,'correiadentada','19-04-14',22),('ruim',30,'suspensao','18-11-15',9),('pessima',10,'suspensao','19-01-04',4),('ruim',20,'pastilhadefreio','19-10-10',5),('ruim',40,'filtrodear','19-10-04',10),('pessimo',5,'rolamento','19-01-13',8),('ruim',15,'bateria','19-12-12',12)
+ 	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
+    	b) formato .SQL
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-      create table cliente (
-	nome varchar(100) not null,
-	cpf varchar(11) not null,
-	carro_cliente char(50) not null,
-	email_cliente varchar(50) not null,
-	telefone_cliente varchar(50) not null
-);
-
-create table mecanico(
-	cnpj int not null,
-	nome_oficina varchar(50) not null,
-	cpf_cliente varchar(11) not null,
-	nome varchar(100) not null
-);
-
-create table categoria_veiculo(
-	modelo_veiculo varchar(50),
-	placa_veiculo varchar(7),
-	historico_defeito date
-);
-
-create table veiculo(
-	placa char(7) not null,
-	id_veiculo serial not null,
-	cpf_dono varchar(11)
-);
-
-create table dados(
-	situacao_peca varchar(100),
-	tempo_defeito varchar(50),
-	tipo_defeito varchar(50),
-	previsao_falha date,
-	id_dados serial
-);
-
-create table sensor(
-	id_sensor serial not null,
-	analise_peca varchar(50) not null,
-	peca_sensor varchar(50) not null
-);
-
-create table historico(
-	sensor_peca varchar(50),
-	data_quebra date,
-	placa_peca varchar(50),
-	id_sensor_historico serial
-);
-
-insert into cliente (nome,cpf,carro_cliente,email_cliente,telefone_cliente)
-values('luciano','1111','bmw','luciano@gmail.com','27998664312'),('matheus','2222','renault','matheus@gmail.com','27998632145'),
-('joao','3333','bugre','joao@gmail.com','27985476321'),('harrison','4444','citroen','harrison@gmail.com','986533214'),
-('nicolas','5555','toyota','nicolas@gmail.com','2799853213'),('daniel','6666','volvo','daniel@gmail.com','27996553212'),
-('andreas','7777','volkswagen','andreas@gmail.com','27987554213'),('rafael','8888','kia','rafael@gmail.com','27998654213'),
-('wallace','9999','hyundai','wallace@gmail.com','27985512342'),('gabriela','1333','fiat','gabriela@gmail.com','27889654513');
-
-
-insert into historico(sensor_peca,data_quebra,placa_peca,id_sensor_historico)
-values('carburador','19-02-20','MTE8981',1),('motor','18-09-13',
-'MRM7739',3),('correiadentada','19-04-14','MSN3214',22),('suspensao','18-11-15','MTC0872',9),('pastilhadefreio','19-10-10','MRD6416',5),('filtrodear','19-10-04','MQG1140',10),
-('rolamento','19-01-13','MPD8181',8),('bateria','19-12-12','MSR5954',4);
-
-insert into veiculo(placa,id_veiculo,cpf_dono)
-values('MTE8981',1,'1111'),('MTJ7306',2,'2222'),('MRM7739',3,'3333'),('MSN3214',4,'4444'),('MTC0872',5,'5555'),('MTK7829',6,'6666'),('MRD6416',7,'7777'),('MQG1140',8,'8888'),('MPD8181',9,'9999'),('MSR5954',10,'1133');
-
-insert into sensor(id_sensor,analise_peca,peca_sensor)
-values(1,'quebrado' ,'carburador'),(3, 'quebrado','motor'),(4, 'quebrado','motor'),(22,'quebrado','correiadentada'),(9,'quebrado','suspensao'),(5,'quebrado','pastilhadefreio'),(10,'quebrado','filtrodear'),(8,'quebrado','rolamento'),(70,'quebrado','bateria');
-
-insert into categoria_veiculo(modelo_veiculo,placa_veiculo,historico_defeito)
-values('x5','mte8981','2018-09-27'),('clio','mtj7306','2018-09-27'),('buggy','mrm7739','2018-09-27'),('ds3','msn3214','2018-09-27'),('hilux','mtc0872','2018-09-27'),('s80','mtk7829','2018-09-27'),('amarok','mrd6416','2018-09-27'),('soul','mqg1140','2018-09-27'),('h1','mpd8181','2018-09-27'),('uno','msr5954','2018-09-27');
-
-insert into mecanico(nome,nome_oficina,cnpj,cpf_cliente)
-values('marcos','pedrao',1010,1111),('claudio','claudao','2020','2222'),('jose','ze','3030','3333'),('pedro','pedrao','4040','4444'),('luis','luisao','5050','5555'),('fabio','cruz','6060','6666'),('tiago','fabao','7070','7777'),('andre','dinao','8080','8888'),('onofre','jacinto','9090','9999'),('harrison','sanchez','1133','1333');
-
-insert into dados(situacao_peca,tempo_defeito,tipo_defeito,previsao_falha,id_dados)
-values('ruim',30,'carburador','19-02-20',1),('ruim',20,'motor','18-12-11',2),('pessima',10,'motor','18-09-13',3),('ruim',30,'correiadentada','19-04-14',22),('ruim',30,'suspensao','18-11-15',9),('pessima',10,'suspensao','19-01-04',4),('ruim',20,'pastilhadefreio','19-10-10',5),('ruim',40,'filtrodear','19-10-04',10),('pessimo',5,'rolamento','19-01-13',8),('ruim',15,'bateria','19-12-12',12)
+	a) Junção dos scripts anteriores em um único script 
+    	(create para tabelas e estruturas de dados + dados a serem inseridos)
+    	b) Criar um novo banco de dados para testar a restauracao 
+    	(em caso de falha na restauração o grupo não pontuará neste quesito)
+    	c) formato .SQL
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-create table cliente (
-	nome varchar(100) not null,
-	cpf varchar(11) not null,
-	carro_cliente char(50) not null,
-	email_cliente varchar(50) not null,
-	telefone_cliente varchar(50) not null
-);
-
-create table mecanico(
-	cnpj int not null,
-	nome_oficina varchar(50) not null,
-	cpf_cliente varchar(11) not null,
-	nome varchar(100) not null
-);
-
-create table categoria_veiculo(
-	modelo_veiculo varchar(50),
-	placa_veiculo varchar(7),
-	historico_defeito date
-);
-
-create table veiculo(
-	placa char(7) not null,
-	id_veiculo serial not null,
-	cpf_dono varchar(11)
-);
-
-create table dados(
-	situacao_peca varchar(100),
-	tempo_defeito varchar(50),
-	tipo_defeito varchar(50),
-	previsao_falha date,
-	id_dados serial
-);
-
-create table sensor(
-	id_sensor serial not null,
-	analise_peca varchar(50) not null,
-	peca_sensor varchar(50) not null
-);
-
-create table historico(
-	sensor_peca varchar(50),
-	data_quebra date,
-	placa_peca varchar(50),
-	id_sensor_historico serial
-);
-
-insert into cliente (nome,cpf,carro_cliente,email_cliente,telefone_cliente)
-values('luciano','1111','bmw','luciano@gmail.com','27998664312'),('matheus','2222','renault','matheus@gmail.com','27998632145'),
-('joao','3333','bugre','joao@gmail.com','27985476321'),('harrison','4444','citroen','harrison@gmail.com','986533214'),
-('nicolas','5555','toyota','nicolas@gmail.com','2799853213'),('daniel','6666','volvo','daniel@gmail.com','27996553212'),
-('andreas','7777','volkswagen','andreas@gmail.com','27987554213'),('rafael','8888','kia','rafael@gmail.com','27998654213'),
-('wallace','9999','hyundai','wallace@gmail.com','27985512342'),('gabriela','1333','fiat','gabriela@gmail.com','27889654513');
-
-
-insert into historico(sensor_peca,data_quebra,placa_peca,id_sensor_historico)
-values('carburador','19-02-20','MTE8981',1),('motor','18-09-13',
-'MRM7739',3),('correiadentada','19-04-14','MSN3214',22),('suspensao','18-11-15','MTC0872',9),('pastilhadefreio','19-10-10','MRD6416',5),('filtrodear','19-10-04','MQG1140',10),
-('rolamento','19-01-13','MPD8181',8),('bateria','19-12-12','MSR5954',4);
-
-insert into veiculo(placa,id_veiculo,cpf_dono)
-values('MTE8981',1,'1111'),('MTJ7306',2,'2222'),('MRM7739',3,'3333'),('MSN3214',4,'4444'),('MTC0872',5,'5555'),('MTK7829',6,'6666'),('MRD6416',7,'7777'),('MQG1140',8,'8888'),('MPD8181',9,'9999'),('MSR5954',10,'1133');
-
-insert into sensor(id_sensor,analise_peca,peca_sensor)
-values(1,'quebrado' ,'carburador'),(3, 'quebrado','motor'),(4, 'quebrado','motor'),(22,'quebrado','correiadentada'),(9,'quebrado','suspensao'),(5,'quebrado','pastilhadefreio'),(10,'quebrado','filtrodear'),(8,'quebrado','rolamento'),(70,'quebrado','bateria');
-
-insert into categoria_veiculo(modelo_veiculo,placa_veiculo,historico_defeito)
-values('x5','mte8981','2018-09-27'),('clio','mtj7306','2018-09-27'),('buggy','mrm7739','2018-09-27'),('ds3','msn3214','2018-09-27'),('hilux','mtc0872','2018-09-27'),('s80','mtk7829','2018-09-27'),('amarok','mrd6416','2018-09-27'),('soul','mqg1140','2018-09-27'),('h1','mpd8181','2018-09-27'),('uno','msr5954','2018-09-27');
-
-insert into mecanico(nome,nome_oficina,cnpj,cpf_cliente)
-values('marcos','pedrao',1010,1111),('claudio','claudao','2020','2222'),('jose','ze','3030','3333'),('pedro','pedrao','4040','4444'),('luis','luisao','5050','5555'),('fabio','cruz','6060','6666'),('tiago','fabao','7070','7777'),('andre','dinao','8080','8888'),('onofre','jacinto','9090','9999'),('harrison','sanchez','1133','1333');
-
-insert into dados(situacao_peca,tempo_defeito,tipo_defeito,previsao_falha,id_dados)
-values('ruim',30,'carburador','19-02-20',1),('ruim',20,'motor','18-12-11',2),('pessima',10,'motor','18-09-13',3),('ruim',30,'correiadentada','19-04-14',22),('ruim',30,'suspensao','18-11-15',9),('pessima',10,'suspensao','19-01-04',4),('ruim',20,'pastilhadefreio','19-10-10',5),('ruim',40,'filtrodear','19-10-04',10),('pessimo',5,'rolamento','19-01-13',8),('ruim',15,'bateria','19-12-12',12)
-
-create table veiculo2 as select * from veiculo;
-drop table veiculo
-create table veiculo as select * from veiculo2;
-drop table veiculo2
+	a) Junção dos scripts anteriores em um único script
+    	(Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
+    	b) Criar um novo banco de dados para testar a restauracao 
+    	(em caso de falha na restauração o grupo não pontuará neste quesito)
+    	c) formato .SQL
 
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
