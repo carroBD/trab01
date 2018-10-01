@@ -202,6 +202,24 @@ select * from veiculo<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/veiculo.png/>
 	<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+select * from dados<br>
+where situacao_peca = 'ruim'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/dados%20-%20situacao%20peca%20%3D%20ruim.png/>
+	<br><br>
+select * from mecanico<br>
+where nome_oficina = 'pedrao'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/mecanico%20-%20nome_oficina%20%3D%20pedrao.png/>
+	<br><br>
+select * from sensor<br>
+where analise_peca = 'ruim'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/sensor%20-analise_peca%20%3D%20quebrado.png/>
+	<br><br>
+select * from historico<br>
+where date_part('year', data_quebra) = 2020;<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/historico%20-%20data_quebra%20ano%20%3D%202020.png/>
+	<br>
+	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
