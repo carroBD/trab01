@@ -223,7 +223,30 @@ where date_part('year', data_quebra) = 2020;<br>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
+select  from categoria_veiculo
+where modelo_veiculo = 'hilux' and placa_veiculo = 'mtc0872'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/and%20categoria_veiculo.png/>
+	<br><br>
+select * from dados
+where situacao_peca = 'ruim' and tipo_defeito = 'motor'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/and%20dados.png/>
+	<br><br>
+select * from sensor
+where peca_sensor is not null<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/not%20sensor.png/>
+	<br><br>
+select * from categoria_veiculo
+where placa_veiculo = 'msr5954' or modelo_veiculo = 'h1'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/or%20categoria_veiculo.png/>
+	<br>
+	<br>
+select  from dados
+where situacao_peca = 'ruim' or tipo_defeito = 'motor'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/or%20dados.png/>
+	<br>
+	<br>
+	
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
