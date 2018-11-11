@@ -129,7 +129,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
    
     CONTATO: TABELA QUE ARMAZENA O CONTATO DO CLIENTE
         - CONTATO_CLIENTE: Campoq ue armazena contato do cliente
-	- ID_CONTATO: Id para identificação do contato.
+        - ID_CONTATO: Id para identificação do contato.
     
     TIPO_CONTATO: TABELA QUE ARMAZENA O TIPO DE CONTATO DO CLIENTE
         - TIPO_CONTATO: Campoq ue armazena o tipo de contato.
@@ -149,10 +149,10 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - ID_PEÇA: ID para identificação da peça
     
     INFORMAÇÕES: TABELA QUE ARMAZENA AS INFORMAÇÕES GERADAS POR CADA SENSOR.
-   	- DATA_ANALISE: Campo que armazena a data da analise do sensor
-	- HORA_ANALISE: Campo que armazena o horario da analise do sensor
-	- ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
-     	- ID_INFO: ID para identificação da informação gerada pelo sensor.
+        - DATA_ANALISE: Campo que armazena a data da analise do sensor
+        - HORA_ANALISE: Campo que armazena o horario da analise do sensor
+        - ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
+        - ID_INFO: ID para identificação da informação gerada pelo sensor.
     
     
     
