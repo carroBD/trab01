@@ -14,10 +14,10 @@ Integrantes do grupo
 <p align="justify">O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas. Em 2016, só na microrregião metropolitana no Estado do Espírito Santo, foram 23.190 mortes.</div
 <br> <p> <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Capturar.PNG/><br></p>
 <p align="justify">As causas dos acidentes são variadas. Segundo o portal do trânsito brasileiro, as maiores causas destes acidentes são: Excesso de velocidade; Desrespeito à sinalização; Ingestão de bebidas alcoólicas e, liderando, Imprudência.
-Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e prever possíveis falhas, evitando os acidentes por falhas mecânicas nas estradas. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de um possível risco de falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará com um tempo satisfatório uma possível falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
+Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e analisar possíveis falhas ocorridas nas peças dos veículos. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de uma falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará, de forma simples e  satisfatória, uma falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
 
 ### 3.MINI-MUNDO<br>
-<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, e somente um, componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome e cpf, para identificação. No que tange ao carro, será necessário armazenar todas as informações sobre o veículo, como chassi, placa, ano, modelo, e seus respectivos componentes instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a data da possível falha e respectivo componente que poderá ocorrer a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome, CPF, nome da oficina, CNPJ e demais informações a fim de prover controle e segurança para os clientes. Com  Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
+<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, e somente um, componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome, cpf e CNH para identificação. No que tange ao carro, será necessário armazenar informações sobre o veículo, como placa, ano, modelo, cor e marca e seus respectivos sensores instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a hora, data e respectivo componente que ocorreu a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome e nome da oficina para controle e segurança para os clientes. Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
 
 
 
@@ -55,7 +55,6 @@ Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carro
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
    - Relatório de quais modelos de carro apresentam mais falhas
-   - Relatório de Peça quebrada/Km rodado do modelo de carro.
    - Perfil dos motoristas.
 
  
@@ -100,47 +99,60 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 #### 5.3 DESCRIÇÃO DOS DADOS.]
     CLIENTE: TABELA QUE ARMAZENA OS DADOS DOS USUÁRIOS TIPO CLIENTE.
-        - Nome: Campo que armazena o NOME de cada uuário dp tipo cliente.
+        - NOME: Campo que armazena o NOME de cada uuário dp tipo cliente.
         - CPF: Campo que armazena o número do CPF do usuário do tipo cliente.
-        - Email: Campo que armazena o EMAIL do usuário tipo cliente.
-        - Telefone: Campo que armazena o TELEFONE do usuário do tipo cliente.
-        - carro_cliente: Campo que armazena a marca do carro do cliente.
+      	- CNH: Campo que armazena o número da CNH do motorista.
+	- ID_CLIENTE: ID para identificação do cliente.
     
     MECÂNICO: TABELA QUE ARMAZENA OS DADOS DO USUÁRIO TIPO MECÂNICO.
-        - CPNJ: Campo que armazena o CNPJ da oficina do usuário do tipo mecânico.
         - NOME_OFICINA: Campo que armazerna o NOME da oficina do usuário tipo mecânico.
-        - CPF_cliente: Campo que armazerna o CPF do cliente.
+        - ID_MECÂNICO ID para identificação do mecânico.
         - NOME: Campo que armazena o nome do usuário do tipo mecânico.
         
     VEÍCULO: TABELA QUE ARMAZENA OS DADOS DO VEÍCULO CADASTRADO POR UM USUÁRIO DO TIPO CLIENTE.
-        - Placa_Carro: Campo que armazena a placa de um veículo cadastrado por um usuário do tipo cliente.
-        - Id_veiculo: Campo que armazena a ID do veículo.
-        - cpf_dono: Campo que armazena o CPF do dono do veiculo.
+        - PLACA: Campo que armazena a placa de um veículo cadastrado por um usuário do tipo cliente.
+        - ID_VEÍCULO Campo que armazena a ID do veículo.
         
-    CATEGORIA_VEÍCULO: TABELA QUE ARMAZENA DADOS SOBRE A CATEGORIA DE TODOS OS CARROS CADASTRADOS NO SISTEMA POR UM USUÁRIO DO TIPO CLIENTE.
-        - placa_veiculo: Campo que armazena a placa do carro.
-        - Historico defeito: Campo que armazena o historico de defeito do carro.
-        - Modelo_vepiculo: Tabela que armazena o modelo do veículo.
+    CATEGORIA: TABELA QUE ARMAZENA DADOS SOBRE A CATEGORIA DE TODOS OS CARROS CADASTRADOS NO SISTEMA POR UM USUÁRIO DO TIPO CLIENTE.
+        - ID_CATEGORIA: iD para identificação da categoria.
+        - TIPO_CATEGORIA: Tabela que armazena o tipo da categoria.	
         
-    SENSOR: Tabela que armazena os dados sobre os sensores instalados no veículo.
-   
-        - ID_Sensor: Campo que armazena o ID de um sensor.
-        - Analise_Peça: Campo que armazena um valor sobre a análise da peça.
-        - Peça_sensor: Campo que armazena uma peça de responsabilidade de algum sensor.
-        
-    DADOS: Tabela que armazena os dados gerados sobre os sensores instalados no veículo.
-        - ID Dados: Campo que armazena um id para um tipo de dado:
-        - Situação_peça: Campo que armazena um valor sobre a situação da peça.
-        - tempo_defeito: Campo que armazena um valor que marca a data de um defeito de uma determinada peça
-        - Tipo defeito: Campo que armazena o tipo de defeito detectado por um sensor em uma determinada peça.
-        - Previsão_falha: Campo que armazena um valor sobre a precisão de falha de uma determinada peça.
+    MODELO: TABELA QUE ARMAZENA OS MODELOS DE VEÍCULOS DO SISTEMA
+        - ID_MODELO: ID para identificação do modelo do veículo:
+        - MODELO_VEÍCULO: Campo que armazena o modelo do veículo.
+        - ANO_VEÍCULO: Campo que armazena o ano do modelo do veículo.
+        - COR: Campo que armazena a cor do modelo do veículo
     
-    HISTORICO: Tabela que armazena os dados que geram um historico sobre o veiculo.
-        -Nome_peça: Campo que armazena o nome referente a peça do veiculo.
-        -Sensor_peça: Campo que armazena o tipo do sensor da peça.
-        -data_quebra: Campo que armazena um valor que marca a data de previsão de um defento.
-        -placa_peça: Campo que armazena a placa do veiculo, para se obter o historico de defeitos.
-        -id_sensor: Campo com o ID do sensor utilizado para verificar possiveis defeitos.
+    MARCA: TABELA QUE ARMAZENA AS MARCAS DE VEÍCULOS DO SISTEMA
+        - ID_MARCA: ID para identificação da marca do veículo:
+        - MARCA_VEÍCULO: Campo que armazena marca do veículo.
+   
+    CONTATO: TABELA QUE ARMAZENA O CONTATO DO CLIENTE
+    	- CONTATO_CLIENTE: Campoq ue armazena contato do cliente
+	- ID_CONTATO: Id para identificação do contato.
+    
+    TIPO_CONTATO: TABELA QUE ARMAZENA O TIPO DE CONTATO DO CLIENTE
+    	- TIPO_CONTATO: Campoq ue armazena o tipo de contato.
+	- ID_TIPO_CONTATO: Id para identificação do tipo de contato.
+ 
+    SENSOR: TABELA QUE ARMAZENA OS DADOS SOBRE OS SENSORES
+        - TIPO_SENSOR: Campo que armazena o nome do sensor
+        - ID_SENSOR: ID para identificação do sensor.
+        - DESCRIÇÃO_SENSOR: Campo que descreve a funcionalidade do sensor
+    
+    TIPO_SENSOR: TABELA QUE ARMAZENA OS TIPOS DE SENSORES
+        - NOME_SENSOR: Campo que armazena o tipo de sensor
+        - ID_TIPO_SENSOR: ID para identificação do tipo de sensor.
+    
+    PEÇA: TABELA QUE ARMAZENA AS PEÇAS DO SISTEMA.
+        - NOME_PEÇA: Campo que armazena o nome da peça
+        - ID_PEÇA: ID para identificação da peça
+    
+    INFORMAÇÕES: TABELA QUE ARMAZENA AS INFORMAÇÕES GERADAS POR CADA SENSOR.
+        - DATA_ANALISE: Campo que armazena a data da analise do sensor
+	- HORA_ANALISE: Campo que armazena o horario da analise do sensor
+	- ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
+	- ID_INFO: ID para identificação da informação gerada pelo sensor.
     
     
     
