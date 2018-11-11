@@ -132,27 +132,27 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	- ID_CONTATO: Id para identificação do contato.
     
     TIPO_CONTATO: TABELA QUE ARMAZENA O TIPO DE CONTATO DO CLIENTE
-    	- TIPO_CONTATO: Campoq ue armazena o tipo de contato.
-	- ID_TIPO_CONTATO: Id para identificação do tipo de contato.
+        - TIPO_CONTATO: Campoq ue armazena o tipo de contato.
+        - ID_TIPO_CONTATO: Id para identificação do tipo de contato.
  
     SENSOR: TABELA QUE ARMAZENA OS DADOS SOBRE OS SENSORES
-    	- TIPO_SENSOR: Campo que armazena o nome do sensor
-    	- ID_SENSOR: ID para identificação do sensor.
-    	- DESCRIÇÃO_SENSOR: Campo que descreve a funcionalidade do sensor
+        - TIPO_SENSOR: Campo que armazena o nome do sensor
+        - ID_SENSOR: ID para identificação do sensor.
+        - DESCRIÇÃO_SENSOR: Campo que descreve a funcionalidade do sensor
     
     TIPO_SENSOR: TABELA QUE ARMAZENA OS TIPOS DE SENSORES
-    	- NOME_SENSOR: Campo que armazena o tipo de sensor
-  	- ID_TIPO_SENSOR: ID para identificação do tipo de sensor.
+        - NOME_SENSOR: Campo que armazena o tipo de sensor
+        - ID_TIPO_SENSOR: ID para identificação do tipo de sensor.
     
     PEÇA: TABELA QUE ARMAZENA AS PEÇAS DO SISTEMA.
-   	- NOME_PEÇA: Campo que armazena o nome da peça
-   	- ID_PEÇA: ID para identificação da peça
+        - NOME_PEÇA: Campo que armazena o nome da peça
+        - ID_PEÇA: ID para identificação da peça
     
     INFORMAÇÕES: TABELA QUE ARMAZENA AS INFORMAÇÕES GERADAS POR CADA SENSOR.
-   	- DATA_ANALISE: Campo que armazena a data da analise do sensor
-	- HORA_ANALISE: Campo que armazena o horario da analise do sensor
-	- ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
-	- ID_INFO: ID para identificação da informação gerada pelo sensor.
+   	 - DATA_ANALISE: Campo que armazena a data da analise do sensor
+	 - HORA_ANALISE: Campo que armazena o horario da analise do sensor
+	 - ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
+         - ID_INFO: ID para identificação da informação gerada pelo sensor.
     
     
     
