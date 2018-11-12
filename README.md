@@ -250,26 +250,26 @@ where estado_peca = 0<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
-select  from categoria_veiculo
-where modelo_veiculo = 'hilux' and placa_veiculo = 'mtc0872'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/and%20categoria_veiculo.png/>
+select * from cliente<br>
+where cpf = '14938056739' and cnh = 'ab'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/cliente%20cpf%20e%20cnh.png/>
 	<br><br>
-select * from dados
-where situacao_peca = 'ruim' and tipo_defeito = 'motor'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/and%20dados.png/>
+select * from modelo_veiculo<br>
+where modelo_veiculo = 'hilux' and cor = 'cinza'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/modelo%20modelo_veiculo%20e%20cor.png/>
 	<br><br>
-select * from sensor
-where peca_sensor is not null<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/not%20sensor.png/>
+select * from modelo_veiculo<br>
+where modelo_veiculo = 'hilux' or cor = 'verde'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/modelo%20modelo_veiculo%20ou%20cor.png/>
 	<br><br>
-select * from categoria_veiculo
-where placa_veiculo = 'msr5954' or modelo_veiculo = 'h1'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/or%20categoria_veiculo.png/>
+select * from peca<br>
+where nome_peca = 'motor' or nome_peca = 'suspensao'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/peca%20where%20nome_peca%20%3D%20motor%20ou%20nome_peca%20%3D%20suspensao.png/>
 	<br>
 	<br>
-select  from dados
-where situacao_peca = 'ruim' or tipo_defeito = 'motor'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/or%20dados.png/>
+select  from tipo_contato
+where not tipo_contato = 'telefone_fixo'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/tipo_contato%20where%20not%20tipo_contato%20%3D%20telefone%20fixo.png/>
 	<br>
 	<br>
 	
