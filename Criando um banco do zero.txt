@@ -1,0 +1,285 @@
+drop table if exists categoria cascade;
+drop table if exists cliente cascade;
+drop table if exists contato cascade;
+drop table if exists ligado_a cascade;
+drop table if exists marca cascade;
+drop table if exists mecanico cascade;
+drop table if exists modelo cascade;
+drop table if exists peca cascade;
+drop table if exists sensor cascade;
+drop table if exists tipo_contato cascade;
+drop table if exists tipo_sensor cascade;
+drop table if exists veiculo cascade;
+
+create table contato(
+	id_contato serial not null primary key,
+	contato_cliente integer not null
+);
+
+create table veiculo(
+	id_veiculo serial not null primary key,
+	placa varchar not null
+);
+
+create table cliente(
+	cpf varchar not null,
+	nome varchar not null,
+	cnh varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo),
+	fk_contato_id_contato integer not null references contato(id_contato)
+);
+
+create table tipo_contato(
+	tipo_contato varchar not null,
+	fk_contato_id_contato integer not null references contato(id_contato)
+);
+
+create table mecanico(
+	nome varchar not null,
+	nome_oficina varchar not null,
+	id_mecanico integer not null primary key
+);
+
+create table contrata(
+	fk_mecanico_id_mecanico integer not null references mecanico(id_mecanico),
+	nome_peca varchar not null,
+	id_cliente integer not null primary key,
+	hora time not null
+);
+
+create table modelo(
+	modelo_veiculo varchar not null,
+	id_modelo integer not null primary key,
+	cor varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo)
+);
+
+create table marca(
+	marca_veiculo varchar not null,
+	id_marca integer not null primary key,
+	fk_veiculo_id_modelo integer not null references modelo(id_modelo)
+);
+
+create table categoria(
+	id_categoria integer not null primary key,
+	tipo_categoria varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo)
+);
+
+create table tipo_sensor(
+	id_tipo_sensor integer not null primary key,
+	tipo_sensor varchar not null
+);
+
+create table sensor(
+	nome_sensor varchar not null,
+	fk_tipo_sensor_id_tipo_sensor integer not null references tipo_sensor(id_tipo_sensor)
+);
+
+create table peca(
+	nome_peca varchar not null,
+	id_peca integer not null primary key
+);
+
+create table informacoes(
+	data_analise date not null,
+	hora_analise time not null,
+	estado_peca integer not null,
+	id_info integer not null primary key
+);
+
+create table ligado_a(
+	fk_peca_id_peca integer not null references peca(id_peca)
+);
+
+create table gera(
+	fk_informacoes_id_informacoes integer not null references informacoes(id_info)
+);
+
+//Contato
+insert into contato(id_contato,contato_cliente)
+values (1,33454892);
+insert into contato(id_contato,contato_cliente)
+values (2,992083187);
+insert into contato(id_contato,contato_cliente)
+values (3,998661723);
+insert into contato(id_contato,contato_cliente)
+values(4,949655111);
+insert into contato(id_contato,contato_cliente)
+values(5,988953120);
+insert into contato(id_contato,contato_cliente)
+values(6,943348776);
+insert into contato(id_contato,contato_cliente)
+values(7,933953298);
+insert into contato(id_contato,contato_cliente)
+values(8,959815495);
+insert into contato(id_contato,contato_cliente)
+values(9,912435866);
+
+//Veiculo
+insert into veiculo
+values(1,'AUC-5675');
+insert into veiculo
+values(2,'RPS-5224');
+insert into veiculo
+values(3,'YNI-4705');
+insert into veiculo
+values(4,'QLB-9001');
+insert into veiculo
+values(5,'DMW-6549');
+insert into veiculo
+values(6,'ZMK-3111');
+insert into veiculo
+values(7,'DSR-5131');
+insert into veiculo
+values(8,'VGB-4319');
+insert into veiculo
+values(9,'UWO-8695');
+insert into veiculo
+values(10,'IXI-6356');
+
+//Cliente
+insert into cliente
+values(14938056739,'Joao','ab',1,1);
+insert into cliente
+values(33559453070,'jose','ab',2,2);
+insert into cliente
+values(94162692041,'almeida','a',3,3);
+insert into cliente
+values(73577347066,'santini','a',4,4);
+insert into cliente
+values(80937861049,'matheus','b',5,5);
+insert into cliente
+values(32379242020,'jorge','c',6,6);
+insert into cliente
+values(79294840093,'jó','d',7,7);
+
+//Tipo de Contato
+insert into tipo_contato
+values('e-mail',1);
+insert into tipo_contato
+values('telefone fixo',2);
+insert into tipo_contato
+values('e-mail',3);
+insert into tipo_contato
+values('telefone fixo',4);
+insert into tipo_contato
+values('celular',5);
+insert into tipo_contato
+values('telefone fixo',6);
+insert into tipo_contato
+values('e-mail',7);
+insert into tipo_contato
+values('e-mail',8);
+insert into tipo_contato
+values('e-mail',9);
+
+//Mecanico
+insert into mecanico
+values('zé','oficina do seu zé',1),
+('joao','oficina do jaum',2),
+('claudio','oficina do seu zé',3),
+('kaio','oficina do monarca',4),
+('josue','josue mecanica',5),
+('igor','igor e amigos oficina',6),
+('comerio','oficina comerio',7),
+('moisés','moisés autopeças',8);
+
+//Relação contrata
+insert into contrata
+values(1,'carburador',1,'22:01:56'),
+(2,'pneu',2,'21:40:56'),
+(3,'vela',3,'08:38:56'),
+(4,'freio',4,'13:12:56'),
+(5,'embragem',5,'20:56:56'),
+(6,'alternador',6,'17:00:56');
+
+//Modelo de veiculo
+insert into modelo
+values('x5',1,'verde',1),
+('clio',2,'azul',2),
+('buggy',3,'preto',3),
+('ds3',4,'branco',4),
+('hilux',5,'cinza',5),
+('s80',6,'preto',6),
+('amarok',7,'vermelho',7),
+('soul',8,'amarelo',8),
+('h1',9,'azul',9),
+('uno',10,'prata',10);
+
+//Marca de veiculo
+insert into marca
+values('bmw',1,1),
+('renault',2,2),
+('bugre',3,3),
+('citroen',4,4),
+('toyota',5,5),
+('volvo',6,6),
+('volkswagen',7,7),
+('kia',8,8),
+('hyundai',9,9),
+('fiat',10,10);
+
+//Categoria do veiculo
+insert into categoria
+values(1,'carro',2),
+(2,'carro',3),
+(3,'moto',4),
+(4,'carro',5),
+(5,'moto',6),
+(6,'carro',7),
+(7,'carro',8),
+(8,'carro',9),
+(9,'moto',10);
+
+//Tipos de sensor
+insert into tipo_sensor
+values(1,'temperatura'),
+(2,'pressao'),
+(3,'pressao'),
+(4,'rotacao'),
+(5,'temperatura'),
+(6,'temperatura'),
+(7,'rotacao'),
+(8,'velocidade'),
+(9,'pressao'),
+(10,'rotacao');
+
+//Sensores
+insert into sensor
+values('sensor_1',1),
+('sensor_2',2),
+('sensor_3',3),
+('sensor_4',4),
+('sensor_5',5),
+('sensor_6',6),
+('sensor_7',7),
+('sensor_8',8),
+('sensor_9',9),
+('sensor_10',10);
+
+//Peças
+insert into peca
+values('carburador',1),
+('motor',2),
+('motor',3),
+('correia',4),
+('suspensao',5),
+('suspensao',6),
+('pastilha de freio',7),
+('filtro de ar',8),
+('rolamento',9),
+('bateria',10);
+
+//Informações
+insert into informacoes
+values('19-02-20','9:23',1,1),
+('18-12-11','6:23',1,2),
+('18-09-13','8:52',0,3),
+('19-04-14','12:26',1,4),
+('18-11-15','17:59',0,5),
+('19-01-04','10:34',1,6),
+('19-10-10','9:45',1,7),
+('19-10-04','14:25',0,8),
+('19-01-13','11:05',0,9),
+('19-12-12','18:36',1,10);

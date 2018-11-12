@@ -1,0 +1,84 @@
+create table contato(
+	id_contato serial not null primary key,
+	contato_cliente integer not null
+);
+
+create table veiculo(
+	id_veiculo serial not null primary key,
+	placa varchar not null
+);
+
+create table cliente(
+	cpf varchar not null,
+	nome varchar not null,
+	cnh varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo),
+	fk_contato_id_contato integer not null references contato(id_contato)
+);
+
+create table tipo_contato(
+	tipo_contato varchar not null,
+	fk_contato_id_contato integer not null references contato(id_contato)
+);
+
+create table mecanico(
+	nome varchar not null,
+	nome_oficina varchar not null,
+	id_mecanico integer not null primary key
+);
+
+create table contrata(
+	fk_mecanico_id_mecanico integer not null references mecanico(id_mecanico),
+	nome_peca varchar not null,
+	id_cliente integer not null primary key,
+	hora time not null
+);
+
+create table modelo(
+	modelo_veiculo varchar not null,
+	id_modelo integer not null primary key,
+	cor varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo)
+);
+
+create table marca(
+	marca_veiculo varchar not null,
+	id_marca integer not null primary key,
+	fk_veiculo_id_modelo integer not null references modelo(id_modelo)
+);
+
+create table categoria(
+	id_categoria integer not null primary key,
+	tipo_categoria varchar not null,
+	fk_veiculo_id_veiculo integer not null references veiculo(id_veiculo)
+);
+
+create table tipo_sensor(
+	id_tipo_sensor integer not null primary key,
+	tipo_sensor varchar not null
+);
+
+create table sensor(
+	nome_sensor varchar not null,
+	fk_tipo_sensor_id_tipo_sensor integer not null references tipo_sensor(id_tipo_sensor)
+);
+
+create table peca(
+	nome_peca varchar not null,
+	id_peca integer not null primary key
+);
+
+create table informacoes(
+	data_analise date not null,
+	hora_analise time not null,
+	estado_peca integer not null,
+	id_info integer not null primary key
+);
+
+create table ligado_a(
+	fk_peca_id_peca integer not null references peca(id_peca)
+);
+
+create table gera(
+	fk_informacoes_id_informacoes integer not null references informacoes(id_info)
+)

@@ -1,0 +1,174 @@
+insert into contato(id_contato,contato_cliente)
+values (1,33454892);
+insert into contato(id_contato,contato_cliente)
+values (2,992083187);
+insert into contato(id_contato,contato_cliente)
+values (3,998661723);
+insert into contato(id_contato,contato_cliente)
+values(4,949655111);
+insert into contato(id_contato,contato_cliente)
+values(5,988953120);
+insert into contato(id_contato,contato_cliente)
+values(6,943348776);
+insert into contato(id_contato,contato_cliente)
+values(7,933953298);
+insert into contato(id_contato,contato_cliente)
+values(8,959815495);
+insert into contato(id_contato,contato_cliente)
+values(9,912435866);
+
+insert into veiculo
+values(1,'AUC-5675');
+insert into veiculo
+values(2,'RPS-5224');
+insert into veiculo
+values(3,'YNI-4705');
+insert into veiculo
+values(4,'QLB-9001');
+insert into veiculo
+values(5,'DMW-6549');
+insert into veiculo
+values(6,'ZMK-3111');
+insert into veiculo
+values(7,'DSR-5131');
+insert into veiculo
+values(8,'VGB-4319');
+insert into veiculo
+values(9,'UWO-8695');
+insert into veiculo
+values(10,'IXI-6356');
+
+insert into cliente
+values(14938056739,'Joao','ab',1,1);
+insert into cliente
+values(33559453070,'jose','ab',2,2);
+insert into cliente
+values(94162692041,'almeida','a',3,3);
+insert into cliente
+values(73577347066,'santini','a',4,4);
+insert into cliente
+values(80937861049,'matheus','b',5,5);
+insert into cliente
+values(32379242020,'jorge','c',6,6);
+insert into cliente
+values(79294840093,'jó','d',7,7);
+
+insert into tipo_contato
+values('e-mail',1);
+insert into tipo_contato
+values('telefone fixo',2);
+insert into tipo_contato
+values('e-mail',3);
+insert into tipo_contato
+values('telefone fixo',4);
+insert into tipo_contato
+values('celular',5);
+insert into tipo_contato
+values('telefone fixo',6);
+insert into tipo_contato
+values('e-mail',7);
+insert into tipo_contato
+values('e-mail',8);
+insert into tipo_contato
+values('e-mail',9);
+
+insert into mecanico
+values('zé','oficina do seu zé',1),
+('joao','oficina do jaum',2),
+('claudio','oficina do seu zé',3),
+('kaio','oficina do monarca',4),
+('josue','josue mecanica',5),
+('igor','igor e amigos oficina',6),
+('comerio','oficina comerio',7),
+('moisés','moisés autopeças',8);
+
+insert into contrata
+values(1,'carburador',1,'22:01:56'),
+(2,'pneu',2,'21:40:56'),
+(3,'vela',3,'08:38:56'),
+(4,'freio',4,'13:12:56'),
+(5,'embragem',5,'20:56:56'),
+(6,'alternador',6,'17:00:56');
+
+insert into modelo
+values('x5',1,'verde',1),
+('clio',2,'azul',2),
+('buggy',3,'preto',3),
+('ds3',4,'branco',4),
+('hilux',5,'cinza',5),
+('s80',6,'preto',6),
+('amarok',7,'vermelho',7),
+('soul',8,'amarelo',8),
+('h1',9,'azul',9),
+('uno',10,'prata',10);
+
+insert into marca
+values('bmw',1,1),
+('renault',2,2),
+('bugre',3,3),
+('citroen',4,4),
+('toyota',5,5),
+('volvo',6,6),
+('volkswagen',7,7),
+('kia',8,8),
+('hyundai',9,9),
+('fiat',10,10);
+
+insert into categoria
+values(1,'carro',2),
+(2,'carro',3),
+(3,'moto',4),
+(4,'carro',5),
+(5,'moto',6),
+(6,'carro',7),
+(7,'carro',8),
+(8,'carro',9),
+(9,'moto',10);
+
+insert into tipo_sensor
+values(1,'temperatura'),
+(2,'pressao'),
+(3,'pressao'),
+(4,'rotacao'),
+(5,'temperatura'),
+(6,'temperatura'),
+(7,'rotacao'),
+(8,'velocidade'),
+(9,'pressao'),
+(10,'rotacao');
+
+insert into sensor
+values('sensor_1',1),
+('sensor_2',2),
+('sensor_3',3),
+('sensor_4',4),
+('sensor_5',5),
+('sensor_6',6),
+('sensor_7',7),
+('sensor_8',8),
+('sensor_9',9),
+('sensor_10',10);
+
+insert into peca
+values('carburador',1),
+('motor',2),
+('motor',3),
+('correia',4),
+('suspensao',5),
+('suspensao',6),
+('pastilha de freio',7),
+('filtro de ar',8),
+('rolamento',9),
+('bateria',10);
+
+insert into informacoes
+values('19-02-20','9:23',1,1),
+('18-12-11','6:23',1,2),
+('18-09-13','8:52',0,3),
+('19-04-14','12:26',1,4),
+('18-11-15','17:59',0,5),
+('19-01-04','10:34',1,6),
+('19-10-10','9:45',1,7),
+('19-10-04','14:25',0,8),
+('19-01-13','11:05',0,9),
+('19-12-12','18:36',1,10);
