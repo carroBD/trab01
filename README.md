@@ -32,6 +32,7 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
    - Relatório acerca da quais mecânicos estão mais disponíveis
    - Relatório de quais modelos de carro apresentam mais falhas
    - Perfil dos motoristas.
+   - período com maior indice de falha das peças
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -66,9 +67,6 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     Telefone cliente: Campo simples e multivalorado. É possível um cliente possuir vários telefones de contato.
     Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.
     Modelo veiculo: Campo simples.
-    Endereço cliente: Campo simples e multivalorado, pois é possível um cliente pode possuir endereços diferentes, 
-    de casa e trabalho por exemplo.
-    Endereço mecânico: Campo simples e multivalorado. É possível uma oficina possuir filiais.
 
 
 >## Marco de Entrega 02 em: (13/09/2018)<br>
