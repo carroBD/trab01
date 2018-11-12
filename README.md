@@ -231,21 +231,21 @@ select * from veiculo<br>
 	<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
-select * from dados<br>
-where situacao_peca = 'ruim'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/dados%20-%20situacao%20peca%20%3D%20ruim.png/>
-	<br><br>
 select * from mecanico<br>
-where nome_oficina = 'pedrao'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/mecanico%20-%20nome_oficina%20%3D%20pedrao.png/>
+where id_mecanico=4<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/mecanico%20where%20id%20%3D%204.png/>
+	<br><br>
+select * from cliente<br>
+where nome = 'santini'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/cliente%20nome%20%3D%20santini.png/>
 	<br><br>
 select * from sensor<br>
-where analise_peca = 'ruim'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/sensor%20-analise_peca%20%3D%20quebrado.png/>
+where nome_sensor = 'sensor_3'<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/sensor%20where%20nome_sensor%20%3D%20sensor_3.png/>
 	<br><br>
-select * from historico<br>
-where date_part('year', data_quebra) = 2020;<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/historico%20-%20data_quebra%20ano%20%3D%202020.png/>
+select * from informacoes<br>
+where estado_peca = 0<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/informacoes%20where%20estado_peca%20%3D%200.png/>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
