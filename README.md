@@ -166,14 +166,14 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
       
- 	<a href="https://github.com/carroBD/trab01/blob/master/Script%20Inser%C3%A7%C3%A3o%20SQL.txt">Script de Inserção</a>
+ <a href="https://github.com/carroBD/trab01/blob/master/Script%20Inser%C3%A7%C3%A3o%20SQL.txt">Script de Inserção</a>
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-	<a href="https://github.com/carroBD/trab01/blob/master/Script%20%20Cria%C3%A7%C3%A3o%20%2BInser%C3%A7%C3%A3o%20SQL.txt">Script de Criação + Inserção</a>
+<a href="https://github.com/carroBD/trab01/blob/master/Script%20%20Cria%C3%A7%C3%A3o%20%2BInser%C3%A7%C3%A3o%20SQL.txt">Script de Criação + Inserção</a>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-	<a href="https://github.com/carroBD/trab01/blob/master/Criando%20um%20banco%20do%20zero.txt">Script de Criação do Banco de Dados do zero</a>
+<a href="https://github.com/carroBD/trab01/blob/master/Criando%20um%20banco%20do%20zero.txt">Script de Criação do Banco de Dados do zero</a>
 
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
