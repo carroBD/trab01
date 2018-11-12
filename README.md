@@ -21,8 +21,32 @@ Acerca da imprudência, estão diversos fatores, principalmente a não revisão 
 
 
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
-https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
+### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+<p align="justify"><b>Tela 1: Tela de login do aplicativo. </b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20LOGIN.PNG/> <br>
+Essa é a tela inicial, onde mecânicos e motoristas farão o login para iniciar suas ações no app. <br>
+<br><b>Tela 2: Tela após login de um usuário tipo Cliente. </b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20O%20LOGIN.PNG/><br>
+Essa é a tela pós-login de um usuário tipo cliente, a tela mostrará os carros cadastrados pelos clientes, foto do carro, nome do usuário logado e um botão para inicio da análise e acesso as informações provenientes dos sensores instalados em cada carro.<br>
+    <br><b>Tela 3: Tela após seleção do carro e inicio da análise veicular</b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20SELECIONAR%20O%20CARRO%20E%20VER%20SITUA%C3%87%C3%83O.PNG/><br>
+    Essa é a tela onde serão mostradas as informações acerca de cada componente do carro, baseado nas análises geradas pelos sensores. O app fará uma identificação visual simples, através de 3 indicadores de cor: Verde para sem previsãod e falha do componente; Amarelho para previsão de falha em um mês; Vermelho para componente com defeito. O cliente poderá Clicar sobre cada componente e ter um acesso mais detalhado da situação, como será mostrado a seguir.<br>
+    <br><b>Tela 4: Tela para detalhamento da peça do carro</b><br>
+     <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20DETALHAMENTO%20DA%20PE%C3%87A%20DO%20MOTORISTA.PNG/><br>
+    Nessa tela o motorista poderá conferir detalhes sopre uma peça especifica de sua escolha. A partir dessa tela também será pssível acionar o mecânico.<br>
+    <br><b>Tela 5: Tela para acionar mecânico</b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20DE%20CHAMADA%20DO%20MECANICO.PNG/><br>
+    Nessa tela o cliente poderá ver os dados do mecânico escolhido e poderá enviar os dados sobre o componente de uma determinada peça para possível análise do mecânico ou agendamento de uma revisão.<br>
+    <br><b>Tela 6: Tela pós-login de um usuário tipo mecânico</b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20APOS%20LOGIN%20DO%20MECANICO.PNG/><br>
+    Nessa tela, após a diferenciação do login do tipo de cliente (mecânico), ele terá acesso a botões que mostrarão os clientes da sua base de dados, chamadas em espera de clientes e alteração no seu perfil.<br>
+    <br><b>Tela 7: Tela de visualização de chamadas em aberto do usuário tipo mecânico</b><br>
+    <img src=https://github.com/carroBD/trab01/blob/master/Imagens/TELA%20CHAMADAS%20PRO%20MECANICO.PNG/><br>
+    Essa tela contém dados sobre as chamadas feitas por usuários do tipo motoristas para um determinado usuário do tipo mecânico, solicitado algum tipo de serviço.<br>
+    <br><b>Tela 8: Tela de visualização da base de dados de clientes do usuário tipo mecânico</b><br>
+    <img src= https://github.com/carroBD/trab01/blob/master/Imagens/tela%20de%20informacao%20dos%20clientes%20-%20mecanico.PNG/><br>
+    Nessa tela o usuário do tipo mecânico poderá consultar os dados sobre seus clientes existentes em sua base de dados.<br></div>
+    
     
     
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
@@ -32,7 +56,6 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
    - Relatório acerca da quais mecânicos estão mais disponíveis
    - Relatório de quais modelos de carro apresentam mais falhas
    - Perfil dos motoristas.
-   - período com maior indice de falha das peças
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -44,7 +67,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 ### 5.MODELO CONCEITUAL<br>
         
-<img src=https://github.com/carroBD/trab01/blob/master/images/Conceitual_BDCARRO_FINAL_AGORAVAI.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Conceitual_final_4.png/>
     
    
     
@@ -67,6 +90,9 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     Telefone cliente: Campo simples e multivalorado. É possível um cliente possuir vários telefones de contato.
     Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.
     Modelo veiculo: Campo simples.
+    Endereço cliente: Campo simples e multivalorado, pois é possível um cliente pode possuir endereços diferentes, 
+    de casa e trabalho por exemplo.
+    Endereço mecânico: Campo simples e multivalorado. É possível uma oficina possuir filiais.
 
 
 >## Marco de Entrega 02 em: (13/09/2018)<br>
@@ -131,7 +157,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     
     
 ### 6	MODELO LÓGICO<br>
-<img src=https://github.com/carroBD/trab01/blob/master/images/L%C3%B3gico_FINAL_AGORAVAI.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
 <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
@@ -267,9 +293,62 @@ rename column marca_veiculo to marcas<br>
     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
+<br>
+select * from modelo <br>
+where cor ilike 'p%';
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/modelo%20where%20cor%20ilike%20'p%25'%3B.png/>
+<br>
+<br>
+select * from modelo <br>
+where modelo_veiculo ilike 'h%';
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/modelo%20where%20modelo_veiculo%20ilike%20'h%25'.png/>
+<br>
+<br>
+select * from categoria <br>
+where tipo_categoria ilike '%o';
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/categoria%20where%20tipo_categoria%20ilike%20'%25o'.png/>
+<br>
+<br>
+select * from tipo_sensor <br>
+where tipos ilike '%de%';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/tipo_sensor%20where%20tipos%20ilike%20'%25de%25'.png/>
+<br>
+<br>
+select * from marca where marcas ilike '%o%';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/marca%20where%20marcas%20ilike%20'%25o%25'.png/>
+<br>
+<br>	
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+delete from informacoes where estado_peca = '0';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20informacoes%20where%20estado_peca%20%3D%20'0'.png/>
+<br>
+<br>
+delete from peca where nome_peca = 'bateria';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20peca%20where%20nome_peca%20%3D%20'bateria'.png/>
+<br>
+<br>
+update modelo set cor = 'rosa'<br>	
+where modelo_veiculo = 'hilux';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20%3D%20'rosa'.png'.png/>
+<br>
+<br>
+update cliente set cpf = '25467435609'<br>
+where nome = 'joao' and cnh = 'ab';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20cliente%20set%20cpf%20%3D%20'25467435609'.png.png/>
+<br>
+<br>
+update mecanico set fixo_ou_celular = '999015607'<br>
+where nome = 'comerio';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20mecanico%20set%20fixo_ou_celular%20%3D%20'999015607'.png>
+<br>
+<br>
+delete from mecanico where fixo_ou_celular ='321029491';<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20mecanico%20where%20fixo_ou_celular%20%3D'321029491'.png.png/>
+<br>
+<br>
+
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
