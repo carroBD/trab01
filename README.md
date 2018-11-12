@@ -160,31 +160,20 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-    	(criação de tabelas, alterações, etc..)          
+        <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-Link para arquivo contendo o SQL: https://goo.gl/rVzE8E<br><br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
       
- 	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
-    	b) formato .SQL
+ 	<a href="https://github.com/carroBD/trab01/blob/master/Script%20Inser%C3%A7%C3%A3o%20SQL.txt">Script de Inserção</a>
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-	a) Junção dos scripts anteriores em um único script 
-    	(create para tabelas e estruturas de dados + dados a serem inseridos)
-    	b) Criar um novo banco de dados para testar a restauracao 
-    	(em caso de falha na restauração o grupo não pontuará neste quesito)
-    	c) formato .SQL
+	<a href="https://github.com/carroBD/trab01/blob/master/Script%20%20Cria%C3%A7%C3%A3o%20%2BInser%C3%A7%C3%A3o%20SQL.txt">Script de Criação + Inserção</a>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-	a) Junção dos scripts anteriores em um único script
-    	(Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
-    	b) Criar um novo banco de dados para testar a restauracao 
-    	(em caso de falha na restauração o grupo não pontuará neste quesito)
-    	c) formato .SQL
+	<a href="https://github.com/carroBD/trab01/blob/master/Criando%20um%20banco%20do%20zero.txt">Script de Criação do Banco de Dados do zero</a>
 
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
