@@ -275,6 +275,22 @@ where not tipo_contato = 'telefone_fixo'<br>
 	
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+alter table tipo_contato<br>
+rename column tipo_contato to tipo<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/tipo_contato%20to%20tipo.png/>
+	<br>
+	<br>
+alter table tipo_sensor<br>
+rename column tipo_sensor to tipos<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/tipo_sensor%20to%20tipos.png/>
+	<br>
+	<br>
+alter table marca<br>
+rename column marca_veiculo to marcas<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/marca_veiculo%20to%20marcas.png/>
+	<br>
+	<br>
+    
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
