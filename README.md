@@ -160,7 +160,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Logico_2.png/>
 
 ### 7	MODELO FÍSICO<br>
-        <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
+<a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
