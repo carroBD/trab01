@@ -44,7 +44,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 ### 5.MODELO CONCEITUAL<br>
         
-<img src=https://github.com/carroBD/trab01/blob/master/images/Conceitual_BDCARRO_FINAL_AGORAVAI.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/images/FINALIZADO_MC1.png/>
     
    
     
@@ -131,7 +131,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     
     
 ### 6	MODELO LÓGICO<br>
-<img src=https://github.com/carroBD/trab01/blob/master/images/L%C3%B3gico_FINAL_AGORAVAI.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/images/FINALIZADO_ML1.png/>
 
 ### 7	MODELO FÍSICO<br>
 <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
