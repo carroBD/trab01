@@ -180,29 +180,54 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-select * from categoria_veiculo<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/categoria_veiculo.png/>
+select * from categoria<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/categoria.png/>
 	<br><br>
 select * from cliente<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/cliente.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/cliente.png/>
 	<br><br>
-select * from dados<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/dados.png/>
+select * from contato<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/contato.png/>
 	<br><br>
-select * from historico<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/historico.png/>
+select * from contrata<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/contrata.png/>
+	<br>
+	<br>
+select * from informacoes<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/informacoes.png/>
+	<br>
+	<br>
+select * from marca<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/marca.png/>
 	<br>
 	<br>
 select * from mecanico<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/mecanico.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/mecanico.png/>
+	<br>
+	<br>
+select * from modelo<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/modelo.png/>
+	<br>
+	<br>
+select * from peca<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/peca.png/>
 	<br>
 	<br>
 select * from sensor<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/sensor.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/sensor.png/>
+	<br>
+	<br>
+select * from tipo_contato<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/tipo_contato.png/>
+	<br>
+	<br>
+select * from tipo_sensor<br>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/tipo_sensor.png/>
 	<br>
 	<br>
 select * from veiculo<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/veiculo.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/veiculo.png/>
+	<br>
 	<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
