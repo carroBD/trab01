@@ -322,30 +322,30 @@ select * from marca where marcas ilike '%o%';<br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 delete from informacoes where estado_peca = '0';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20informacoes%20where%20estado_peca%20%3D%20'0'.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20informacoes%20where%20estado_peca%200.png/>
 <br>
 <br>
 delete from peca where nome_peca = 'bateria';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20peca%20where%20nome_peca%20%3D%20'bateria'.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20peca%20where%20nome_peca%20bateria.png/>
 <br>
 <br>
 update modelo set cor = 'rosa'<br>	
 where modelo_veiculo = 'hilux';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20%3D%20'rosa'.png'.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20rosa.png/>
 <br>
 <br>
 update cliente set cpf = '25467435609'<br>
 where nome = 'joao' and cnh = 'ab';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20cliente%20set%20cpf%20%3D%20'25467435609'.png.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20rosa.png/>
 <br>
 <br>
 update mecanico set fixo_ou_celular = '999015607'<br>
 where nome = 'comerio';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20mecanico%20set%20fixo_ou_celular%20%3D%20'999015607'.png>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20mecanico%20set%20fixo_ou_celular%20999015607.png/>
 <br>
 <br>
 delete from mecanico where fixo_ou_celular ='321029491';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20mecanico%20where%20fixo_ou_celular%20%3D'321029491'.png.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20mecanico%20where%20fixo_ou_celular%20321029491.png/>
 <br>
 <br>
 
