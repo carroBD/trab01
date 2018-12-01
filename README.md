@@ -142,7 +142,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     
     
 ### 6	MODELO LÓGICO<br>
-<img src=https://github.com/carroBD/trab01/blob/master/images/FINALIZADO_ML1.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/LOGICO_VERSAOFINALIFES.png/>
 
 ### 7	MODELO FÍSICO<br>
 <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
