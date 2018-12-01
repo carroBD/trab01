@@ -187,9 +187,9 @@ SELECT * FROM MODELO<br>
 	<br>
 	<br>
 SELECT * FROM MARCA<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%202.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%203.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%201.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%202.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%203.PNG/><br>
 	<br>
 	<br>
 SELECT * FROM CATEGORIA
