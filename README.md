@@ -221,15 +221,21 @@ SELECT *FROM MODELO
 	<br><br>
 SELECT *FROM PESSOA
 	WHERE CNH ='A'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20CNH%20'A'.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20CNHA.PNG/>
 	<br><br>
-select * from sensor<br>
-where nome_sensor = 'sensor_3'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/sensor%20where%20nome_sensor%20%3D%20sensor_3.png/>
+SELECT *FROM PESSOA 
+	WHERE NOME = 'Luciano'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20PESSOA%20LUCIANO.PNG/>
 	<br><br>
-select * from informacoes<br>
-where estado_peca = 0<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/informacoes%20where%20estado_peca%20%3D%200.png/>
+SELECT FROM MODELO
+	WHERE ANO_VEICULO = 2014;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20ANO%20VEICULO.PNG/>
+	<br>
+	<br>
+	
+SELECT FROM CONTATO 
+	WHERE FK_TIPO_CONTATO_ID_TIPO_CONTATO = 1;<br>
+img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20TIPO%20CONTATO%201.PNG/>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
