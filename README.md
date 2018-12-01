@@ -215,13 +215,13 @@ SELECT * FROM HISTORICO<br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
-select * from mecanico<br>
-where id_mecanico=4<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/mecanico%20where%20id%20%3D%204.png/>
+SELECT *FROM MODELO 
+	WHERE COR = 'preto';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/MODELO%20BRANCO.PNG/>
 	<br><br>
-select * from cliente<br>
-where nome = 'santini'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.2/cliente%20nome%20%3D%20santini.png/>
+SELECT *FROM PESSOA
+	WHERE CNH ='A'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20CNH%20'A'.PNG/>
 	<br><br>
 select * from sensor<br>
 where nome_sensor = 'sensor_3'<br>
