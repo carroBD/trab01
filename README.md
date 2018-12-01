@@ -326,6 +326,8 @@ SELECT *FROM MARCA<br>
 SELECT *FROM CONTRATA<br>
 	WHERE DATA_CONTRATA > '2018-03-15';<br>
 <img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/DATA.PNG/>
+<br>
+<br>
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
