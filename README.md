@@ -166,56 +166,53 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM PESSOA <br>
-<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%201.PNG/>
-<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA2.PNG/>
-<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%203.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA2.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%203.PNG/>
 	<br><br>
-select * from cliente<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/cliente.png/>
+SELECT * FROM CONTATO<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CONTATO%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CONTATO%202.PNG/>
 	<br><br>
-select * from contato<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/contato.png/>
+SELECT * FROM TIPO_CONTATO<br>
+<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/TIPO_CONTATO.PNG/>
 	<br><br>
-select * from contrata<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/contrata.png/>
+SELECT * FROM VEICULO<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/VEICULO%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/VEICULO%202.PNG/>
 	<br>
 	<br>
-select * from informacoes<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/informacoes.png/>
+SELECT * FROM MODELO<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MODELO.PNG/>
 	<br>
 	<br>
-select * from marca<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/marca.png/>
+SELECT * FROM MARCA<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%202.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%203.PNG/>
 	<br>
 	<br>
-select * from mecanico<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/mecanico.png/>
+SELECT * FROM CATEGORIA
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CATEGORIA.PNG/>
 	<br>
 	<br>
-select * from modelo<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/modelo.png/>
+SELECT * FROM SENSORES<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSORES.PNG/>
 	<br>
 	<br>
-select * from peca<br>
+SELECT * FROM TIPO_SENSOR<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/peca.png/>
 	<br>
 	<br>
-select * from sensor<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/sensor.png/>
+SELECT * FROM GERAM<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/GERAM.PNG/>
 	<br>
 	<br>
-select * from tipo_contato<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/tipo_contato.png/>
+SELECT * FROM HISTORICO<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO.PNG/>
 	<br>
 	<br>
-select * from tipo_sensor<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/tipo_sensor.png/>
-	<br>
-	<br>
-select * from veiculo<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/veiculo.png/>
-	<br>
-	<br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 select * from mecanico<br>
