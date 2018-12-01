@@ -251,11 +251,11 @@ SELECT *FROM MODELO<br>
 	<br><br>
 SELECT *FROM PESSOA<br>
 	WHERE CNH = 'A' OR DATA_NASCIMENTO = '2003/11/05'<br>
-<img src = hhttps://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/data%202005%20ou%20CNH%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/data%202005%20ou%20CNH%20A.PNG/>
 	<br><br>
 SELECT *FROM CONTATO<br>
 	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
-<img https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CONTATO%2010%20OU%20PESSOA%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CONTATO%2010%20OU%20PESSOA%201.PNG/>
 	<br>
 	<br>
 SELECT *FROM VEICULO<br>
