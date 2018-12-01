@@ -294,28 +294,33 @@ RENAME COLUMN MARCA TO MARCAS_VEICULO<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
 <br>
-select * from modelo <br>
-where cor ilike 'p%';
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/modelo%20where%20cor%20ilike%20'p%25'%3B.png/>
+SELECT *FROM MODELO<br>
+	WHERE COR LIKE 'p%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/LIKE%20P.PNG/><br>
 <br>
 <br>
-select * from modelo <br>
-where modelo_veiculo ilike 'h%';
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/modelo%20where%20modelo_veiculo%20ilike%20'h%25'.png/>
+
+SELECT *FROM MODELO<br>
+	WHERE MODELO_VEICULO like 'C%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/like%20c.PNG/><br>
 <br>
 <br>
-select * from categoria <br>
-where tipo_categoria ilike '%o';
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/categoria%20where%20tipo_categoria%20ilike%20'%25o'.png/>
+
+SELECT *FROM PESSOA<br>
+	WHERE NOME LIKE 'A%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/nome%20like%20a.PNG/><br>
 <br>
 <br>
-select * from tipo_sensor <br>
-where tipos ilike '%de%';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/tipo_sensor%20where%20tipos%20ilike%20'%25de%25'.png/>
+
+SELECT *FROM SENSORES<br>
+	WHERE NOME_SENSOR LIKE '%2%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/NOME%20SENSOR%202.PNG/><br>
 <br>
 <br>
-select * from marca where marcas ilike '%o%';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.4/a)/marca%20where%20marcas%20ilike%20'%25o%25'.png/>
+
+SELECT *FROM MARCA<br>
+	WHERE MARCAS_VEICULOS ILIKE '%Y%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/marcas%20y.PNG/><br>
 <br>
 <br>	
     b) Criar uma consulta para cada tipo de função data apresentada.
