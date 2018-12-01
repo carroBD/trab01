@@ -201,7 +201,7 @@ SELECT * FROM SENSORES<br>
 	<br>
 	<br>
 SELECT * FROM TIPO_SENSOR<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/peca.png/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/TIPO_SENSOR.PNG/>
 	<br>
 	<br>
 SELECT * FROM GERAM<br>
