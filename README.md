@@ -266,19 +266,28 @@ SELECT *FROM VEICULO<br>
 	
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-alter table tipo_contato<br>
-rename column tipo_contato to tipo<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/tipo_contato%20to%20tipo.png/>
+ALTER TABLE TIPO_CONTATO
+	RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20contato%20antes.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20sensor%20depois.PNG/><br>
 	<br>
 	<br>
-alter table tipo_sensor<br>
-rename column tipo_sensor to tipos<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/tipo_sensor%20to%20tipos.png/>
+ALTER TABLE TIPO_SENSOR<br>
+RENAME COLUMN TIPO_SENSOR TO TIPOS_SENSORES<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20sensor%20antes.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20sensor%20depois.PNG/><br>
 	<br>
 	<br>
-alter table marca<br>
-rename column marca_veiculo to marcas<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/c)/marca_veiculo%20to%20marcas.png/>
+ALTER TABLE MARCA<br>
+RENAME COLUMN MARCA TO MARCAS_VEICULO<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/MARCA%20ANTES.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/MARCA%20DEPOIS.PNG/><br>
 	<br>
 	<br>
     
