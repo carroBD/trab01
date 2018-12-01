@@ -73,16 +73,19 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 >## Marco de Entrega 02 em: (13/09/2018)<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS.]
-    CLIENTE: TABELA QUE ARMAZENA OS DADOS DOS USUÁRIOS TIPO CLIENTE.
-        - NOME: Campo que armazena o NOME de cada uuário dp tipo cliente.
-        - CPF: Campo que armazena o número do CPF do usuário do tipo cliente.
-      	- CNH: Campo que armazena o número da CNH do motorista.
-	- ID_CLIENTE: ID para identificação do cliente.
+    PESSOA: TABELA PAI QUE ARMAZENA DADOS DO TIPO PESSOA DO SISTEMA.
+    	- ID_PESSOA: ID para identificação da pessoa.
+	- NOME: Campo que armazena o nome da pessoa.
+	- Data_Nascimento: Campo que armazena a data de nascimento da pessoa.
+	- Sexo: Campo referente ao Sexo da pessoa.
     
-    MECÂNICO: TABELA QUE ARMAZENA OS DADOS DO USUÁRIO TIPO MECÂNICO.
-        - NOME_OFICINA: Campo que armazerna o NOME da oficina do usuário tipo mecânico.
-        - ID_MECÂNICO ID para identificação do mecânico.
-        - NOME: Campo que armazena o nome do usuário do tipo mecânico.
+    MOTORISTA: TABELA FILHO QUE HERDA CARACTERÍSTICAS DA TABELA PESSOA PARA DISTIÇÃO E CRIAÇÃO DO USUÁRIO MOTORISTA DO SISTEMA.
+      	- CNH: Campo que armazena o tipo de CNH do motorista.
+    
+    MECÂNICO: TABELA FILHO QUE HERDA CARACTERÍSTICAS DA TABELA PESSOA PARA CRIAÇÃO E DISTINÇÃO DO USUÁRIO MECÂNICO DO SISTEMA.
+        - NOME_OFICINA: Campo que armazerna o nome da oficina do mecânico.
+        - CNPJ: Campo que armazena o CPNJ da respectiva oficina do mecânico.
+        - ESPECIALIZAÇÃO: Campo que armazena a especialização do mecânico.
         
     VEÍCULO: TABELA QUE ARMAZENA OS DADOS DO VEÍCULO CADASTRADO POR UM USUÁRIO DO TIPO CLIENTE.
         - PLACA: Campo que armazena a placa de um veículo cadastrado por um usuário do tipo cliente.
@@ -103,31 +106,38 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - MARCA_VEÍCULO: Campo que armazena marca do veículo.
    
     CONTATO: TABELA QUE ARMAZENA O CONTATO DO CLIENTE
-        - CONTATO_CLIENTE: Campoq ue armazena contato do cliente
+        - CONTATO: Campoq ue armazena contato do cliente.
         - ID_CONTATO: Id para identificação do contato.
     
     TIPO_CONTATO: TABELA QUE ARMAZENA O TIPO DE CONTATO DO CLIENTE
         - TIPO_CONTATO: Campoq ue armazena o tipo de contato.
         - ID_TIPO_CONTATO: Id para identificação do tipo de contato.
  
-    SENSOR: TABELA QUE ARMAZENA OS DADOS SOBRE OS SENSORES
-        - TIPO_SENSOR: Campo que armazena o nome do sensor
+    SENSORES: TABELA QUE ARMAZENA OS DADOS SOBRE OS SENSORES
+        - NOME_SENSOR: Campo que armazena o nome do sensor.
         - ID_SENSOR: ID para identificação do sensor.
-        - DESCRIÇÃO_SENSOR: Campo que descreve a funcionalidade do sensor
+        - DESCRIÇÃO: Campo que descreve a funcionalidade/descrição/característica do sensor.
     
     TIPO_SENSOR: TABELA QUE ARMAZENA OS TIPOS DE SENSORES
-        - NOME_SENSOR: Campo que armazena o tipo de sensor
+        - TIPO_SENSOR: Campo que armazena o tipo de sensor
         - ID_TIPO_SENSOR: ID para identificação do tipo de sensor.
     
     PEÇA: TABELA QUE ARMAZENA AS PEÇAS DO SISTEMA.
         - NOME_PEÇA: Campo que armazena o nome da peça
         - ID_PEÇA: ID para identificação da peça
     
-    INFORMAÇÕES: TABELA QUE ARMAZENA AS INFORMAÇÕES GERADAS POR CADA SENSOR.
+    HISTÓRICO: TABELA QUE ARMAZENA O HISTÓRICO DAS ANÁLISES GERADAS POR CADA SENSOR.
         - DATA_ANALISE: Campo que armazena a data da analise do sensor
-        - HORA_ANALISE: Campo que armazena o horario da analise do sensor
-        - ESTADO_PEÇA: Campo que armazena o estado da peça analisada por um sensor	
-        - ID_INFO: ID para identificação da informação gerada pelo sensor.
+        - HORA_ANALISE: Campo que armazena o horario da analise do sensor	
+        - ID_HISTÓRICO: ID para identificação da informação gerada pelo sensor.
+    
+    GERAL: TABELA QUE ARMAZENA O ESTADO DA PEÇA:
+    	- ESTADO_PEÇA: Campo que armazena o estado da peça. O campo é binário.
+    
+    CONTRATA: TABELA QUE ARMAZENA OS DADOS SOBRE A CONTRATAÇÃO E CHAMADO DOS MECÂNICOS PELOS MOTORISTAS DO SISTEMA
+    	- HORA_CONTRATA: Campo que armazena a hora da contratação.
+	- DATA_CONTRATA: Campo que armazena a data da contratação.
+	- ID_CONTRATA: Id para identificação da contratação.
     
     
     
