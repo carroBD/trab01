@@ -74,13 +74,13 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 #### 5.3 DESCRIÇÃO DOS DADOS.]
     PESSOA: TABELA PAI QUE ARMAZENA DADOS DO TIPO PESSOA DO SISTEMA.
-    	- ID_PESSOA: ID para identificação da pessoa.
-	- NOME: Campo que armazena o nome da pessoa.
-	- Data_Nascimento: Campo que armazena a data de nascimento da pessoa.
-	- Sexo: Campo referente ao Sexo da pessoa.
+        - ID_PESSOA: ID para identificação da pessoa.
+        - NOME: Campo que armazena o nome da pessoa.
+        - Data_Nascimento: Campo que armazena a data de nascimento da pessoa.
+        - Sexo: Campo referente ao Sexo da pessoa.
     
     MOTORISTA: TABELA FILHO QUE HERDA CARACTERÍSTICAS DA TABELA PESSOA PARA DISTIÇÃO E CRIAÇÃO DO USUÁRIO MOTORISTA DO SISTEMA.
-    	- CNH: Campo que armazena o tipo de CNH do motorista.
+        - CNH: Campo que armazena o tipo de CNH do motorista.
     
     MECÂNICO: TABELA FILHO QUE HERDA CARACTERÍSTICAS DA TABELA PESSOA PARA CRIAÇÃO E DISTINÇÃO DO USUÁRIO MECÂNICO DO SISTEMA.
     	- NOME_OFICINA: Campo que armazerna o nome da oficina do mecânico.
@@ -135,9 +135,9 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     	- ESTADO_PEÇA: Campo que armazena o estado da peça. O campo é binário.
     
     CONTRATA: TABELA QUE ARMAZENA OS DADOS SOBRE A CONTRATAÇÃO E CHAMADO DOS MECÂNICOS PELOS MOTORISTAS DO SISTEMA
-    	- HORA_CONTRATA: Campo que armazena a hora da contratação.
-    	- DATA_CONTRATA: Campo que armazena a data da contratação.
-    	- ID_CONTRATA: Id para identificação da contratação.
+        - HORA_CONTRATA: Campo que armazena a hora da contratação.
+        - DATA_CONTRATA: Campo que armazena a data da contratação.
+        - ID_CONTRATA: Id para identificação da contratação.
     
     
     
