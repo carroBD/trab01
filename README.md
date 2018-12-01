@@ -135,7 +135,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
     	- ESTADO_PEÇA: Campo que armazena o estado da peça. O campo é binário.
     
     CONTRATA: TABELA QUE ARMAZENA OS DADOS SOBRE A CONTRATAÇÃO E CHAMADO DOS MECÂNICOS PELOS MOTORISTAS DO SISTEMA
-    	- HORA_CONTRATA: Campo que armazena a hora da contratação.
+	- HORA_CONTRATA: Campo que armazena a hora da contratação.
 	- DATA_CONTRATA: Campo que armazena a data da contratação.
 	- ID_CONTRATA: Id para identificação da contratação.
     
