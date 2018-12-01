@@ -240,26 +240,27 @@ SELECT FROM CONTATO
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
-select * from cliente<br>
-where cpf = '14938056739' and cnh = 'ab'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/cliente%20cpf%20e%20cnh.png/>
+
+SELECT *FROM PESSOA<br>
+	WHERE SEXO = 'Feminino' and CNH ='C''<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/FEMININO%20C.PNG/>
 	<br><br>
-select * from modelo_veiculo<br>
-where modelo_veiculo = 'hilux' and cor = 'cinza'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/modelo%20modelo_veiculo%20e%20cor.png/>
+SELECT *FROM MODELO<br>
+	WHERE (ANO_VEICULO = 2014 OR COR = 'cinza')<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/MODELO%202014%20CINZA.PNG/>
 	<br><br>
-select * from modelo_veiculo<br>
-where modelo_veiculo = 'hilux' or cor = 'verde'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/modelo%20modelo_veiculo%20ou%20cor.png/>
+SELECT *FROM PESSOA<br>
+	WHERE CNH = 'A' OR DATA_NASCIMENTO = '2003/11/05'<br>
+<img src = hhttps://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/data%202005%20ou%20CNH%20A.PNG/>
 	<br><br>
-select * from peca<br>
-where nome_peca = 'motor' or nome_peca = 'suspensao'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/peca%20where%20nome_peca%20%3D%20motor%20ou%20nome_peca%20%3D%20suspensao.png/>
+SELECT *FROM CONTATO<br>
+	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
+<img https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CONTATO%2010%20OU%20PESSOA%201.PNG/>
 	<br>
 	<br>
-select  from tipo_contato
-where not tipo_contato = 'telefone_fixo'<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.3/a)/tipo_contato%20where%20not%20tipo_contato%20%3D%20telefone%20fixo.png/>
+SELECT *FROM VEICULO<br>
+	WHERE PLACA = 'QQQ-7039' OR  PLACA = 'CHL-7767'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/PLACAS.PNG/>
 	<br>
 	<br>
 	
