@@ -225,7 +225,7 @@ SELECT *FROM PESSOA
 	<br><br>
 SELECT *FROM PESSOA 
 	WHERE NOME = 'Luciano'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20PESSOA%20LUCIANO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/ATT%20LUCIANO.PNG/>
 	<br><br>
 SELECT FROM MODELO
 	WHERE ANO_VEICULO = 2014;<br>
