@@ -271,7 +271,7 @@ ALTER TABLE TIPO_CONTATO
 	ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20contato%20antes.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20sensor%20depois.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/tipo%20contato%20depois.PNG/><br>
 	<br>
 	<br>
 ALTER TABLE TIPO_SENSOR<br>
