@@ -165,8 +165,10 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-select * from categoria<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/categoria.png/>
+SELECT * FROM PESSOA <br>
+<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%201.PNG/>
+<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA2.PNG/>
+<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%203.PNG/>
 	<br><br>
 select * from cliente<br>
 <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.1/cliente.png/>
