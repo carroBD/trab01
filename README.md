@@ -192,7 +192,7 @@ SELECT * FROM MARCA<br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%203.PNG/><br>
 	<br>
 	<br>
-SELECT * FROM CATEGORIA
+SELECT * FROM CATEGORIA<br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CATEGORIA.PNG/>
 	<br>
 	<br>
