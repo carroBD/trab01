@@ -266,24 +266,24 @@ SELECT FROM CONTATO
 
 SELECT *FROM PESSOA<br>
 	WHERE SEXO = 'Feminino' and CNH ='C''<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/FEMININO%20C.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CNH%20A%20E%20FEMININO.PNG/>
 	<br><br>
 SELECT *FROM MODELO<br>
 	WHERE (ANO_VEICULO = 2014 OR COR = 'cinza')<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/MODELO%202014%20CINZA.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
 	<br><br>
 SELECT *FROM PESSOA<br>
 	WHERE CNH = 'A' OR DATA_NASCIMENTO = '2003/11/05'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/data%202005%20ou%20CNH%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CNH%20A%20OU%20DATA%20NASCIMENTO.PNG/>
 	<br><br>
 SELECT *FROM CONTATO<br>
 	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CONTATO%2010%20OU%20PESSOA%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/PESSOA%20ID%2010.PNG/>
 	<br>
 	<br>
-SELECT *FROM VEICULO<br>
-	WHERE PLACA = 'QQQ-7039' OR  PLACA = 'CHL-7767'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/PLACAS.PNG/>
+SELECT *FROM GERAM<bf>
+	WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 59'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/SENSOR%20E%20PECA.PNG/>
 	<br>
 	<br>
 	
