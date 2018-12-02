@@ -240,25 +240,25 @@ SELECT * FROM HISTORICO<br>
 
 SELECT *FROM MODELO 
 	WHERE COR = 'preto';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/MODELO%20BRANCO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/MODELO%20PRETO.PNG/>
 	<br><br>
 SELECT *FROM PESSOA
 	WHERE CNH ='A'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20CNHA.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/PESSOA%20CNH%20A.PNG/>
 	<br><br>
 SELECT *FROM PESSOA 
 	WHERE NOME = 'Luciano'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/ATT%20LUCIANO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/NOME%20LUCIANO.PNG/>
 	<br><br>
 SELECT FROM MODELO
 	WHERE ANO_VEICULO = 2014;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20ANO%20VEICULO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/ANO%202014.PNG/>
 	<br>
 	<br>
 	
 SELECT FROM CONTATO 
 	WHERE FK_TIPO_CONTATO_ID_TIPO_CONTATO = 1;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/WHERE%20TIPO%20CONTATO%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/CONSULTA%20COM%20WHERE/TIPO%20DE%20CONTATO%201.PNG/>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
