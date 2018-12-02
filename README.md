@@ -331,34 +331,46 @@ SELECT *FROM CONTRATA<br>
 <br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-delete from informacoes where estado_peca = '0';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20informacoes%20where%20estado_peca%200.png/>
+UPDATE MODELO SET COR = 'branco'<br>
+	WHERE MODELO_VEICULO = 'i3'<br>
+	ANTES: <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/i3%20antes.PNG/>
+	DEPOIS: <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/i3%20depois.PNG/>
 <br>
 <br>
-delete from peca where nome_peca = 'bateria';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20peca%20where%20nome_peca%20bateria.png/>
+UPDATE PESSOA SET SEXO = 'Feminino'<br>
+	WHERE NOME = 'Carlos' and CNH = 'E';<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/Carlos%20antes.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/carlos%20depois.PNG/>	
 <br>
 <br>
-update modelo set cor = 'rosa'<br>	
-where modelo_veiculo = 'hilux';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20rosa.png/>
+UPTDATE CONTRATA SET HORA_CONTRATA = '21:43:50'<br>
+	WHERE HORA_CONTRATA = '21:42:50';<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/hora%20antes.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/hora%20depois.PNG/>
 <br>
 <br>
-update cliente set cpf = '25467435609'<br>
-where nome = 'joao' and cnh = 'ab';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20modelo%20set%20cor%20rosa.png/>
+DELETE FROM PESSOA <br>
+	WHERE NOME = 'Ubiratan';<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/UBIRATAN%20ANTES.PNG/>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/UBIRATAN%20DEPOIS.PNG/>	
 <br>
 <br>
-update mecanico set fixo_ou_celular = '999015607'<br>
-where nome = 'comerio';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/update%20mecanico%20set%20fixo_ou_celular%20999015607.png/>
+UPDATE CONTATO <br>
+	SET CONTATO = '999999999' WHERE ID_CONTATO = 2;<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/contato%20antes.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/contato%20depois.PNG/>
 <br>
 <br>
-delete from mecanico where fixo_ou_celular ='321029491';<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/Prints%20da%20tela/9.5/delete%20from%20mecanico%20where%20fixo_ou_celular%20321029491.png/>
-<br>
-<br>
-
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
