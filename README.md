@@ -391,7 +391,24 @@ UPDATE CONTATO <br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+SELECT nome, contatos, tipos_contatos, placa, modelo_veiculo, marcas, categoria, nome_sensor, tipo_sensor,estado_peca, hora_analise, data_contrata from pessoa
+	inner join veiculo on (pessoa.id_pessoa = veiculo.fk_pessoa_id_pessoa)
+	inner join modelo on (modelo.id_modelo = veiculo.fk_modelo_id_modelo)
+	inner join marca on (modelo.fk_marca_id_marca = marca.id_marca)
+	inner join categoria on (veiculo.fk_categoria_id_categoria = categoria.id_categoria)
+	inner join contato on (contato.fk_pessoa_id_pessoa = pessoa.id_pessoa)
+	inner join tipo_contato on (contato.fk_tipo_contato_id_tipo_contato = tipo_contato.id_tipo_contato)
+	inner join sensores on (sensores.fk_veiculo_id_veiculo = veiculo.id_veiculo )
+	inner join tipo_sensor on (sensores.fk_tipo_sensor_id_tipo_sensor = tipo_sensor.id_tipo_sensor)
+	inner join geram on (geram.fk_sensores_id_sensor = sensores.id_sensor)
+	inner join historico on (geram.fk_historico_id_historico = historico.id_historico)
+	inner join contrata on (contrata.fk_pessoa_id_pessoa = pessoa.id_pessoa);<br>
+<img src = https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20TODAS%20TODAS%20AS%20TAB.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20TODAS%20TODAS%20AS%20TAB%202.PNG/><br>
+<br>
+<br>
+        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
+	
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
