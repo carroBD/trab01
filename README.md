@@ -391,7 +391,7 @@ UPDATE CONTATO <br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-SELECT nome, contatos, tipos_contatos, placa, modelo_veiculo, marcas, categoria, nome_sensor, tipo_sensor,estado_peca, hora_analise, data_contrata from pessoa
+SELECT nome, contatos, tipos_contatos, placa, modelo_veiculo, marcas, categoria, nome_sensor, tipo_sensor,estado_peca, hora_analise, data_contrata from pessoa<br>
 	inner join veiculo on (pessoa.id_pessoa = veiculo.fk_pessoa_id_pessoa)
 	inner join modelo on (modelo.id_modelo = veiculo.fk_modelo_id_modelo)
 	inner join marca on (modelo.fk_marca_id_marca = marca.id_marca)
@@ -409,27 +409,27 @@ SELECT nome, contatos, tipos_contatos, placa, modelo_veiculo, marcas, categoria,
 <br>
 	b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
 	JUNÇÃO PARA MOSTRAR A SITUAÇÃO ACERCA DOS CARROS DOS CLIENTES.<br>
-	CÓDIGO: SELECT NOME, PLACA, NOME_SENSOR,ESTADO_PECA FROM PESSOA
+	CÓDIGO: SELECT NOME, PLACA, NOME_SENSOR,ESTADO_PECA FROM PESSOA<br>
 	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
 	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
 	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR);<br>
-<img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20NOME%20PLACA%20SENSOR%20E%20ESTADO%20PECA%201.PNG/>
+<img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20NOME%20PLACA%20SENSOR%20E%20ESTADO%20PECA%201.PNG/><br>
 <img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20NOME%20PLACA%20SENSOR%20E%20ESTADO%20PECA%202.PNG/><br>
 <br>
 	JUNÇÃO PARA MOSTRAR OS MODELOS COM PEÇAS COM DEFEITO<br>
-	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA FROM VEICULO
+	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA FROM VEICULO<br>
 	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)
 	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
 	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
-	WHERE ESTADO_PECA = 1;
+	WHERE ESTADO_PECA = 1;<br>
 <img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20MODELO%20E%20PE%C3%87AS%20COM%20DEFEITO.PNG/><br>
 <br>
 <br>
 	JUNÇÃO PARA MOSTRAR AS CONTRATAÇÕES FEITAS PELOS CLIENTES.<br>
 	CÓDIGO: SELECT NOME, HORA_CONTRATA, DATA_CONTRATA FROM PESSOA
 	INNER JOIN CONTRATA ON (PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA)
-	WHERE PESSOA_TIPO = 0;
-	<img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20CLIENTE%20CONTRATA.PNG/>
+	WHERE PESSOA_TIPO = 0;<br>
+	<img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20CLIENTE%20CONTRATA.PNG/><br>
 	<img src=https://github.com/carroBD/trab01/blob/master/INNER%20JOINS/INNER%20JOIN%20CLIENTE%20CONTRATA%202.PNG/><br>
 
 <br>
