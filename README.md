@@ -325,31 +325,31 @@ SELECT *FROM MODELO<br>
 
 SELECT *FROM MODELO<br>
 	WHERE MODELO_VEICULO like 'C%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/like%20c.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MODELO%20COM%20LETRA%20P.PNG/>
 <br>
 <br>
 
 SELECT *FROM PESSOA<br>
 	WHERE NOME LIKE 'A%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/nome%20like%20a.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/PESSOA%20COM%20LETRA%20A.PNG/>
 <br>
 <br>
 
-SELECT *FROM SENSORES<br>
-	WHERE NOME_SENSOR LIKE '%2%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/NOME%20SENSOR%202.PNG/><br>
+SELECT *FROM PESSOA<br>
+	WHERE NOME NOT ILIKE '%a%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/nome%20sem%20A.PNG/>
 <br>
 <br>
 
 SELECT *FROM MARCA<br>
 	WHERE MARCAS_VEICULOS ILIKE '%Y%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/marcas%20y.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MARCAS%20COM%20Y.PNG/><br>
 <br>
 <br>
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
 SELECT *FROM CONTRATA<br>
-	WHERE DATA_CONTRATA > '2018-03-15';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/DATA.PNG/>
+	WHERE DATA_CONTRATA > '2018-07-15';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/data.PNG/>
 <br>
 <br>
 
