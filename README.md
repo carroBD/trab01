@@ -231,7 +231,7 @@ SELECT * FROM GERAM<br>
 	<br>
 	<br>
 SELECT * FROM HISTORICO<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO%201.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO%201.PNG/><br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO%202.PNG/>
 	<br>
 	<br>
