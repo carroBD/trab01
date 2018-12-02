@@ -357,41 +357,33 @@ SELECT *FROM CONTRATA<br>
 UPDATE MODELO SET COR = 'branco'<br>
 	WHERE MODELO_VEICULO = 'i3'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/i3%20antes.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/I3%20ANTES.PNG/>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/i3%20depois.PNG/>
+	<img src = hhttps://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/I3%20DEPOIS.PNG/>
 <br>
 <br>
-UPDATE PESSOA SET SEXO = 'Feminino'<br>
-	WHERE NOME = 'Carlos' and CNH = 'E';<br>
+UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'<br>
+	WHERE NOME = 'Carlos' and CNH = 'E'<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/Carlos%20antes.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/carlos%20depois.PNG/>	
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
 <br>
 <br>
-UPTDATE CONTRATA SET HORA_CONTRATA = '21:43:50'<br>
-	WHERE HORA_CONTRATA = '21:42:50';<br>
+UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'<br>
+	WHERE HORA_CONTRATA = '09:40:00';;<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/hora%20antes.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/hora%20depois.PNG/>
-<br>
-<br>
-DELETE FROM PESSOA <br>
-	WHERE NOME = 'Ubiratan';<br>
-	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/UBIRATAN%20ANTES.PNG/>
-	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/UBIRATAN%20DEPOIS.PNG/>	
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 <br>
 <br>
 UPDATE CONTATO <br>
-	SET CONTATO = '999999999' WHERE ID_CONTATO = 2;<br>
+	SET CONTATO = '999999999' WHERE ID_CONTATO = 3;<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/contato%20antes.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/contato%20depois.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 <br>
 <br>
 
