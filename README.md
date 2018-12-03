@@ -665,7 +665,7 @@ Dificuldades encontradas pelo grupo:<br>
 - Desistência de integrantes: Metade do grupo ficou ausente do trabalho por motivos pessoais e/ou desconhecidos.<br>
 - Self Join: O grupo não conseguiu identificar essa situação no trabalho.<br>
 - Objetivo do sistema: a principio, a ideia era complexa. Modificações tiveram que ser feitas para simplificação e execução do trabalho<br>
--Operações aritméticas: O grupo deve dificuldades pra encontrar e realizá-las<br>
+- Operações aritméticas: O grupo deve dificuldades pra encontrar e realizá-las<br>
 >## Marco de Entrega Final em: (08/11/2018)<br>
 
         
