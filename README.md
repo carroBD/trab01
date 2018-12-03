@@ -353,6 +353,12 @@ SELECT *FROM CONTRATA<br>
 <br>
 <br>
 
+SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
+	WHERE date_part('year',age(data_nascimento))>40;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/IDADES.PNG/>
+<br>
+<br>
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 UPDATE MODELO SET COR = 'branco'<br>
 	WHERE MODELO_VEICULO = 'i3'<br>
