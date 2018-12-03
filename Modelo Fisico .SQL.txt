@@ -1,93 +1,93 @@
-create table pessoa(
-	id_pessoa serial,
-	nome varchar not null,
-	data_nascimento date not null,
-	sexo varchar not null,
-	cnpj varchar,
-	nome_oficina varchar, 
-	especializacao varchar,
-	cnh varchar,
-	pessoa_tipo integer,
-	primary key(id_pessoa)
+CREATE TABLE PESSOA(
+	ID_PESSOA SERIAL,
+	NOME VARCHAR NOT NULL,
+	DATA_NASCIMENTO DATE NOT NULL,
+	SEXO VARCHAR NOT NULL,
+	CNPJ VARCHAR,
+	NOME_OFICINA VARCHAR, 
+	ESPECIALIZACAO VARCHAR,
+	CNH VARCHAR,
+	PESSOA_TIPO INTEGER,
+	PRIMARY KEY(ID_PESSOA)
 );
 	
-create table contrata(
-	id_contrata serial,
-	fk_pessoa_id_pessoa integer not null references pessoa(id_pessoa),
-	fk_pessoa_id_mecanico integer not null references pessoa(id_pessoa),
-	hora_contrata time not null,
-	data_contrata date not null
+CREATE TABLE CONTRATA(
+	ID_CONTRATA SERIAL,
+	FK_PESSOA_ID_PESSOA INTEGER NOT NULL REFERENCES PESSOA(ID_PESSOA),
+	FK_PESSOA_ID_MECANICO INTEGER NOT NULL REFERENCES PESSOA(ID_PESSOA),
+	HORA_CONTRATA TIME NOT NULL,
+	DATA_CONTRATA DATE NOT NULL
 );
 
-create table tipo_contato(
-	id_tipo_contato serial,
-	tipo_contato varchar not null,
-	primary key(id_tipo_contato)
+CREATE TABLE TIPO_CONTATO(
+	ID_TIPO_CONTATO SERIAL,
+	TIPO_CONTATO VARCHAR NOT NULL,
+	PRIMARY KEY(ID_TIPO_CONTATO)
 );
 
-create table contato(
-	id_contato serial,
-	contato varchar not null,
-	fk_pessoa_id_pessoa integer not null references pessoa(id_pessoa),
-	fk_tipo_contato_id_tipo_contato integer not null references tipo_contato(id_tipo_contato),
-	primary key(id_contato)
+CREATE TABLE CONTATO(
+	ID_CONTATO SERIAL,
+	CONTATO VARCHAR NOT NULL,
+	FK_PESSOA_ID_PESSOA INTEGER NOT NULL REFERENCES PESSOA(ID_PESSOA),
+	FK_TIPO_CONTATO_ID_TIPO_CONTATO INTEGER NOT NULL REFERENCES TIPO_CONTATO(ID_TIPO_CONTATO),
+	PRIMARY KEY(ID_CONTATO)
 );
 
-create table marca(
-	id_marca serial,
-	marca varchar not null,
-	primary key(id_marca)
+CREATE TABLE MARCA(
+	ID_MARCA SERIAL,
+	MARCA VARCHAR NOT NULL,
+	PRIMARY KEY(ID_MARCA)
 );
 
-create table modelo(
-	id_modelo serial,
-	modelo_veiculo varchar not null,
-	ano_veiculo integer not null,
-	cor varchar not null,
-	fk_marca_id_marca integer not null,
-	primary key(id_modelo)
+CREATE TABLE MODELO(
+	ID_MODELO SERIAL,
+	MODELO_VEICULO VARCHAR NOT NULL,
+	ANO_VEICULO INTEGER NOT NULL,
+	COR VARCHAR NOT NULL,
+	FK_MARCA_ID_MARCA INTEGER NOT NULL,
+	PRIMARY KEY(ID_MODELO)
 );
 
-create table categoria(
-	id_categoria serial,
-	categoria varchar not null,
-	primary key(id_categoria)
+CREATE TABLE CATEGORIA(
+	ID_CATEGORIA SERIAL,
+	CATEGORIA VARCHAR NOT NULL,
+	PRIMARY KEY(ID_CATEGORIA)
 	
 );
 
-create table veiculo(
-	placa varchar not null,
-	id_veiculo serial,
-	fk_pessoa_id_pessoa integer references pessoa(id_pessoa),
-	fk_modelo_id_modelo integer references modelo(id_modelo),
-	fk_categoria_id_categoria integer references categoria(id_categoria),	
-	primary key(id_veiculo)
+CREATE TABLE VEICULO(
+	PLACA VARCHAR NOT NULL,
+	ID_VEICULO SERIAL,
+	FK_PESSOA_ID_PESSOA INTEGER REFERENCES PESSOA(ID_PESSOA),
+	FK_MODELO_ID_MODELO INTEGER REFERENCES MODELO(ID_MODELO),
+	FK_CATEGORIA_ID_CATEGORIA INTEGER REFERENCES CATEGORIA(ID_CATEGORIA),	
+	PRIMARY KEY(ID_VEICULO)
 );
 
-create table tipo_sensor(
-	id_tipo_sensor serial,
-	tipo_sensor varchar,
-	primary key(id_tipo_sensor)
+CREATE TABLE TIPO_SENSOR(
+	ID_TIPO_SENSOR SERIAL,
+	TIPO_SENSOR VARCHAR,
+	PRIMARY KEY(ID_TIPO_SENSOR)
 );
 
-create table sensores(
-	id_sensor serial,
-	nome_sensor varchar,
-	descricao varchar,
-	fk_veiculo_id_veiculo integer references veiculo(id_veiculo),
-	fk_tipo_sensor_id_tipo_sensor integer references tipo_sensor(id_tipo_sensor),
-	primary key (id_sensor)
+CREATE TABLE SENSORES(
+	ID_SENSOR SERIAL,
+	NOME_SENSOR VARCHAR,
+	DESCRICAO VARCHAR,
+	FK_VEICULO_ID_VEICULO INTEGER REFERENCES VEICULO(ID_VEICULO),
+	FK_TIPO_SENSOR_ID_TIPO_SENSOR INTEGER REFERENCES TIPO_SENSOR(ID_TIPO_SENSOR),
+	PRIMARY KEY (ID_SENSOR)
 );
 
-create table historico(
-	data_analise date not null,
-	hora_analise time not null,
-	id_historico serial,
-	primary key(id_historico)
+CREATE TABLE HISTORICO(
+	DATA_ANALISE DATE NOT NULL,
+	HORA_ANALISE TIME NOT NULL,
+	ID_HISTORICO SERIAL,
+	PRIMARY KEY(ID_HISTORICO)
 );
 
-create table geram(
-	fk_sensores_id_sensor integer references sensores(id_sensor),
-	fk_historico_id_historico integer references historico(id_historico),
-	estado_peca integer not null
+CREATE TABLE GERAM(
+	FK_SENSORES_ID_SENSOR INTEGER REFERENCES SENSORES(ID_SENSOR),
+	FK_HISTORICO_ID_HISTORICO INTEGER REFERENCES HISTORICO(ID_HISTORICO),
+	ESTADO_PECA INTEGER NOT NULL
 )
