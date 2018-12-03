@@ -639,10 +639,25 @@ WHERE DATA_ANALISE = (SELECT MIN(DATA_ANALISE) FROM HISTORICO)<br>
 	Grupo de teste: Controle de Frequência[Brunna Dalzini de Oliveira, Daniela Salomão Santa Clara, Leonir dos Reis Alves, Mayannara Trindade Carvalho]
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
-        a) Outros grupos deverão ser capazes de restaurar o banco 
-        b) executar todas as consultas presentes no trabalho
-        c) executar códigos que tenham sido construídos para o trabalho 
-        d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
+
+PASSO 1: Para começar, primeiramente, escolha ou crie um banco de dados e clique com o botão direito sobre o mesmo.
+Deverá aparecer algo mais ou menos assim:<br>
+
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo1.PNG/><br>
+Feito isso, aparecerá essa tela:<br>
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo2.PNG/><br>
+Clique nos três pontos indicados pela região em vermelho.<br>
+Após, navegue até onde está salvo o backup, no nosso caso, o arquivo "carro_BACKUPFINAL".<br>
+Selecione o arquivo: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo3.PNG/><br>
+E clique no botão azul escrito "Select"<br>
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo4.PNG/><br>
+Para finalizar, confira se em Format está escrito "Custom or tar" e se o caminho e o arquivo estão corretos.<br>
+Caso esteja tudo certo, clique em "Restore".<br>
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo5.PNG/><br>
+Se seguiu todos esses passos corretamente, você deve receber uma mensagem indicando que a restauração foi um sucesso, como essa:<br>
+<img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo6.PNG/><br>
+Pronto! Agora seu banco de dados está pronto para uso!<br>
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 >## Marco de Entrega Final em: (08/11/2018)<br>
