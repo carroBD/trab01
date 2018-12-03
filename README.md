@@ -527,21 +527,21 @@ CÓDIGO: SELECT NOME, date_part('year',age(data_nascimento)), ESTADO_PECA, count
 SELECT CONTATO.CONTATOS, PESSOA.NOME, VEICULO.PLACA FROM CONTATO<br>
 	LEFT JOIN PESSOA ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA)<br>
 	RIGHT OUTER JOIN VEICULO ON VEICULO.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%201.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%201.PNG/><br>
 	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%202.PNG/><br>
 	<br>
 	<br>
 SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA <br>
 	FROM PESSOA LEFT JOIN CONTRATA ON PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2021.PNG/>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2022.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2021.PNG/><br>
+	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2022.PNG/><br>
 	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2023.PNG/><br>
 	<br>
 	<br>
 SELECT VEICULO.PLACA, MARCA.MARCAS, MODELO.MODELO_VEICULO, MODELO.COR, MODELO.ANO_VEICULO<br>
 	FROM VEICULO LEFT JOIN MODELO ON MODELO.ID_MODELO = VEICULO.FK_MODELO_ID_MODELO<br>
 	LEFT JOIN MARCA ON MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2031.PNG.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2031.PNG.PNG/><br>
 	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2032.PNG.PNG/><br>
 	<br>
 	<br>
