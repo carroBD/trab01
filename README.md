@@ -58,18 +58,20 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 #### 5.2 DECISÕES DE PROJETO
 
-    ATRIBUTOS<br>
-    Nome: O campo é simples. Servirá apenas para armazenar o nome do cliente e não para identificá-lo.<br>
-    Nome oficina: Campo simples. Este campo armazenará o nome da oficina pertencente ao mecânico, e não servirá para identificá-la.<br>
-    Sexo: Campo Simples.<br>
-    Contato: Simples e multivalorado. Pode armazenar no mínimo um contato pra cada motorista/mecânico.<br>
-    CNPJ: Simples e determinante. Com esse dado é possível identificar uma única oficina.<br>
-    Carro: Composto e multivalorado.<br>
-    Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.<br>
-    Marca: Campo simples.<br>
-    Modelo: Campo simples.<br>
-    Sensores: Campo simples. Armazena o nome do sensor para diferenciá-lo dos demais, porém pode ser repetido, ou seja, não é determinante.<br>
-    Historico: Composto e multivalorado. Armazena a data e a hora das análises feitas pelos sensores.<br>
+    DESCRIÇÃO DE ALGUNS ATRIBUTOS<br>
+    Nome: O campo é simples. Servirá apenas para armazenar o nome do cliente e não para identificá-lo.
+    Nome oficina: Campo simples. Este campo armazenará o nome da oficina pertencente ao mecânico, e não servirá para identificá-la.
+    Sexo: Campo Simples.
+    CNH: Campo Simples
+    Contato: Simples e multivalorado. Pode armazenar no mínimo um contato pra cada motorista/mecânico.
+    CNPJ: Simples e determinante. Com esse dado é possível identificar uma única oficina.
+    Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.
+    Marca: Campo simples.
+    Modelo: Campo simples.
+    Categoria: Campo simples
+    Sensores: Campo simples. Armazena o nome do sensor para diferenciá-lo dos demais, porém pode ser repetido, ou seja, não é determinante.
+    Hora_analise: Campo simples
+    Data_análise Campo simples.
 
 
 >## Marco de Entrega 02 em: (13/09/2018)<br>
