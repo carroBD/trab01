@@ -640,9 +640,8 @@ WHERE DATA_ANALISE = (SELECT MIN(DATA_ANALISE) FROM HISTORICO)<br>
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
 
-PASSO 1: Para começar, primeiramente, escolha ou crie um banco de dados e clique com o botão direito sobre o mesmo.
+Para começar, primeiramente, escolha ou crie um banco de dados, clique com o botão direito sobre o mesmo e clique em "Restore".<br>
 Deverá aparecer algo mais ou menos assim:<br>
-
 <img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo1.PNG/><br>
 Feito isso, aparecerá essa tela:<br>
 <img src = https://github.com/carroBD/trab01/blob/master/TUTORIAL/passo2.PNG/><br>
