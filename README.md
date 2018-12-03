@@ -124,10 +124,6 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - TIPO_SENSOR: Campo que armazena o tipo de sensor
         - ID_TIPO_SENSOR: ID para identificação do tipo de sensor.
     
-    PEÇA: TABELA QUE ARMAZENA AS PEÇAS DO SISTEMA.
-        - NOME_PEÇA: Campo que armazena o nome da peça
-        - ID_PEÇA: ID para identificação da peça
-    
     HISTÓRICO: TABELA QUE ARMAZENA O HISTÓRICO DAS ANÁLISES GERADAS POR CADA SENSOR.
         - DATA_ANALISE: Campo que armazena a data da analise do sensor
         - HORA_ANALISE: Campo que armazena o horario da analise do sensor	
