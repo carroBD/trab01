@@ -132,7 +132,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
         - HORA_ANALISE: Campo que armazena o horario da analise do sensor	
         - ID_HISTÓRICO: ID para identificação da informação gerada pelo sensor.
     
-    GERAL: TABELA QUE ARMAZENA O ESTADO DA PEÇA:
+    GERAM: TABELA QUE ARMAZENA O ESTADO DA PEÇA:
     	- ESTADO_PEÇA: Campo que armazena o estado da peça. O campo é binário.
     
     CONTRATA: TABELA QUE ARMAZENA OS DADOS SOBRE A CONTRATAÇÃO E CHAMADO DOS MECÂNICOS PELOS MOTORISTAS DO SISTEMA
