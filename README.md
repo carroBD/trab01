@@ -319,7 +319,7 @@ RENAME COLUMN MARCA TO MARCASbr>
 <br>
 SELECT *FROM MODELO<br>
 	WHERE COR LIKE 'p%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/LIKE%20P.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MODELO%20COM%20LETRA%20P.PNG/><br>
 <br>
 <br>
 
