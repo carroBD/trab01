@@ -387,6 +387,46 @@ UPDATE CONTATO <br>
 <br>
 <br>
 
+UPDATE PESSOA<br>
+	SET ESPECIALIZACAO = 'Borracharia'<br>
+	WHERE ID_PESSOA >= 1 AND id_pessoa<=22 AND PESSOA TIPO =1;<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%201.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%201.PNG/>
+<br>
+<br>
+
+UPDATE PESSOA<br>
+	SET ESPECIALIZACAO = 'Eletrica'<br>
+	WHERE ID_PESSOA >= 23 AND id_pessoa<=36 AND PESSOA TIPO =1;<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%202.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%202.PNG/>
+<br>
+<br>
+
+UPDATE PESSOA<br>
+	SET ESPECIALIZACAO = 'Mecânica'<br>
+	WHERE ID_PESSOA >= 37 AND id_pessoa<=49 AND PESSOA TIPO =1;<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%203.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%203.PNGG/>
+<br>
+<br>
+
+UPDATE PESSOA<br>
+	SET ESPECIALIZACAO = 'Lanterneiro'<br>
+	WHERE ID_PESSOA >= 54 AND id_pessoa<=72 AND PESSOA TIPO =1;<br>
+	ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%204.PNG/><br>
+	DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%204.PNG/>
+<br>
+<br>
+
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
