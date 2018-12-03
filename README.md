@@ -558,6 +558,40 @@ SELECT SENSORES.NOME_SENSOR, TIPO_SENSOR.TIPO_SENSOR, GERAM.ESTADO_PECA, HISTORI
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+CREATE VIEW VIEW_MECANICOS AS SELECT * FROM PESSOA <br>
+	WHERE PESSOA_TIPO = 1 LIMIT = 5;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20PESSOA%20TIPO%201.PNG/><br>
+<br>
+<br>
+CREATE VIEW VIEW_MOTORISTAS AS SELECT * FROM PESSOA <br>
+WHERE PESSOA_TIPO = 0 LIMIT 5;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20PESSOA%20TIPO%200.PNG/><br>
+<br>
+<br>
+CREATE VIEW VIEW_MOTORISTASXCARROS AS SELECT VEICULO.PLACA, PESSOA.NOME<br>
+	FROM PESSOA INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA) LIMIT 5;<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/MOTORISTASXCARROS.PNG/><br>
+	<br>
+	<br>
+
+CREATE VIEW VIEW_MOTOS AS SELECT VEICULO.PLACA, CATEGORIA.CATEGORIA
+	FROM VEICULO LEFT JOIN CATEGORIA ON (VEICULO.FK_CATEGORIA_ID_CATEGORIA = ID_CATEGORIA AND ID_CATEGORIA = 2) 
+LIMIT 5;<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20MOTOS.PNG/><br>
+	<br>
+	<br>
+CREATE VIEW VIEW_CONTATOS AS SELECT PESSOA.NOME, CONTATO.CONTATOS FROM PESSOA<br>
+	LEFT JOIN CONTATO ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA) LIMIT 5;<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20CONTATOS.PNG/><br>
+	<br>
+	<br>
+CREATE VIEW VIEW_SENSORES AS SELECT * FROM SENSORES LIMIT 10;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20SENSORES.PNG/><br>
+	<br>
+	<br>
+
+
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
