@@ -1,8 +1,6 @@
 # TRABALHO 01:  Smart Car - Carro inteligente.
 Trabalho desenvolvido durante a disciplina de BD1.
 
-# Sumário
-A editar
 ### 1. COMPONENTES<br>
 Integrantes do grupo
     <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
@@ -33,7 +31,7 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
    - Relatório de quais componentes do carro quebram com mais frequência
    - Relatório acerca da quais mecânicos estão mais disponíveis
    - Relatório de quais modelos de carro apresentam mais falhas
-   - Perfil dos motoristas, relacionando idade com número de falhas nas peças.
+   - Perfil dos motoristas, relacionando idade com número de falhas nas peças.<br>
    Gráficos para melhores análises poderão ser consultados em: https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO%20WITH%20JUPYTER/RELATORIO_JUPYTER.ipynb<br><br>
 
  
