@@ -372,6 +372,16 @@ UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'<br>
 <br>
 <br>
 
+UPDATE MODELO SET COR = 'CINZA'
+	WHERE MODELO_VEICULO = 'CB TWISTER'
+	ANTES: <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/><br>
+	DEPOIS: <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTER%20DEPOIS.PNG/>
+<br>
+<br>
+	
+
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
