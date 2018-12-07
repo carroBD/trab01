@@ -235,25 +235,25 @@ SELECT FROM CONTATO
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
 
 SELECT *FROM PESSOA<br>
-	WHERE SEXO = 'Feminino' and CNH ='C''<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CNH%20A%20E%20FEMININO.PNG/>
+	WHERE SEXO = 'Feminino' and NOME ='Adriana'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/FEMININO%20AND%20ADRIANA.PNG/>
 	<br><br>
 SELECT *FROM MODELO<br>
-	WHERE (ANO_VEICULO = 2014 OR COR = 'cinza')<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
+	WHERE ANO_VEICULO = 2014 OR COR = 'cinza' <br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
 	<br><br>
-SELECT *FROM PESSOA<br>
-	WHERE CNH = 'A' OR DATA_NASCIMENTO = '2003/11/05'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/CNH%20A%20OU%20DATA%20NASCIMENTO.PNG/>
+SELECT *FROM MECANICO
+	WHERE ESPECIALIZACAO = 'Borracharia' OR CNPJ = '56835725000154'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/BORRACHARIA%20OR%20CNPJ.PNG/>
 	<br><br>
 SELECT *FROM CONTATO<br>
 	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/PESSOA%20ID%2010.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20CONTATO.PNG/>
 	<br>
 	<br>
 SELECT *FROM GERAM<bf>
-	WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 59'<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20COM%20OPERADORES%20LOGICOS/SENSOR%20E%20PECA.PNG/>
+	WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 5 LIMIT 10'<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20ESTADO%20PECA%200.PNG/>
 	<br>
 	<br>
 	
