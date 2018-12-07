@@ -362,8 +362,13 @@ UPDATE CONTATO <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 <br>
 <br>
+UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'<br>
+	WHERE MODELO_VEICULO = 'MARRUA'<br>
+	ANTES:
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20ANTES.PNG/><br>
+	DEPOIS: <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/>
 
-fazer mais update
 <br>
 <br>
 
