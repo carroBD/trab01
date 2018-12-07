@@ -319,13 +319,13 @@ SELECT *FROM MARCA<br>
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
 SELECT *FROM CONTRATA<br>
 	WHERE DATA_CONTRATA > '2018-07-15';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/data.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/CONTRATA%2020180715.PNG/>
 <br>
 <br>
 
 SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
 	WHERE date_part('year',age(data_nascimento))>40;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/IDADES.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/ANIVERSARIO%2040.PNG/>
 <br>
 <br>
 
