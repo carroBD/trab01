@@ -333,7 +333,7 @@ SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
 UPDATE MODELO SET COR = 'BRANCO'<br>
 	WHERE MODELO_VEICULO = 'I3'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/><br>
 	DEPOIS: <br>
 	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
 <br>
