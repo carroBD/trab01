@@ -262,9 +262,9 @@ SELECT *FROM GERAM<bf>
 ALTER TABLE TIPO_CONTATO
 	RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/TIPO%20CONTATO%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/TIPO%20CONTATO%20DEPOIS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20DEPOIS.PNG/><br>
 	<br>
 	<br>
 ALTER TABLE CONTATO<br>
@@ -278,9 +278,9 @@ RENAME COLUMN CONTATO TO CONTATOS<br>
 ALTER TABLE MARCA<br>
 RENAME COLUMN MARCA TO MARCASbr>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/MARCA%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/MARCAS%20DEPOIS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20DEPOIS.PNG/><br>
 	<br>
 	<br>
     
