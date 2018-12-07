@@ -288,32 +288,32 @@ RENAME COLUMN MARCA TO MARCASbr>
     a) Criar outras 5 consultas que envolvam like ou ilike
 <br>
 SELECT *FROM MODELO<br>
-	WHERE COR LIKE 'p%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MODELO%20COM%20LETRA%20P.PNG/><br>
+	WHERE COR LIKE 'P%';<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO%20COR%20LIKE%20P.PNG/><br>
 <br>
 <br>
 
 SELECT *FROM MODELO<br>
 	WHERE MODELO_VEICULO like 'C%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MODELO%20COM%20LETRA%20P.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO_VEICULO%20LIKE%20C.PNG/>
 <br>
 <br>
 
 SELECT *FROM PESSOA<br>
 	WHERE NOME LIKE 'A%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/PESSOA%20COM%20LETRA%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20LIKE%20A.PNG/>
 <br>
 <br>
 
 SELECT *FROM PESSOA<br>
 	WHERE NOME NOT ILIKE '%a%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/nome%20sem%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/>
 <br>
 <br>
 
 SELECT *FROM MARCA<br>
 	WHERE MARCAS_VEICULOS ILIKE '%Y%';<br>
-<img src = https://github.com/carroBD/trab01/blob/master/LIKE%20E%20DATAS/MARCAS%20COM%20Y.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20ILIKE%20Y.PNG/><br>
 <br>
 <br>
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
