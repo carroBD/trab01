@@ -163,74 +163,47 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-SELECT * FROM PESSOA <br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%202.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/PESSOA%203.PNG/>
+	SELECT * FROM PESSOA <br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/PESSOA%201.PNG/>
+
 	<br><br>
-SELECT * FROM CONTATO<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CONTATO%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CONTATO%202.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CONTATO%203.PNG/>
+	SELECT * FROM CONTATO<br>
+	EDITAR CONTATO
 	<br><br>
-SELECT * FROM TIPO_CONTATO<br>
-<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/TIPO%20CONTATO.PNG/>
+	SELECT * FROM TIPO_CONTATO<br>
+	<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_CONTATO.PNG/>
 	<br><br>
-SELECT * FROM VEICULO<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/VEICULO%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/VEICULO%202.PNG/>
+	SELECT * FROM VEICULO<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
 	<br>
 	<br>
-SELECT * FROM MODELO<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MODELO%201.PNG/>
+	SELECT * FROM MODELO<br>
+	EDITAR MODELO
 	<br>
 	<br>
-SELECT * FROM MARCA<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%201.PNG/><br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%202.PNG/><br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/MARCA%203.PNG/><br>
+	SELECT * FROM MARCA<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
 	<br>
 	<br>
-SELECT * FROM CATEGORIA<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/CATEGORIA.PNG/>
+	SELECT * FROM CATEGORIA<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
 	<br>
 	<br>
-SELECT * FROM SENSORES<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%202.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%203.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%204.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%205.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%206.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%207.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%208.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%209.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2010.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2011.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2012.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2013.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2014.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2015.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2016.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2017.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2018.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2019.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2020.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/SENSOR%2021.PNG/>
+	SELECT * FROM SENSORES<br>
+
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/SENSOR.PNG/>
 	<br>
 	<br>
-SELECT * FROM TIPO_SENSOR<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/TIPO%20SENSOR%201.PNG/>
+	SELECT * FROM TIPO_SENSOR<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_SENSOR.PNG/>
 	<br>
 	<br>
-SELECT * FROM GERAM<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/GERAM%201.PNG/>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/GERAM%202.PNG/>
+	SELECT * FROM GERAM<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/GERAM.PNG/>
 	<br>
 	<br>
-SELECT * FROM HISTORICO<br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO%201.PNG/><br>
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20TABELAS/HISTORICO%202.PNG/>
+	SELECT * FROM HISTORICO<br>
+	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/HISTORICO.PNG/><br>
 	<br>
 	<br>
 
