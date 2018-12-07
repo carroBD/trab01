@@ -330,76 +330,40 @@ SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
 <br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-UPDATE MODELO SET COR = 'branco'<br>
-	WHERE MODELO_VEICULO = 'i3'<br>
+UPDATE MODELO SET COR = 'BRANCO'<br>
+	WHERE MODELO_VEICULO = 'I3'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/I3%20ANTES.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/>
 	DEPOIS: <br>
-	<img src = hhttps://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/I3%20DEPOIS.PNG/>
+	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
 <br>
 <br>
 UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'<br>
-	WHERE NOME = 'Carlos' and CNH = 'E'<br>
+	WHERE NOME = 'Carlos'<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
 <br>
 <br>
 UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'<br>
-	WHERE HORA_CONTRATA = '09:40:00';;<br>
+	WHERE HORA_CONTRATA = '09:40:00';<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/>
 <br>
 <br>
 UPDATE CONTATO <br>
 	SET CONTATO = '999999999' WHERE ID_CONTATO = 3;<br>
 	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 <br>
 <br>
 
-UPDATE PESSOA<br>
-	SET ESPECIALIZACAO = 'Borracharia'<br>
-	WHERE ID_PESSOA >= 1 AND id_pessoa<=22 AND PESSOA TIPO =1;<br>
-	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%201.PNG/><br>
-	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%201.PNG/>
-<br>
-<br>
-
-UPDATE PESSOA<br>
-	SET ESPECIALIZACAO = 'Eletrica'<br>
-	WHERE ID_PESSOA >= 23 AND id_pessoa<=36 AND PESSOA TIPO =1;<br>
-	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%202.PNG/><br>
-	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%202.PNG/>
-<br>
-<br>
-
-UPDATE PESSOA<br>
-	SET ESPECIALIZACAO = 'Mecânica'<br>
-	WHERE ID_PESSOA >= 37 AND id_pessoa<=49 AND PESSOA TIPO =1;<br>
-	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%203.PNG/><br>
-	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%203.PNG/>
-<br>
-<br>
-
-UPDATE PESSOA<br>
-	SET ESPECIALIZACAO = 'Lanterneiro'<br>
-	WHERE ID_PESSOA >= 54 AND id_pessoa<=72 AND PESSOA TIPO =1;<br>
-	ANTES: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20ANTES%204.PNG/><br>
-	DEPOIS: <br>
-<img src = https://github.com/carroBD/trab01/blob/master/ATT%20E%20EXCLUSAO/ESPECILIZACAO%20DEPOIS%204.PNG/>
+fazer mais update
 <br>
 <br>
 
