@@ -2,21 +2,24 @@
 Trabalho desenvolvido durante a disciplina de BD1.
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo
-    <ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
-    <ol>João Augusto: joao.augusto1809@gmail.com</ol>
-    <ol>Luciano Barboza: luciano.ananias.50@gmail.com</ol>
-    <ol>Matheus Comério: matheuscomerior@gmail.com</ol>
+
+	Integrantes do grupo
+	<ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
+	<ol>João Augusto: joao.augusto1809@gmail.com</ol>
+	<ol>Luciano Barboza: luciano.ananias.50@gmail.com</ol>
+	<ol>Matheus Comério: matheuscomerior@gmail.com</ol>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-<p align="justify">O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas. Em 2016, só na microrregião metropolitana no Estado do Espírito Santo, foram 23.190 mortes.</div
+	<p align="justify">O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas. Em 2016, só na microrregião metropolitana no Estado do Espírito Santo, foram 23.190 mortes.</div
+
 <br> <p> <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Capturar.PNG/><br></p>
-<p align="justify">As causas dos acidentes são variadas. Segundo o portal do trânsito brasileiro, as maiores causas destes acidentes são: Excesso de velocidade; Desrespeito à sinalização; Ingestão de bebidas alcoólicas e, liderando, Imprudência.
-Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e analisar possíveis falhas ocorridas nas peças dos veículos. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de uma falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará, de forma simples e  satisfatória, uma falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
+	
+	<p align="justify">As causas dos acidentes são variadas. Segundo o portal do trânsito brasileiro, as maiores causas destes acidentes são: Excesso de velocidade; Desrespeito à sinalização; Ingestão de bebidas alcoólicas e, liderando, Imprudência.
+	Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e analisar possíveis falhas ocorridas nas peças dos veículos. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de uma falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará, de forma simples e  satisfatória, uma falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
 
 ### 3.MINI-MUNDO<br>
-<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, ou varios outros componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome, cpf e CNH para identificação. No que tange ao carro, será necessário armazenar informações sobre o veículo, como placa, ano, modelo, cor e marca e seus respectivos sensores instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a hora, data e respectivo componente que ocorreu a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome e nome da oficina para controle e segurança para os clientes. Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
+	<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, ou varios outros componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome, cpf e CNH para identificação. No que tange ao carro, será necessário armazenar informações sobre o veículo, como placa, ano, modelo, cor e marca e seus respectivos sensores instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a hora, data e respectivo componente que ocorreu a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome e nome da oficina para controle e segurança para os clientes. Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
 
 
 
@@ -26,29 +29,28 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
     
     
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-   O sistema poderá contar com uma série de dados acerca de gerarem metadados para novas avaliações, seja sobre o modelo do carro, perfil do motorista ou disponibilidade do mecânico. Assim, sistema proposto servirá para adiquirir e gerar relatórios, como por exemplo os citados abaixo:
-   - Relatório geral sobre a situação do carro do cliente
-   - Relatório de quais componentes do carro quebram com mais frequência
-   - Relatório acerca da quais mecânicos estão mais disponíveis
-   - Relatório de quais modelos de carro apresentam mais falhas
-   - Perfil dos motoristas, relacionando idade com número de falhas nas peças.<br>
-   Gráficos para melhores análises poderão ser consultados em: https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO%20WITH%20JUPYTER/RELATORIO_JUPYTER.ipynb<br><br>
+   	O sistema poderá contar com uma série de dados acerca de gerarem metadados para novas avaliações, seja sobre o modelo do carro, perfil do motorista ou disponibilidade do mecânico. Assim, sistema proposto servirá para adiquirir e gerar relatórios, como por exemplo os citados abaixo:
+  	 - Relatório geral sobre a situação do carro do cliente
+  	 - Relatório de quais componentes do carro quebram com mais frequência
+   	- Relatório acerca da quais mecânicos estão mais disponíveis
+  	 - Relatório de quais modelos de carro apresentam mais falhas
+   	- Perfil dos motoristas, relacionando idade com número de falhas nas peças.<br>
+	
+Gráficos para melhores análises poderão ser consultados em: https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO%20WITH%20JUPYTER/RELATORIO_JUPYTER.ipynb<br><br>
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
+
 <img src=https://github.com/carroBD/trab01/blob/master/Planilha/Planilha%20BD.xlsx/>
-<br><b>"Tabela - SmartCar"</b>
-Tabela relacionando entidades e componentes existente no sistema e banco de dados.
+
+	<br><b>"Tabela - SmartCar"</b>
+	Tabela relacionando entidades e componentes existente no sistema e banco de dados.
     
 >## Marco de Entrega 01 em: (30/08/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
         
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/CONCEITUAL_VERSAOFINALIFES.png/>
-    
-   
-    
-        
+<img src=https://github.com/carroBD/trab01/blob/master/Imagens/CONCEITUAL_VERSAOFINALIFES.png/>       
     
 #### 5.1 Validação do Modelo Conceitual
     [Transporte de Carnes]: Rafael dos Anjos, Daniel Comerio,Nicolas Sampaio,Andreas Hermes.
@@ -420,7 +422,8 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+	
 	SELECT NOME, CNH, CONTATOS, TIPOS_CONTATOS, PLACA, MODELO_VEICULO, MARCAS, CATEGORIA, NOME_SENSOR,ID_SENSOR, TIPO_DEFEITO, HORA_ANALISE FROM PESSOA<br>
 	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
 	INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
@@ -438,7 +441,8 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/INNER%20JOIN%20TODOS.PNG/><br>
 	<br>
 	<br>
-	b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
+b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
+	
 	JUNÇÃO PARA MOSTRAR A SITUAÇÃO ACERCA DOS CARROS DOS CLIENTES.<br>
 	CÓDIGO: SELECT NOME, PLACA, NOME_SENSOR,ESTADO_PECA FROM PESSOA<br>
 	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
@@ -448,6 +452,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/SITUA%C3%87%C3%83O%20GERAL%20DO%20CARRO%20DO%20CLIENTE.PNG/><br>
 	<br>
 	<br>
+	
 	JUNÇÃO PARA MOSTRAR OS MODELOS COM PEÇAS COM DEFEITO<br>
 	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA, DESCRICAO FROM VEICULO
 	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO) 
@@ -458,6 +463,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG.PNG/><br>
 	<br>
 	<br>
+	
 	JUNÇÃO PARA MOSTRAR AS CONTRATAÇÕES FEITAS PELOS CLIENTES.<br>
 	CÓDIGO: SELECT NOME, HORA_CONTRATA, DATA_CONTRATA FROM PESSOA<br>
 	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA) <br>
@@ -465,9 +471,6 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	LIMIT 10;<br>
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CLIENTES%20QUE%20MAIS%20CONTRATARAM.PNG/><br>
 
-
-	<br>
-	<br>
 	JUNÇÃO PARA MOSTRAR AS CORES DOS CARROS DO SEXO FEMININO.<br>
 	CÓDIGO: SELECT NOME, PLACA, COR FROM PESSOA<br>
 	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
@@ -475,7 +478,6 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	WHERE SEXO = 'Feminino'
 	LIMIT 10;<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CORES%20CARRO%20FEMININO.PNG/><br>
-	<br>
 	<br>
 	
 	JUNÇÃO PARA MOSTRAR AS DATAS DE ANÁLISES ACIMA DE UMA DETERMINADA DATA.<br>
@@ -486,8 +488,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	WHERE DATA_ANALISE > '03-10-2018' <br>
 	LIMIT 10<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/ANALISE%20ACIMA%20DE%20DETERMINADA%20DATA.PNG/><br>
-	<br>
-	<br>
+	
 
 	
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
@@ -540,34 +541,28 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	<br>
 	
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
-SELECT CONTATO.CONTATOS, PESSOA.NOME, VEICULO.PLACA FROM CONTATO<br>
-	LEFT JOIN PESSOA ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA)<br>
-	RIGHT OUTER JOIN VEICULO ON VEICULO.FK_PESSOA_ID_PESSOA = PESSOA.ID_PESSOA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%201.PNG/><br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%202.PNG/><br>
-	<br>
-	<br>
-SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA <br>
-	FROM PESSOA LEFT JOIN CONTRATA ON PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2021.PNG/><br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2022.PNG/><br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2023.PNG/><br>
-	<br>
-	<br>
-SELECT VEICULO.PLACA, MARCA.MARCAS, MODELO.MODELO_VEICULO, MODELO.COR, MODELO.ANO_VEICULO<br>
-	FROM VEICULO LEFT JOIN MODELO ON MODELO.ID_MODELO = VEICULO.FK_MODELO_ID_MODELO<br>
-	LEFT JOIN MARCA ON MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2031.PNG/><br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%2032.PNG/><br>
-	<br>
-	<br>
-SELECT SENSORES.NOME_SENSOR, TIPO_SENSOR.TIPO_SENSOR, GERAM.ESTADO_PECA, HISTORICO.DATA_ANALISE, HISTORICO.HORA_ANALISE<br>
+	SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA 
+	FROM PESSOA LEFT JOIN  MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+	LEFT JOIN  CONTRATA ON (MOTORISTA.FK_PESSOA_ID_PESSOA = CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA)
+	LIMIT 10;
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%201.PNG/><br>
+	
+	SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA <br>
+	FROM PESSOA LEFT JOIN CONTRATA ON PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA
+	LIMIT 10 <br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%202.PNGG/><br>
+	
+	SELECT VEICULO.PLACA, MARCA.MARCAS, MODELO.MODELO_VEICULO, MODELO.COR, MODELO.ANO_VEICULO
+	FROM VEICULO LEFT JOIN MODELO ON MODELO.ID_MODELO = VEICULO.FK_MODELO_ID_MODELO
+	LEFT JOIN MARCA ON MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%203.PNG/><br>
+	
+	SELECT SENSORES.NOME_SENSOR, TIPO_SENSOR.TIPO_SENSOR, GERAM.ESTADO_PECA, HISTORICO.DATA_ANALISE, HISTORICO.HORA_ANALISE<br>
 	FROM SENSORES LEFT JOIN TIPO_SENSOR ON SENSORES.FK_TIPO_SENSOR_ID_TIPO_SENSOR = TIPO_SENSOR.ID_TIPO_SENSOR<br>
 	RIGHT JOIN GERAM ON GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR<br>
 	LEFT JOIN HISTORICO ON GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO WHERE ESTADO_PECA = 1<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/LEFT%20E%20RIGHT%20JOIN/LEFT%204.PNG/><br>
-	<br>
-	<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%204.PNG/><br>
+
 
 
 	
