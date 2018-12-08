@@ -3,11 +3,11 @@ Trabalho desenvolvido durante a disciplina de BD1.
 
 ### 1. COMPONENTES<br>
 
-	Integrantes do grupo
-	<ol>Harrison Sanches: harrison.sanches@gmail.com</ol>
-	<ol>João Augusto: joao.augusto1809@gmail.com</ol>
-	<ol>Luciano Barboza: luciano.ananias.50@gmail.com</ol>
-	<ol>Matheus Comério: matheuscomerior@gmail.com</ol>
+	Integrantes do grupo:
+		Harrison Sanches: harrison.sanches@gmail.com
+		João Augusto: joao.augusto1809@gmail.com
+		Luciano Barboza: luciano.ananias.50@gmail.com
+		Matheus Comério: matheuscomerior@gmail.com
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
