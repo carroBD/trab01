@@ -635,7 +635,7 @@ b) Outras junções que o grupo considere como sendo as de principal importânci
 			INNER JOIN SENSORES<br>
 			ON GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR<br>
 			WHERE DATA_ANALISE = (SELECT MIN(DATA_ANALISE) FROM HISTORICO)<br>
-<img src = https://github.com/carroBD/trab01/blob/master/NOVA%20SUBCONSULTA/SUBCONSULTA%201%203.PNG<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVA%20SUBCONSULTA/SUBCONSULTA%201%203.PNG/><br>
 	<br>
 	<br>
 
