@@ -168,13 +168,13 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 	<br><br>
 	SELECT * FROM CONTATO<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CONTATO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CONTATO.PNG/>
 	<br><br>
 	SELECT * FROM TIPO_CONTATO<br>
-	<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_CONTATO.PNG/>
+<img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_CONTATO.PNG/>
 	<br><br>
 	SELECT * FROM VEICULO<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
 	<br>
 	<br>
 	SELECT * FROM MODELO<br>
@@ -182,28 +182,28 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	<br>
 	<br>
 	SELECT * FROM MARCA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
 	<br>
 	<br>
 	SELECT * FROM CATEGORIA<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
 	<br>
 	<br>
 	SELECT * FROM SENSORES<br>
 
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/SENSOR.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/SENSOR.PNG/>
 	<br>
 	<br>
 	SELECT * FROM TIPO_SENSOR<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_SENSOR.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_SENSOR.PNG/>
 	<br>
 	<br>
 	SELECT * FROM GERAM<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/GERAM.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/GERAM.PNG/>
 	<br>
 	<br>
 	SELECT * FROM HISTORICO<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/HISTORICO.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/HISTORICO.PNG/><br>
 	<br>
 	<br>
 
@@ -211,24 +211,24 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 	SELECT *FROM MODELO 
 	WHERE COR = 'PRETO';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%20PRETO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%20PRETO.PNG/>
 	<br><br>
 	SELECT *FROM PESSOA
 	WHERE CNH ='AB'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/CNH%20AB.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/CNH%20AB.PNG/>
 	<br><br>
 	SELECT *FROM PESSOA 
 	WHERE NOME = 'Luciano'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/PESSOA%20LUCIANO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/PESSOA%20LUCIANO.PNG/>
 	<br><br>
 	SELECT *FROM MODELO
 	WHERE ANO_VEICULO = 2014;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%202014.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%202014.PNG/>
 	<br>
 	<br>	
 	SELECT FROM CONTATO 
 	WHERE FK_TIPO_CONTATO_ID_TIPO_CONTATO = 1;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/TIPO_CONTATO_1.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/TIPO_CONTATO_1.PNG/>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
@@ -236,24 +236,24 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 
 	SELECT *FROM PESSOA<br>
 	WHERE SEXO = 'Feminino' and NOME ='Adriana'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/FEMININO%20AND%20ADRIANA.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/FEMININO%20AND%20ADRIANA.PNG/>
 	<br><br>
 	SELECT *FROM MODELO<br>
 	WHERE ANO_VEICULO = 2014 OR COR = 'cinza' <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
 	<br><br>
 	SELECT *FROM MECANICO
 	WHERE ESPECIALIZACAO = 'Borracharia' OR CNPJ = '56835725000154'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/BORRACHARIA%20OR%20CNPJ.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/BORRACHARIA%20OR%20CNPJ.PNG/>
 	<br><br>
 	SELECT *FROM CONTATO<br>
 	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20CONTATO.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20CONTATO.PNG/>
 	<br>
 	<br>
 	SELECT *FROM GERAM<bf>
 	WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 5 LIMIT 10'<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20ESTADO%20PECA%200.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20ESTADO%20PECA%200.PNG/>
 	<br>
 	<br>
 	
@@ -262,25 +262,25 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	ALTER TABLE TIPO_CONTATO
 	RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20DEPOIS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20DEPOIS.PNG/><br>
 	<br>
 	<br>
 	ALTER TABLE CONTATO<br>
 	RENAME COLUMN CONTATO TO CONTATOS<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20DEPOIS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20DEPOIS.PNG/><br>
 	<br>
 	<br>
 	ALTER TABLE MARCA<br>
 	RENAME COLUMN MARCA TO MARCASbr>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20DEPOIS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20DEPOIS.PNG/><br>
 	<br>
 	<br>
     
@@ -289,43 +289,43 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	<br>
 	SELECT *FROM MODELO<br>
 	WHERE COR LIKE 'P%';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO%20COR%20LIKE%20P.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO%20COR%20LIKE%20P.PNG/><br>
 	<br>
 	<br>
 
 	SELECT *FROM MODELO<br>
 	WHERE MODELO_VEICULO like 'C%';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO_VEICULO%20LIKE%20C.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO_VEICULO%20LIKE%20C.PNG/>
 	<br>
 	<br>
 
 	SELECT *FROM PESSOA<br>
 	WHERE NOME LIKE 'A%';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20LIKE%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20LIKE%20A.PNG/>
 	<br>
 	<br>
 
 	SELECT *FROM PESSOA<br>
 	WHERE NOME NOT ILIKE '%a%';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/>
 	<br>
 	<br>
 
 	SELECT *FROM MARCA<br>
 	WHERE MARCAS_VEICULOS ILIKE '%Y%';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20ILIKE%20Y.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20ILIKE%20Y.PNG/><br>
 	<br>
 	<br>
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
 	SELECT *FROM CONTRATA<br>
 	WHERE DATA_CONTRATA > '2018-07-15';<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/CONTRATA%2020180715.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/CONTRATA%2020180715.PNG/>
 	<br>
 	<br>
 
 	SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
 	WHERE date_part('year',age(data_nascimento))>40;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/ANIVERSARIO%2040.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/ANIVERSARIO%2040.PNG/>
 	<br>
 	<br>
 
@@ -333,41 +333,41 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	UPDATE MODELO SET COR = 'BRANCO'<br>
 	WHERE MODELO_VEICULO = 'I3'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
 	<br>
 	<br>
 	UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'<br>
 	WHERE NOME = 'Carlos'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
 	<br>
 	<br>
 	UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'<br>
 	WHERE HORA_CONTRATA = '09:40:00';<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/>
 	<br>
 	<br>
 	UPDATE CONTATO <br>
 	SET CONTATO = '999999999' WHERE ID_CONTATO = 3;<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 	<br>
 	<br>
 	UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'<br>
 	WHERE MODELO_VEICULO = 'MARRUA'<br>
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/>
 
 	<br>
 	<br>
@@ -375,9 +375,9 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	UPDATE MODELO SET COR = 'CINZA'
 	WHERE MODELO_VEICULO = 'CB TWISTER'
 	ANTES: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/><br>
 	DEPOIS: <br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTER%20DEPOIS.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTER%20DEPOIS.PNG/>
 	<br>
 	<br>
 	
@@ -400,7 +400,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN GERAM ON (GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR)<br>
 	INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)<br>
 	LIMIT 10;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/INNER%20JOIN%20TODOS.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/INNER%20JOIN%20TODOS.PNG/><br>
 	<br>
 	<br>
 	b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
@@ -410,7 +410,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)<br>
 	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
 	LIMIT 10;<br>
-	<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/SITUA%C3%87%C3%83O%20GERAL%20DO%20CARRO%20DO%20CLIENTE.PNG/><br>
+<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/SITUA%C3%87%C3%83O%20GERAL%20DO%20CARRO%20DO%20CLIENTE.PNG/><br>
 	<br>
 	<br>
 	JUNÇÃO PARA MOSTRAR OS MODELOS COM PEÇAS COM DEFEITO<br>
@@ -420,7 +420,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
 	WHERE ESTADO_PECA = 1 LIMIT 10;
 	<br>
-	<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG.PNG/><br>
+<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG.PNG/><br>
 	<br>
 	<br>
 	JUNÇÃO PARA MOSTRAR AS CONTRATAÇÕES FEITAS PELOS CLIENTES.<br>
@@ -428,7 +428,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA) <br>
 	INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
 	LIMIT 10;<br>
-	<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CLIENTES%20QUE%20MAIS%20CONTRATARAM.PNG/><br>
+<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CLIENTES%20QUE%20MAIS%20CONTRATARAM.PNG/><br>
 
 
 	<br>
@@ -439,7 +439,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)<br>
 	WHERE SEXO = 'Feminino'
 	LIMIT 10;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CORES%20CARRO%20FEMININO.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CORES%20CARRO%20FEMININO.PNG/><br>
 	<br>
 	<br>
 	
@@ -450,7 +450,7 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)<br>
 	WHERE DATA_ANALISE > '03-10-2018' <br>
 	LIMIT 10<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/ANALISE%20ACIMA%20DE%20DETERMINADA%20DATA.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/ANALISE%20ACIMA%20DE%20DETERMINADA%20DATA.PNG/><br>
 	<br>
 	<br>
 
