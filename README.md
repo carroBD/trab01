@@ -259,10 +259,10 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
 	
 	CÓDIGO: SELECT * FROM MODELO
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/modelo.PNG/>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/>
 	
 	SELECT * FROM MARCA
-<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/marcacerto.PNG/><br>
 
 	CÓDIGO: SELECT * FROM CATEGORIA
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
@@ -333,6 +333,8 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 	
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+   <br><br>
+   
 	CÓDIGO: ALTER TABLE TIPO_CONTATO
 			RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
 	
