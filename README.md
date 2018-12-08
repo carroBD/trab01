@@ -218,7 +218,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 <img src=https://github.com/carroBD/trab01/blob/master/LOGICO_VERSAOPOSAPRESENTACAO_FINAL.png/>
 
 ### 7	MODELO FÍSICO<br>
-<a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
+<a href="https://github.com/carroBD/trab01/blob/master/MODELO%20FISICO">Modelo Físico</a>       
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
