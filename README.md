@@ -30,11 +30,11 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
     
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
    	O sistema poderá contar com uma série de dados acerca de gerarem metadados para novas avaliações, seja sobre o modelo do carro, perfil do motorista ou disponibilidade do mecânico. Assim, sistema proposto servirá para adiquirir e gerar relatórios, como por exemplo os citados abaixo:
-  	 - Relatório geral sobre a situação do carro do cliente
-  	 - Relatório de quais componentes do carro quebram com mais frequência
-   	- Relatório acerca da quais mecânicos estão mais disponíveis
-  	 - Relatório de quais modelos de carro apresentam mais falhas
-   	- Perfil dos motoristas, relacionando idade com número de falhas nas peças.<br>
+  	- Relatório geral sobre a situação do carro do cliente
+  	- Relatório de quais componentes do carro quebram com mais frequência
+   	- Relatório acerca da do registro de chamadas de mecânicos por especialização
+  	- Relatório de quais modelos de carro apresentam mais falhas
+   	- Perfil dos motoristas, relacionando idade com número de falhas nas peças dos carros.
 	
 Gráficos para melhores análises poderão ser consultados em: https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO%20WITH%20JUPYTER/RELATORIO_JUPYTER.ipynb<br><br>
 
