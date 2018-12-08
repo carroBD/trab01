@@ -179,7 +179,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
 	
 	CÓDIGO: SELECT * FROM MODELO
-	EDITAR MODELO
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/modelo.PNG/>
 	
 	SELECT * FROM MARCA
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
