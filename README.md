@@ -206,6 +206,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
     
     GERAM: TABELA QUE ARMAZENA O ESTADO DA PEÇA:
     	- ESTADO_PEÇA: Campo que armazena o estado da peça. O campo é binário.
+	- TIPO_DEFEITO: Campo que armazena o tipo de defeito registrado.
     
     CONTRATA: TABELA QUE ARMAZENA OS DADOS SOBRE A CONTRATAÇÃO E CHAMADO DOS MECÂNICOS PELOS MOTORISTAS DO SISTEMA
         - HORA_CONTRATA: Campo que armazena a hora da contratação.
@@ -242,6 +243,12 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 	CÓDIGO: SELECT * FROM PESSOA 
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/PESSOA%201.PNG/>
 
+	CÓDIGO: SELECT * FROM MOTORISTA
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MOTORISTA.PNG/>
+
+	CÓDIGO: SELECT * FROM MECANICO
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MECANICO.PNG>
+
 	CÓDIGO: SELECT * FROM CONTATO
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CONTATO.PNG/>
 	
@@ -261,17 +268,15 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
 	
 	CÓDIGO: SELECT * FROM SENSORES
-
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/SENSOR.PNG/>
-
 	
-	CÓDIGO: SELECT * FROM TIPO_SENSOR<br>
+	CÓDIGO: SELECT * FROM TIPO_SENSOR
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_SENSOR.PNG/>
 	
-	CÓDIGO: SELECT * FROM GERAM<br>
+	CÓDIGO: SELECT * FROM GERAM
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/GERAM.PNG/>
 
-	CÓDIGO: SELECT * FROM HISTORICO<br>
+	CÓDIGO: SELECT * FROM HISTORICO
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/HISTORICO.PNG/><br>
 	<br>
 	<br>
@@ -330,33 +335,33 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 	CÓDIGO: ALTER TABLE TIPO_CONTATO
 			RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
-	ANTES: 
+	
+ANTES:<br> 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20ANTES.PNG/><br>
 	
-	DEPOIS: 
+DEPOIS: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20DEPOIS.PNG/><br>
 	
 	CÓDIGO: ALTER TABLE CONTATO
 			RENAME COLUMN CONTATO TO CONTATOS<
-	ANTES: <br>
+ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+DEPOIS: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20DEPOIS.PNG/><br>
 	
 	CÓDIGO: ALTER TABLE MARCA
 			RENAME COLUMN MARCA TO MARCAS
-	ANTES:
+ANTES:<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20ANTES.PNG/><br>
 	
-	DEPOIS:
+DEPOIS:<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20DEPOIS.PNG/><br>
 	<br>
 	<br>
     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
-	<br>
 	CÓDIGO: SELECT *FROM MODELO
 			WHERE COR LIKE 'P%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO%20COR%20LIKE%20P.PNG/><br>
@@ -371,24 +376,19 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 			WHERE NOME LIKE 'A%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20LIKE%20A.PNG/>
 
-
 	CÓDIGO: SELECT *FROM PESSOA
 			WHERE NOME NOT ILIKE '%a%';
-<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/>
-	<br>
-	<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/><br>
 
 	CÓDIGO: SELECT *FROM MARCA
 			WHERE MARCAS_VEICULOS ILIKE '%Y%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20ILIKE%20Y.PNG/><br>
-	<br>
-	<br>
+
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
 	
 	CÓDIGO: SELECT *FROM CONTRATA
 			WHERE DATA_CONTRATA > '2018-07-15';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/CONTRATA%2020180715.PNG/>
-	<br>
 	<br>
 
 	CÓDIGO: SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA
@@ -400,56 +400,53 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 	CÓDIGO: UPDATE MODELO SET COR = 'BRANCO'
 			WHERE MODELO_VEICULO = 'I3'
-	ANTES: <br>
+ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/><br>
 	
-	DEPOIS: 
+DEPOIS:<br>
 	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
 	
 	CÓDIGO: UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'
 			WHERE NOME = 'Carlos'
-	ANTES: 
+ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
 	
-	DEPOIS: 
+DEPOIS:<br> 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
-	<br>
 	<br>
 	
 	CÓDIGO: UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'
 			WHERE HORA_CONTRATA = '09:40:00';	
-	ANTES:
+ANTES:<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
 	
-	DEPOIS: 
-<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/>
-	<br>
-	<br>
+DEPOIS:<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/><br>
+
 	
 	CÓDIGO: UPDATE CONTATO 
 			SET CONTATO = '999999999' WHERE ID_CONTATO = 3;
-	ANTES: 
+ANTES: <br> 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
 	
-	DEPOIS: 
+DEPOIS: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
-	<br>
 	<br>
 	
 	CÓDIGO: UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'
 	WHERE MODELO_VEICULO = 'MARRUA'
-	ANTES: 
+ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20ANTES.PNG/><br>
 	
-	DEPOIS: 
-<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/>
+DEPOIS: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/><br>
 	
 	CÓDIGO: UPDATE MODELO SET COR = 'CINZA'
 	WHERE MODELO_VEICULO = 'CB TWISTER'
-	ANTES: 
-<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/> 
+ANTES: <br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/><br> 
 	
-	DEPOIS: 
+DEPOIS:<br> 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTER%20DEPOIS.PNG/>
 	<br>
 	<br>
