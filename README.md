@@ -36,7 +36,7 @@ https://github.com/carroBD/trab01/blob/master/arquivos/TELA%20BD.pdf
   	- Relatório de quais modelos de carro apresentam mais falhas
    	- Perfil dos motoristas, relacionando idade com número de falhas nas peças dos carros.
 	
-Gráficos para melhores análises poderão ser consultados em: <a href=https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO_CARROBD_FINAL.ipynb>"Relatório Jupyter"<br><br>
+Gráficos para melhores análises poderão ser consultados em: <a href=https://github.com/carroBD/trab01/blob/master/RELAT%C3%93RIO_CARROBD_FINAL.ipynb>Relatório Jupyter<br><br>
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
