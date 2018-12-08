@@ -492,7 +492,7 @@ b) Outras junções que o grupo considere como sendo as de principal importânci
 			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
 			WHERE ESTADO_PECA = 1 LIMIT 10;
 	<br>
-<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG.PNG/><br>
+<img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG/><br>
 	<br>
 	<br>
 	
