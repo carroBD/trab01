@@ -50,7 +50,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 
 ### 5.MODELO CONCEITUAL<br>
         
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/CONCEITUAL_VERSAOFINALIFES.png/>       
+<img src = https://github.com/carroBD/trab01/blob/master/CONCEITUAL_VERSAOPOSAPRESENTACAO.png/>       
     
 #### 5.1 Validação do Modelo Conceitual
     [Transporte de Carnes]: Rafael dos Anjos, Daniel Comerio,Nicolas Sampaio,Andreas Hermes.
@@ -142,7 +142,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
     
     
 ### 6	MODELO LÓGICO<br>
-<img src=https://github.com/carroBD/trab01/blob/master/Imagens/LOGICO_VERSAOFINALIFES.png/>
+<img src=https://github.com/carroBD/trab01/blob/master/LOGICO_VERSAOPOSAPRESENTACAO_FINAL.png/>
 
 ### 7	MODELO FÍSICO<br>
 <a href="https://github.com/carroBD/trab01/blob/master/Modelo%20Fisico%20.SQL.txt">Modelo Físico</a>       
