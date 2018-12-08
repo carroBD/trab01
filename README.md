@@ -11,15 +11,15 @@ Trabalho desenvolvido durante a disciplina de BD1.
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-	<p align="justify">O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas. Em 2016, só na microrregião metropolitana no Estado do Espírito Santo, foram 23.190 mortes.</div
+<p align="justify">O grande número de acidentes nas rodovias brasileiras, e o elevado número de mortes proveniente desse assunto, é um dos grandes problemas existentes no país. Considerado como problema de saúde pública, o Brasil aparece em quinto lugar entre os países recordistas em mortes no trânsito, atrás da Índia, China, EUA e Rússia. Segundo o Ministério da Saúde, em 2015, foram registrados 37.306 óbitos e 204  mil pessoas ficaram feridas. Em 2016, só na microrregião metropolitana no Estado do Espírito Santo, foram 23.190 mortes.</div
 
 <br> <p> <img src=https://github.com/carroBD/trab01/blob/master/Imagens/Capturar.PNG/><br></p>
 	
-	<p align="justify">As causas dos acidentes são variadas. Segundo o portal do trânsito brasileiro, as maiores causas destes acidentes são: Excesso de velocidade; Desrespeito à sinalização; Ingestão de bebidas alcoólicas e, liderando, Imprudência.
-	Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e analisar possíveis falhas ocorridas nas peças dos veículos. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de uma falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará, de forma simples e  satisfatória, uma falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
+<p align="justify">As causas dos acidentes são variadas. Segundo o portal do trânsito brasileiro, as maiores causas destes acidentes são: Excesso de velocidade; Desrespeito à sinalização; Ingestão de bebidas alcoólicas e, liderando, Imprudência.
+Acerca da imprudência, estão diversos fatores, principalmente a não revisão veicular e falhas mecânicas dos componentes veiculares, provenientes do descaso dos motoristas com seus veículos. E é em cima desse problema que o sistema “Smart Car” visa colaborar. O sistema tem como finalidade gerenciar os componentes mecânicos do carro (giro do motor, pistão, pneus, precisão dos controles) a fim de gerar dados sobre esses componentes e analisar possíveis falhas ocorridas nas peças dos veículos. O sistema visa atuar também em cima do dinamismo acerca do tempo da sociedade contemporânea , impactando no ganho de tempo no cotidiano do usuário, possibilitando, por exemplo, que o usuário do sistema, ao ser notificado de uma falha de um componente, possa agendar diretamente, com um mecânico de sua escolha, uma revisão ou troca do componente, agilizando sua rotina e trabalho de vistoria do mecânico, evitando perda de tempo para ambas as partes. Para isso, o sistema contará com sensores de controle, gerando dados sobre os componentes, e possibilitará o cadastro do carro e de mecânicos especializados escolhidos e cadastrados pelo cliente para contato. O sistema notificará, de forma simples e  satisfatória, uma falha de algum componente e deverá armazenar esses dados de falhas em bancos de dados para possíveis novas análises.</div> 
 
 ### 3.MINI-MUNDO<br>
-	<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, ou varios outros componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome, cpf e CNH para identificação. No que tange ao carro, será necessário armazenar informações sobre o veículo, como placa, ano, modelo, cor e marca e seus respectivos sensores instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a hora, data e respectivo componente que ocorreu a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome e nome da oficina para controle e segurança para os clientes. Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
+<p align="justify">O sistema “Smart Car” proposto tem por objetivo a inspeção e análise  veicular, a fim de gerar análises dos componentes do veículo. Acerca das inspeções, cada carro contará com sensores, cada sensor é associado a um, ou varios outros componente do carro. O carro poderá contar com mais de um sensor e cada carro terá um motorista a ele associado. Cada sensor terá seu nome de identificação, finalidade e identificação associando em qual carro está inserido. Será necessário um cadastro do cliente com nome, cpf e CNH para identificação. No que tange ao carro, será necessário armazenar informações sobre o veículo, como placa, ano, modelo, cor e marca e seus respectivos sensores instalados. Cada carro poderá ter um, e somente um, motorista associado. O sistema deve ser capaz de notificar o usuário de forma simples e clara, a fim de especificar a possível falha de algum componente, através de um esquema de cores simplificado, a situação do componente do carro. O sistema deve realizar cadastro de mecânicos, escolhidos pelo usuário, a fim de estabelecer um contato entre os dois agentes. Deverá permitir também um contato de forma simples e direta, com a possibilidade de cadastro de mais de um mecânico por cliente. O sistema não ficará responsável pelo controle de peças por parte do mecânico, o mesmo apenas estabelecerá um contato entre cliente-mecânico, a fim de ambos chegaram a um consenso para possível revisão/troca do componente. O sistema não fornecerá dados do componentes instalados no carro do motorista, por questão de privacidade e risco de possíveis fraudes nos componentes ou na hora do serviço prestado. No momento do contato, será informado apenas a hora, data e respectivo componente que ocorreu a falha. O sistema contará com diferenciação no cadastro entre ser cliente ou mecânico.a fim de proporcionar telas diferentes para ambos. Na tela do mecânico contará apenas os clientes que o adicionaram ao usar o programa. Será necessário captar os dados como Nome e nome da oficina para controle e segurança para os clientes. Já a tela do motorista contará com dados dos sensores, sensores instalados, carros cadastrados, mecânicos cadastrados e área para contato com o mecânico que assim desejar.</div> 
 
 
 
@@ -166,146 +166,117 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 	
-	SELECT * FROM PESSOA <br>
+	CÓDIGO: SELECT * FROM PESSOA 
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/PESSOA%201.PNG/>
 
-<br>
-<br>
-
-	SELECT * FROM CONTATO<br>
+	CÓDIGO: SELECT * FROM CONTATO
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CONTATO.PNG/>
-	<br><br>
 	
-	SELECT * FROM TIPO_CONTATO<br>
+	CÓDIGO: SELECT * FROM TIPO_CONTATO
 <img src= https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_CONTATO.PNG/>
-	<br><br>
 	
-	SELECT * FROM VEICULO<br>
+	SELECT * FROM VEICULO
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/VEICULO.PNG/>
-	<br>
-	<br>
 	
-	SELECT * FROM MODELO<br>
+	CÓDIGO: SELECT * FROM MODELO
 	EDITAR MODELO
-	<br>
-	<br>
 	
-	SELECT * FROM MARCA<br>
+	SELECT * FROM MARCA
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MARCA.PNG/><br>
-	<br>
-	<br>
-	
-	SELECT * FROM CATEGORIA<br>
+
+	CÓDIGO: SELECT * FROM CATEGORIA
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/CATEGORIA.PNG/>
-	<br>
-	<br>
 	
-	SELECT * FROM SENSORES<br>
+	CÓDIGO: SELECT * FROM SENSORES
 
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/SENSOR.PNG/>
-	<br>
-	<br>
+
 	
-	SELECT * FROM TIPO_SENSOR<br>
+	CÓDIGO: SELECT * FROM TIPO_SENSOR<br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/TIPO_SENSOR.PNG/>
-	<br>
-	<br>
 	
-	SELECT * FROM GERAM<br>
+	CÓDIGO: SELECT * FROM GERAM<br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/GERAM.PNG/>
-	<br>
-	<br>
-	
-	SELECT * FROM HISTORICO<br>
+
+	CÓDIGO: SELECT * FROM HISTORICO<br>
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/HISTORICO.PNG/><br>
 	<br>
 	<br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
-	SELECT *FROM MODELO 
-	WHERE COR = 'PRETO';<br>
+	CÓDIGO: SELECT *FROM MODELO 
+			WHERE COR = 'PRETO';
 <img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%20PRETO.PNG/>
-	<br><br>
 	
-	SELECT *FROM PESSOA
-	WHERE CNH ='AB'<br>
+	CÓDIGO: SELECT *FROM PESSOA
+			WHERE CNH ='AB'
 <img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/CNH%20AB.PNG/>
-	<br><br>
 	
-	SELECT *FROM PESSOA 
-	WHERE NOME = 'Luciano'<br>
+	CÓDIGO: SELECT *FROM PESSOA 
+			WHERE NOME = 'Luciano'
 <img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/PESSOA%20LUCIANO.PNG/>
-	<br><br>
 	
-	SELECT *FROM MODELO
-	WHERE ANO_VEICULO = 2014;<br>
+	CÓDIGO: SELECT *FROM MODELO
+			WHERE ANO_VEICULO = 2014;
 <img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/MODELO%202014.PNG/>
-	<br>
-	<br>	
 	
-	SELECT FROM CONTATO 
-	WHERE FK_TIPO_CONTATO_ID_TIPO_CONTATO = 1;<br>
+	CÓDIGO: SELECT FROM CONTATO 
+			WHERE FK_TIPO_CONTATO_ID_TIPO_CONTATO = 1;
 <img src = https://github.com/carroBD/trab01/blob/master/WHERE%20NOVOS/TIPO_CONTATO_1.PNG/>
 	<br>
 	<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not<br>
 
-	SELECT *FROM PESSOA<br>
-	WHERE SEXO = 'Feminino' and NOME ='Adriana'<br>
+	CÓDIGO: SELECT *FROM PESSOA
+			WHERE SEXO = 'Feminino' and NOME ='Adriana'
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/FEMININO%20AND%20ADRIANA.PNG/>
-	<br><br>
 	
-	SELECT *FROM MODELO<br>
-	WHERE ANO_VEICULO = 2014 OR COR = 'cinza' <br>
+	CÓDIGO: SELECT *FROM MODELO
+			WHERE ANO_VEICULO = 2014 OR COR = 'cinza'
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ANO%202014%20OU%20CINZA.PNG/>
-	<br><br>
 	
-	SELECT *FROM MECANICO
-	WHERE ESPECIALIZACAO = 'Borracharia' OR CNPJ = '56835725000154'<br>
+	CÓDIGO: SELECT *FROM MECANICO
+			WHERE ESPECIALIZACAO = 'Borracharia' OR CNPJ = '56835725000154'
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/BORRACHARIA%20OR%20CNPJ.PNG/>
-	<br><br>
 	
-	SELECT *FROM CONTATO<br>
-	WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'<br>
+	CÓDIGO: SELECT *FROM CONTATO
+			WHERE FK_PESSOA_ID_PESSOA = 10 OR CONTATO = '33864931'
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20CONTATO.PNG/>
 	<br>
 	<br>
 	
-	SELECT *FROM GERAM<bf>
-	WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 5 LIMIT 10'<br>
+	CÓDIGO: SELECT *FROM GERAM
+			WHERE ESTADO_PECA = 0 OR FK_SENSORES_ID_SENSOR = 5 LIMIT 10'
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20OPERADORES%20LOGICOS/ID%20OU%20ESTADO%20PECA%200.PNG/>
 	<br>
 	<br>
 	
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-	ALTER TABLE TIPO_CONTATO
-	RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
-	ANTES: <br>
+	CÓDIGO: ALTER TABLE TIPO_CONTATO
+			RENAME COLUMN TIPO_CONTATO TO  TIPOS_CONTATOS<br>
+	ANTES: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/TIPOS%20CONTATO%20DEPOIS.PNG/><br>
-	<br>
-	<br>
 	
-	ALTER TABLE CONTATO<br>
-	RENAME COLUMN CONTATO TO CONTATOS<br>
+	CÓDIGO: ALTER TABLE CONTATO
+			RENAME COLUMN CONTATO TO CONTATOS<
 	ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20ANTES.PNG/><br>
 	
 	DEPOIS: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/ALTER%20TABLES/CONTATO%20DEPOIS.PNG/><br>
-	<br>
-	<br>
 	
-	ALTER TABLE MARCA<br>
-	RENAME COLUMN MARCA TO MARCASbr>
-	ANTES: <br>
+	CÓDIGO: ALTER TABLE MARCA
+			RENAME COLUMN MARCA TO MARCAS
+	ANTES:
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20ANTES.PNG/><br>
-	DEPOIS: <br>
+	
+	DEPOIS:
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20UPDATES/MARCA%20DEPOIS.PNG/><br>
 	<br>
 	<br>
@@ -313,107 +284,99 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
 	<br>
-	SELECT *FROM MODELO<br>
-	WHERE COR LIKE 'P%';<br>
+	CÓDIGO: SELECT *FROM MODELO
+			WHERE COR LIKE 'P%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO%20COR%20LIKE%20P.PNG/><br>
-	<br>
-	<br>
 
-	SELECT *FROM MODELO<br>
-	WHERE MODELO_VEICULO like 'C%';<br>
+	CÓDIGO: SELECT *FROM MODELO
+			WHERE MODELO_VEICULO like 'C%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/MODELO_VEICULO%20LIKE%20C.PNG/>
 	<br>
 	<br>
 
-	SELECT *FROM PESSOA<br>
-	WHERE NOME LIKE 'A%';<br>
+	CÓDIGO: SELECT *FROM PESSOA
+			WHERE NOME LIKE 'A%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20LIKE%20A.PNG/>
-	<br>
-	<br>
 
-	SELECT *FROM PESSOA<br>
-	WHERE NOME NOT ILIKE '%a%';<br>
+
+	CÓDIGO: SELECT *FROM PESSOA
+			WHERE NOME NOT ILIKE '%a%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20NOT%20LIKE%20A.PNG/>
 	<br>
 	<br>
 
-	SELECT *FROM MARCA<br>
-	WHERE MARCAS_VEICULOS ILIKE '%Y%';<br>
+	CÓDIGO: SELECT *FROM MARCA
+			WHERE MARCAS_VEICULOS ILIKE '%Y%';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20LIKE/NOME%20ILIKE%20Y.PNG/><br>
 	<br>
 	<br>
 	b) Criar uma consulta para cada tipo de função data apresentada.<br>
 	
-	SELECT *FROM CONTRATA<br>
-	WHERE DATA_CONTRATA > '2018-07-15';<br>
+	CÓDIGO: SELECT *FROM CONTRATA
+			WHERE DATA_CONTRATA > '2018-07-15';
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/CONTRATA%2020180715.PNG/>
 	<br>
 	<br>
 
-	SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA<br>
-	WHERE date_part('year',age(data_nascimento))>40;<br>
+	CÓDIGO: SELECT NOME, date_part('year',age(data_nascimento)) FROM PESSOA
+			WHERE date_part('year',age(data_nascimento))>40;
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20DATA/ANIVERSARIO%2040.PNG/>
 	<br>
 	<br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-	UPDATE MODELO SET COR = 'BRANCO'<br>
-	WHERE MODELO_VEICULO = 'I3'<br>
+	CÓDIGO: UPDATE MODELO SET COR = 'BRANCO'
+			WHERE MODELO_VEICULO = 'I3'
 	ANTES: <br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 	<img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/I3%20BRANCO%20DEPOIS.PNG/>
-	<br>
-	<br>
 	
-	UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'<br>
-	WHERE NOME = 'Carlos'<br>
-	ANTES: <br>
+	CÓDIGO: UPDATE PESSOA SET DATA_NASCIMENTO = '1999-03-29'
+			WHERE NOME = 'Carlos'
+	ANTES: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CARLOS%20DEPOIS.PNG/>	
 	<br>
 	<br>
 	
-	UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'<br>
-	WHERE HORA_CONTRATA = '09:40:00';<br>	
-	ANTES: <br>
+	CÓDIGO: UPDATE CONTRATA SET HORA_CONTRATA = '09:43:50'
+			WHERE HORA_CONTRATA = '09:40:00';	
+	ANTES:
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTRATA%20DEPOIS.PNG/>
 	<br>
 	<br>
 	
-	UPDATE CONTATO <br>
-	SET CONTATO = '999999999' WHERE ID_CONTATO = 3;<br>
-	ANTES: <br>
+	CÓDIGO: UPDATE CONTATO 
+			SET CONTATO = '999999999' WHERE ID_CONTATO = 3;
+	ANTES: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/CONTATO%20DEPOIS.PNG/>
 	<br>
 	<br>
 	
-	UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'<br>
-	WHERE MODELO_VEICULO = 'MARRUA'<br>
-	ANTES: <br>
+	CÓDIGO: UPDATE MODELO SET MODELO_VEICULO = 'MARRUA X5'
+	WHERE MODELO_VEICULO = 'MARRUA'
+	ANTES: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20ANTES.PNG/><br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/MARRUA%20DEPOIS.PNG/>
-	<br>
-	<br>
 	
-	UPDATE MODELO SET COR = 'CINZA'
+	CÓDIGO: UPDATE MODELO SET COR = 'CINZA'
 	WHERE MODELO_VEICULO = 'CB TWISTER'
-	ANTES: <br>
+	ANTES: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTTER%20ANTES.PNG/> 
-	<br>
 	
-	DEPOIS: <br>
+	DEPOIS: 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20ATT%20E%20EXCLUSAO/TWISTER%20DEPOIS.PNG/>
 	<br>
 	<br>
@@ -424,143 +387,131 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
 	
-	SELECT NOME, CNH, CONTATOS, TIPOS_CONTATOS, PLACA, MODELO_VEICULO, MARCAS, CATEGORIA, NOME_SENSOR,ID_SENSOR, TIPO_DEFEITO, HORA_ANALISE FROM PESSOA<br>
-	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN CONTATO ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN TIPO_CONTATO ON (CONTATO.FK_TIPO_CONTATO_ID_TIPO_CONTATO = TIPO_CONTATO.ID_TIPO_CONTATO)<br>
-	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)<br>
-	INNER JOIN MARCA ON (MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA)<br>
-	INNER JOIN CATEGORIA ON (VEICULO.FK_CATEGORIA_ID_CATEGORIA = CATEGORIA.ID_CATEGORIA)<br>
-	INNER JOIN SENSORES ON (SENSORES.FK_VEICULO_ID_VEICULO = VEICULO.ID_VEICULO)<br>
-	INNER JOIN TIPO_SENSOR ON (SENSORES.FK_TIPO_SENSOR_ID_TIPO_SENSOR = TIPO_SENSOR.ID_TIPO_SENSOR)<br>
-	INNER JOIN GERAM ON (GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR)<br>
-	INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)<br>
-	LIMIT 10;<br>
+	CÓDIGO: SELECT NOME, CNH, CONTATOS, TIPOS_CONTATOS, PLACA, MODELO_VEICULO, MARCAS, CATEGORIA, NOME_SENSOR,ID_SENSOR, TIPO_DEFEITO, HORA_ANALISE FROM PESSOA
+	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<
+	INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+	INNER JOIN CONTATO ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA)
+	INNER JOIN TIPO_CONTATO ON (CONTATO.FK_TIPO_CONTATO_ID_TIPO_CONTATO = TIPO_CONTATO.ID_TIPO_CONTATO)<
+	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
+	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)
+	INNER JOIN MARCA ON (MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA)
+	INNER JOIN CATEGORIA ON (VEICULO.FK_CATEGORIA_ID_CATEGORIA = CATEGORIA.ID_CATEGORIA)
+	INNER JOIN SENSORES ON (SENSORES.FK_VEICULO_ID_VEICULO = VEICULO.ID_VEICULO)
+	INNER JOIN TIPO_SENSOR ON (SENSORES.FK_TIPO_SENSOR_ID_TIPO_SENSOR = TIPO_SENSOR.ID_TIPO_SENSOR)
+	INNER JOIN GERAM ON (GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR)
+	INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)
+	LIMIT 10;
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/INNER%20JOIN%20TODOS.PNG/><br>
-	<br>
-	<br>
+
 b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho<br>
 	
-	JUNÇÃO PARA MOSTRAR A SITUAÇÃO ACERCA DOS CARROS DOS CLIENTES.<br>
-	CÓDIGO: SELECT NOME, PLACA, NOME_SENSOR,ESTADO_PECA FROM PESSOA<br>
-	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)<br>
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
-	LIMIT 10;<br>
+	JUNÇÃO PARA MOSTRAR A SITUAÇÃO ACERCA DOS CARROS DOS CLIENTES.
+	CÓDIGO: SELECT NOME, PLACA, NOME_SENSOR,ESTADO_PECA FROM PESSOA
+			INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
+			INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			LIMIT 10;
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/SITUA%C3%87%C3%83O%20GERAL%20DO%20CARRO%20DO%20CLIENTE.PNG/><br>
-	<br>
-	<br>
 	
-	JUNÇÃO PARA MOSTRAR OS MODELOS COM PEÇAS COM DEFEITO<br>
+	JUNÇÃO PARA MOSTRAR OS MODELOS COM PEÇAS COM DEFEITO
 	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA, DESCRICAO FROM VEICULO
-	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO) 
-	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO) 
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
-	WHERE ESTADO_PECA = 1 LIMIT 10;
+			INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO) 
+			INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO) 
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			WHERE ESTADO_PECA = 1 LIMIT 10;
 	<br>
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/MODELOS%20QUE%20MAIS%20QUEBRAM%20ATT.PNG.PNG/><br>
 	<br>
 	<br>
 	
-	JUNÇÃO PARA MOSTRAR AS CONTRATAÇÕES FEITAS PELOS CLIENTES.<br>
-	CÓDIGO: SELECT NOME, HORA_CONTRATA, DATA_CONTRATA FROM PESSOA<br>
-	INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA) <br>
-	INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)<br>
-	LIMIT 10;<br>
+	JUNÇÃO PARA MOSTRAR AS CONTRATAÇÕES FEITAS PELOS CLIENTES.
+	CÓDIGO: SELECT NOME, HORA_CONTRATA, DATA_CONTRATA FROM PESSOA
+			INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+			INNER JOIN CONTRATA ON (CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+			LIMIT 10;<br>
 <img src=https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CLIENTES%20QUE%20MAIS%20CONTRATARAM.PNG/><br>
 
-	JUNÇÃO PARA MOSTRAR AS CORES DOS CARROS DO SEXO FEMININO.<br>
-	CÓDIGO: SELECT NOME, PLACA, COR FROM PESSOA<br>
-	INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)<br>
-	WHERE SEXO = 'Feminino'
-	LIMIT 10;<br>
+	JUNÇÃO PARA MOSTRAR AS CORES DOS CARROS DO SEXO FEMININO.
+	CÓDIGO: SELECT NOME, PLACA, COR FROM PESSOA
+			INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
+			INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)
+			WHERE SEXO = 'Feminino'
+			LIMIT 10;<br>
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/CORES%20CARRO%20FEMININO.PNG/><br>
 	<br>
 	
-	JUNÇÃO PARA MOSTRAR AS DATAS DE ANÁLISES ACIMA DE UMA DETERMINADA DATA.<br>
-	SELECT PLACA, DATA_ANALISE FROM VEICULO<br>
-	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)<br>
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
-	INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)<br>
-	WHERE DATA_ANALISE > '03-10-2018' <br>
-	LIMIT 10<br>
+	JUNÇÃO PARA MOSTRAR AS DATAS DE ANÁLISES ACIMA DE UMA DETERMINADA DATA.
+	CÓDIGO: SELECT PLACA, DATA_ANALISE FROM VEICULO
+			INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			INNER JOIN HISTORICO ON (GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO)
+			WHERE DATA_ANALISE > '03-10-2018' 
+			LIMIT 10
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20INNER%20JOINS/ANALISE%20ACIMA%20DE%20DETERMINADA%20DATA.PNG/><br>
 	
 
 	
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
-	CÓDIGO: SELECT SEXO, count(*)FROM PESSOA <br>
-	GROUP BY SEXO;<br>
+	CÓDIGO: SELECT SEXO, count(*)FROM PESSOA
+			GROUP BY SEXO;
 <img src=https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/MASCULINO%20E%20FEMININO.PNG/><br>
-	<br>
-	<br>
 
-	CÓDIGO: SELECT COR, count(*) FROM MODELO<br>
-	GROUP BY COR;<br>
+	CÓDIGO: SELECT COR, count(*) FROM MODELO
+			GROUP BY COR;
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/GROUP%20BY%20COR.PNG/><br>
-	<br>
-	<br>
 	
-	CÓDIGO: SELECT DESCRICAO, COUNT(DESCRICAO) AS QUEBRAS FROM SENSORES<br>
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
-	WHERE ESTADO_PECA = 1 GROUP BY DESCRICAO<br>
+	CÓDIGO: SELECT DESCRICAO, COUNT(DESCRICAO) AS QUEBRAS FROM SENSORES
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			WHERE ESTADO_PECA = 1 GROUP BY DESCRICAO
 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/QUEBRAS%20SENSORES.PNG/><br>
-	<br>
-	<br>
+
 	
 	CÓDIGO: SELECT NOME, ESPECIALIZACAO, COUNT(NOME) AS CHAMADAS FROM PESSOA
-	INNER JOIN MECANICO ON (PESSOA.ID_PESSOA = MECANICO.FK_PESSOA_ID_PESSOA)
-	INNER JOIN CONTRATA ON (MECANICO.FK_PESSOA_ID_PESSOA= CONTRATA.FK_MECANICO_FK_PESSOA_ID_PESSOA)
-	GROUP BY NOME, ESPECIALIZACAO
-	LIMIT 10;
+			INNER JOIN MECANICO ON (PESSOA.ID_PESSOA = MECANICO.FK_PESSOA_ID_PESSOA)
+			INNER JOIN CONTRATA ON (MECANICO.FK_PESSOA_ID_PESSOA= CONTRATA.FK_MECANICO_FK_PESSOA_ID_PESSOA)
+			GROUP BY NOME, ESPECIALIZACAO
+			LIMIT 10;
 	
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/ESPEC%20NOME.PNG/><br>
-	<br>
-	<br>
 	
-	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA, count(*) AS SOMA FROM VEICULO<br>
-	INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)<br>
-	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)<br>
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
-	WHERE ESTADO_PECA = 1 GROUP BY MODELO_VEICULO, ESTADO_PECA<br>
+	CÓDIGO: SELECT MODELO_VEICULO, ESTADO_PECA, count(*) AS SOMA FROM VEICULO
+			INNER JOIN MODELO ON (VEICULO.FK_MODELO_ID_MODELO = MODELO.ID_MODELO)
+			INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			WHERE ESTADO_PECA = 1 GROUP BY MODELO_VEICULO, ESTADO_PECA
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/MODELOS%20MAIS%20DEFEITOS%3B.PNG/><br>
-	<br>
-	<br>
 	
-	CÓDIGO: SELECT NOME, date_part('year',age(data_nascimento)), ESTADO_PECA, count(ESTADO_PECA) FROM PESSOA<br>
-	iNNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)<br>
-	INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)<br>
-	INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)<br>
-	WHERE ESTADO_PECA = 1 GROUP BY NOME, DATE_PART,ESTADO_PECA; <br>
+	CÓDIGO: SELECT NOME, date_part('year',age(data_nascimento)), ESTADO_PECA, count(ESTADO_PECA) FROM PESSOA
+			iNNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
+			INNER JOIN SENSORES ON (VEICULO.ID_VEICULO = SENSORES.FK_VEICULO_ID_VEICULO)
+			INNER JOIN GERAM ON (SENSORES.ID_SENSOR = GERAM.FK_SENSORES_ID_SENSOR)
+			WHERE ESTADO_PECA = 1 GROUP BY NOME, DATE_PART,ESTADO_PECA; 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVO%20GROUP%20BY/IDADES.PNG/><br>
 	<br>
 	<br>
 	
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
-	SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA 
-	FROM PESSOA LEFT JOIN  MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
-	LEFT JOIN  CONTRATA ON (MOTORISTA.FK_PESSOA_ID_PESSOA = CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA)
-	LIMIT 10;
+	CÓDIGO: SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA 
+			FROM PESSOA LEFT JOIN  MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+			LEFT JOIN  CONTRATA ON (MOTORISTA.FK_PESSOA_ID_PESSOA = CONTRATA.FK_MOTORISTA_FK_PESSOA_ID_PESSOA)
+			LIMIT 10;
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%201.PNG/><br>
 	
-	SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA <br>
-	FROM PESSOA LEFT JOIN CONTRATA ON PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA
-	LIMIT 10 <br>
+	CÓDIGO: SELECT PESSOA.NOME AS MOTORISTA,CONTRATA.HORA_CONTRATA, CONTRATA.DATA_CONTRATA 
+			FROM PESSOA LEFT JOIN CONTRATA ON PESSOA.ID_PESSOA = CONTRATA.FK_PESSOA_ID_PESSOA
+			LIMIT 10 
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%202.PNGG/><br>
 	
-	SELECT VEICULO.PLACA, MARCA.MARCAS, MODELO.MODELO_VEICULO, MODELO.COR, MODELO.ANO_VEICULO
-	FROM VEICULO LEFT JOIN MODELO ON MODELO.ID_MODELO = VEICULO.FK_MODELO_ID_MODELO
-	LEFT JOIN MARCA ON MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA
+	CÓDIGO: SELECT VEICULO.PLACA, MARCA.MARCAS, MODELO.MODELO_VEICULO, MODELO.COR, MODELO.ANO_VEICULO
+			FROM VEICULO LEFT JOIN MODELO ON MODELO.ID_MODELO = VEICULO.FK_MODELO_ID_MODELO
+			LEFT JOIN MARCA ON MODELO.FK_MARCA_ID_MARCA = MARCA.ID_MARCA
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%203.PNG/><br>
 	
-	SELECT SENSORES.NOME_SENSOR, TIPO_SENSOR.TIPO_SENSOR, GERAM.ESTADO_PECA, HISTORICO.DATA_ANALISE, HISTORICO.HORA_ANALISE<br>
-	FROM SENSORES LEFT JOIN TIPO_SENSOR ON SENSORES.FK_TIPO_SENSOR_ID_TIPO_SENSOR = TIPO_SENSOR.ID_TIPO_SENSOR<br>
-	RIGHT JOIN GERAM ON GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR<br>
-	LEFT JOIN HISTORICO ON GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO WHERE ESTADO_PECA = 1<br>
+	CÓDIGO: SELECT SENSORES.NOME_SENSOR, TIPO_SENSOR.TIPO_SENSOR, GERAM.ESTADO_PECA, HISTORICO.DATA_ANALISE, HISTORICO.HORA_ANALIS
+			FROM SENSORES LEFT JOIN TIPO_SENSOR ON SENSORES.FK_TIPO_SENSOR_ID_TIPO_SENSOR = TIPO_SENSOR.ID_TIPO_SENSOR
+			RIGHT JOIN GERAM ON GERAM.FK_SENSORES_ID_SENSOR = SENSORES.ID_SENSOR
+			LEFT JOIN HISTORICO ON GERAM.FK_HISTORICO_ID_HISTORICO = HISTORICO.ID_HISTORICO WHERE ESTADO_PECA = 1
 <img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20LEFT%20JOIN/LEFT%20JOIN%204.PNG/><br>
 
 
@@ -569,37 +520,34 @@ b) Outras junções que o grupo considere como sendo as de principal importânci
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
-CREATE VIEW VIEW_MECANICOS AS SELECT * FROM PESSOA <br>
-	WHERE PESSOA_TIPO = 1 LIMIT = 5;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20PESSOA%20TIPO%201.PNG/><br>
-<br>
-<br>
-CREATE VIEW VIEW_MOTORISTAS AS SELECT * FROM PESSOA <br>
-WHERE PESSOA_TIPO = 0 LIMIT 5;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20PESSOA%20TIPO%200.PNG/><br>
-<br>
-<br>
-CREATE VIEW VIEW_MOTORISTASXCARROS AS SELECT VEICULO.PLACA, PESSOA.NOME<br>
-	FROM PESSOA INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA) LIMIT 5;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/MOTORISTASXCARROS.PNG/><br>
-	<br>
-	<br>
+	CÓDIGO: CREATE VIEW VIEW_MECANICOS AS SELECT *FROM PESSOA 
+			INNER JOIN MECANICO ON (PESSOA.ID_PESSOA = MECANICO.FK_PESSOA_ID_PESSOA)
+			LIMIT 5;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/VIEW%20MECANICO.PNG/><br>
 
-CREATE VIEW VIEW_MOTOS AS SELECT VEICULO.PLACA, CATEGORIA.CATEGORIA
-	FROM VEICULO LEFT JOIN CATEGORIA ON (VEICULO.FK_CATEGORIA_ID_CATEGORIA = ID_CATEGORIA AND ID_CATEGORIA = 2) 
-LIMIT 5;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20MOTOS.PNG/><br>
-	<br>
-	<br>
-CREATE VIEW VIEW_CONTATOS AS SELECT PESSOA.NOME, CONTATO.CONTATOS FROM PESSOA<br>
-	LEFT JOIN CONTATO ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA) LIMIT 5;<br>
-	<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20CONTATOS.PNG/><br>
-	<br>
-	<br>
-CREATE VIEW VIEW_SENSORES AS SELECT * FROM SENSORES LIMIT 10;<br>
-<img src = https://github.com/carroBD/trab01/blob/master/VIEWS/VIEW%20SENSORES.PNG/><br>
-	<br>
-	<br>
+	CÓDIGO: CREATE VIEW VIEW_MOTORISTAS AS SELECT * FROM PESSOA 
+			INNER JOIN MOTORISTA ON (PESSOA.ID_PESSOA = MOTORISTA.FK_PESSOA_ID_PESSOA)
+			LIMIT 5;
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/VIEW%20MOTORISTAS.PNG/><br>
+
+	CÓDIGO: CREATE VIEW VIEW_MOTORISTASXCARROS AS SELECT VEICULO.PLACA, PESSOA.NOME<br>
+			FROM PESSOA INNER JOIN VEICULO ON (PESSOA.ID_PESSOA = VEICULO.FK_PESSOA_ID_PESSOA)
+			LIMIT 5;
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/MOTOXCARRO.PNG/><br>
+
+	CÓDIGO: CREATE VIEW VIEW_MOTOS AS SELECT VEICULO.PLACA, CATEGORIA.CATEGORIA
+			FROM VEICULO LEFT JOIN CATEGORIA ON (VEICULO.FK_CATEGORIA_ID_CATEGORIA = ID_CATEGORIA AND ID_CATEGORIA = 2) 
+			LIMIT 5;
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/VIEW_MOTOS.PNG/><br>
+	
+	CÓDIGO: CREATE VIEW VIEW_CONTATOS AS SELECT PESSOA.NOME, CONTATO.CONTATOS FROM PESSOA<br>
+			LEFT JOIN CONTATO ON (PESSOA.ID_PESSOA = CONTATO.FK_PESSOA_ID_PESSOA)
+			LIMIT 5;<br>
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/VIEW%20CONTATOS.PNG/><br>
+
+	CÓDIGO: CREATE VIEW VIEW_SENSORES AS SELECT * FROM SENSORES LIMIT 10;
+<img src = https://github.com/carroBD/trab01/blob/master/NOVOS%20VIEWS/VIEW%20SENSORES.PNG/><br>
+
 
 
 
