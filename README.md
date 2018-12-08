@@ -646,7 +646,7 @@ b) Outras junções que o grupo considere como sendo as de principal importânci
 LINK DOS SLIDES: http://prezi.com/j-kwizfyfqhh/?utm_campaign=share&utm_medium=copy&rc=ex0share<br>
 
 ### 11 Backup completo do banco de dados postgres 
-<a href="https://github.com/carroBD/trab01/blob/master/carro_BACKUPFINAL">Arquivo de backup</a><br>
+<a href="https://github.com/carroBD/trab01/blob/master/Carro_BACKUPFINAL">Arquivo de backup</a><br>
 	Grupo de teste: Controle de Frequência[Brunna Dalzini de Oliveira, Daniela Salomão Santa Clara, Leonir dos Reis Alves, Mayannara Trindade Carvalho]
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
