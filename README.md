@@ -58,20 +58,74 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 
 #### 5.2 DECISÕES DE PROJETO
 
-    DESCRIÇÃO DE ALGUNS ATRIBUTOS<br>
-    Nome: O campo é simples. Servirá apenas para armazenar o nome do cliente e não para identificá-lo.
-    Nome oficina: Campo simples. Este campo armazenará o nome da oficina pertencente ao mecânico, e não servirá para identificá-la.
-    Sexo: Campo Simples.
-    CNH: Campo Simples
-    Contato: Simples e multivalorado. Pode armazenar no mínimo um contato pra cada motorista/mecânico.
-    CNPJ: Simples e determinante. Com esse dado é possível identificar uma única oficina.
-    Placa veiculo: Campo simples e determinante. Com a placa é possível especificar o carro procurado.
-    Marca: Campo simples.
-    Modelo: Campo simples.
-    Categoria: Campo simples
-    Sensores: Campo simples. Armazena o nome do sensor para diferenciá-lo dos demais, porém pode ser repetido, ou seja, não é determinante.
-    Hora_analise: Campo simples
-    Data_análise Campo simples.
+    * TIPO CONTATO
+     - ID_TIPO_CONTATO:
+     - TIPO_CONTATO:
+
+    * CONTATO
+     - ID_CONTATO:
+     - CONTATO:
+
+    * PESSOA
+     - ID_PESSOA:
+     - NOME:
+     - DATA_NASCIMENTO:
+     - SEXO:
+
+    * MECANICO
+     - CNPJ:
+     - NOME_OFICINA:
+     - ESPECIALIZACAO:
+
+    * MOTORISTA
+     - CNH:
+
+    * CONTRATA
+     - HORA_CONTRATA:
+     - DATA_CONTRATA:
+     - ID_CONTRATA:
+
+    * MARCA
+     - ID_MARCA:
+     - MARCA:
+
+    * MODELO
+     - ID_MODELO:
+     - MODELO_VEICULO:
+     - ANO_VEICULO:
+     - COR:
+
+    * CATEGORIA
+     - ID_CATEGORIA:
+     - CATEGORIA:
+
+    * VEICULO
+     - PLACA:
+     - ID_VEICULO:
+
+    * SENSORES
+     - ID_SENSOR:
+     - NOME_SENSOR:
+     - DESCRICAO:
+
+    * TIPO_SENSOR
+     - ID_TIPO_SENSOR:
+     - TIPO_SENSOR:
+
+    * GERAM
+     - ESTADO_PECA:
+     - TIPO_DEFEITO:
+
+    * HISTORICO
+     - DATA_ANALISE:
+     - HORA_ANALISE:
+     - ID_HISTORICO:
+
+
+
+
+
+
 
 
 >## Marco de Entrega 02 em: (13/09/2018)<br>
