@@ -58,73 +58,92 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
 
 #### 5.2 DECISÕES DE PROJETO
 
-    * TIPO CONTATO
-     - ID_TIPO_CONTATO:
-     - TIPO_CONTATO:
+##### Tabela TIPO CONTATO
+```
+   - ID_TIPO_CONTATO: campo serial que armazena o número único de cada tipo de contato
+   - TIPO_CONTATO: armazena uma string com o tipo de contato
+```
 
-    * CONTATO
-     - ID_CONTATO:
-     - CONTATO:
+##### Tabela CONTATO
+```
+   - ID_CONTATO: campo serial que armazena o número único de cada contato
+   - CONTATO: armazena uma string com o método de contato 
+```
 
-    * PESSOA
-     - ID_PESSOA:
-     - NOME:
-     - DATA_NASCIMENTO:
-     - SEXO:
+##### Tabela PESSOA
+```
+   - ID_PESSOA: campo serial que armazena o número único de cada pessoa
+   - NOME: armazena uma string com o nome da pessoa
+   - DATA_NASCIMENTO: campo de tipo data que armazena a data de nascimento da pessoa
+   - SEXO: campo de tipo string que armazena o sexo da pessoa
+```
+##### Tabela MECANICO
+```
+   - CNPJ: string que armazena o cnpj da oficina
+   - NOME_OFICINA: campo string que armazena o nome da oficina
+   - ESPECIALIZACAO: campo string que armazena a especificação da oficina
+```
 
-    * MECANICO
-     - CNPJ:
-     - NOME_OFICINA:
-     - ESPECIALIZACAO:
+##### Tabela MOTORISTA
+```   - CNH: string que armazena a habilitação do motorista
+```
+##### Tabela CONTRATA
+```
+   - HORA_CONTRATA: campo tipo time que armazena a hora em que o mecânico foi contratado
+   - DATA_CONTRATA: campo tipo date que armazena a data que o mecânico foi contratado
+   - ID_CONTRATA: campo serial que armazena o número único de cada contratação
+```
+##### Tabela MARCA
+```   
+   - ID_MARCA: campo serial que armazena o número único de cada marca
+   - MARCA: string que armazena o nome da marca do veículo
+```
 
-    * MOTORISTA
-     - CNH:
+##### Tabela MODELO
+```
+   - ID_MODELO:  campo serial que armazena o número único de cada modelo
+   - MODELO_VEICULO: string que armazena o modelo do veículo
+   - ANO_VEICULO: inteiro que armazena o ano do veículo
+   - COR: string que armazena a cor do veículo
+```
 
-    * CONTRATA
-     - HORA_CONTRATA:
-     - DATA_CONTRATA:
-     - ID_CONTRATA:
+##### Tabela CATEGORIA
+```
+   - ID_CATEGORIA: campo serial que armazena o número único de cada categoria
+   - CATEGORIA: string que armazena a categoria do veículo
+```
 
-    * MARCA
-     - ID_MARCA:
-     - MARCA:
+##### Tabela VEICULO
+```
+   - PLACA: string que armazena a placa do veículo
+   - ID_VEICULO: campo serial que armazena o número único de cada veículo
+```
 
-    * MODELO
-     - ID_MODELO:
-     - MODELO_VEICULO:
-     - ANO_VEICULO:
-     - COR:
+##### Tabela SENSORES
+```
+   - ID_SENSOR: campo serial que armazena o número único de cada sensor
+   - NOME_SENSOR: string que armazena o nome do sensor
+   - DESCRICAO: string que armazena a descrição do veículo
+```
 
-    * CATEGORIA
-     - ID_CATEGORIA:
-     - CATEGORIA:
+##### Tabela TIPO_SENSOR
+```
+   - ID_TIPO_SENSOR: campo serial que armazena o número único de cada tipo de sensor
+   - TIPO_SENSOR: string que armazena o tipo do sensor
+```
 
-    * VEICULO
-     - PLACA:
-     - ID_VEICULO:
+##### Tabela GERAM
+```
+   - ESTADO_PECA: inteiro binário que armazena o estado da peça
+   - TIPO_DEFEITO: string que armazena qual o tipo de defeito da peça
+```
 
-    * SENSORES
-     - ID_SENSOR:
-     - NOME_SENSOR:
-     - DESCRICAO:
-
-    * TIPO_SENSOR
-     - ID_TIPO_SENSOR:
-     - TIPO_SENSOR:
-
-    * GERAM
-     - ESTADO_PECA:
-     - TIPO_DEFEITO:
-
-    * HISTORICO
-     - DATA_ANALISE:
-     - HORA_ANALISE:
-     - ID_HISTORICO:
-
-
-
-
-
+##### Tabela HISTORICO
+```
+   - DATA_ANALISE: campo do tipo date que armazena a data de análise
+   - HORA_ANALISE: campo do tipo time que armazena a hora de análise
+   - ID_HISTORICO: campo serial que armazena o número único de cada dado do histórico
+```
 
 
 
@@ -147,10 +166,10 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
         
     VEÍCULO: TABELA QUE ARMAZENA OS DADOS DO VEÍCULO CADASTRADO POR UM USUÁRIO DO TIPO CLIENTE.
         - PLACA: Campo que armazena a placa de um veículo cadastrado por um usuário do tipo cliente.
-        - ID_VEÍCULO Campo que armazena a ID do veículo.
+        - ID_VEÍCULO: Campo que armazena a ID do veículo.
         
     CATEGORIA: TABELA QUE ARMAZENA DADOS SOBRE A CATEGORIA DE TODOS OS CARROS CADASTRADOS NO SISTEMA POR UM USUÁRIO DO TIPO CLIENTE.
-        - ID_CATEGORIA: iD para identificação da categoria.
+        - ID_CATEGORIA: ID para identificação da categoria.
         - TIPO_CATEGORIA: Tabela que armazena o tipo da categoria.	
         
     MODELO: TABELA QUE ARMAZENA OS MODELOS DE VEÍCULOS DO SISTEMA
@@ -164,7 +183,7 @@ Gráficos para melhores análises poderão ser consultados em: https://github.co
         - MARCA_VEÍCULO: Campo que armazena marca do veículo.
    
     CONTATO: TABELA QUE ARMAZENA O CONTATO DO CLIENTE
-        - CONTATO: Campoq ue armazena contato do cliente.
+        - CONTATO: Campo que armazena contato do cliente.
         - ID_CONTATO: Id para identificação do contato.
     
     TIPO_CONTATO: TABELA QUE ARMAZENA O TIPO DE CONTATO DO CLIENTE
