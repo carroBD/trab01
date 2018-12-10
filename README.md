@@ -246,6 +246,9 @@ Tabela relacionando entidades e componentes existente no sistema e banco de dado
 	CÓDIGO: SELECT * FROM MOTORISTA
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MOTORISTA.PNG/>
 
+	CÓDIGO: SELECT * FROM CONTRATA
+<img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/contrata.png>
+
 	CÓDIGO: SELECT * FROM MECANICO
 <img src = https://github.com/carroBD/trab01/blob/master/SELECTS%20NOVOS/MECANICO.PNG>
 
